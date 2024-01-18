@@ -199,9 +199,11 @@ class tests(unittest.TestCase):
     def __init__(self, methodName: str = "runTest") -> None:
         super().__init__(methodName)
         self.addCleanup(runtime_reset)
+        
     def assertCoorEqual(self, coor1: Coordinate, coor2: Coordinate) -> None:
         dis = getDistanceToCoor(coor1, coor2)
         self.assertLessEqual(dis, MinDis)
+
     def test_point(self):
         p1 = create_point(name="A", id=1, dependency=set(), coor=(0.0, 0.0))
         self.assertEqual(p1.attachTo((0, 0.001)), ((0.0, 0.0), 0.001))
@@ -229,6 +231,7 @@ class tests(unittest.TestCase):
         self.assertEqual(len(active_set), 3)
         self.assertEqual(0, len(_p3.dependency))
         check_circle_denpendency()
+
     def __test_line(self, line_type: LineType):
         p1 = create_point(name="A", coor=(0.0, 0.0), dependency=set(), hide=True)
         l1: Line = create_line_from_start_and_direction(name="l", id=1, dependency=set([p1]), start=p1, direction=(1.0, 0.0), line_type=line_type)
@@ -265,6 +268,7 @@ class tests(unittest.TestCase):
                 match_expected = True if getDistanceToCoor(cross_point, expected_cross_point) < 0.01 else False
         self.assertEqual(match_expected, True)
         check_circle_denpendency()
+
     def __test_cross(self, line_type: LineType):
         p1 = create_point(coor=(0.0, 0.0))
         p2 = create_point(coor=(2.0, 0.0))
@@ -283,12 +287,15 @@ class tests(unittest.TestCase):
         expected_cross_point = (1.0, 1.0) if line_type == LineType.Infinite else None
         self.assertCoorEqual(cross_point.coor, expected_cross_point)
         check_circle_denpendency()
+
     def test_segment(self):
         self.__test_line(LineType.Segment)
         #self.__test_cross(LineType.Segment)
+
     def test_ray(self):
         self.__test_line(LineType.Ray)
         #self.__test_cross(LineType.Ray)
+
     def test_line(self):
         self.__test_line(LineType.Infinite)
         self.__test_cross(LineType.Infinite)

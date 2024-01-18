@@ -14,6 +14,7 @@ type DependencySet = set["BaseGraph"]
 def dependencySetToStr(dependency: DependencySet) -> str:
     res = ", ".join([str(i.getId()) for i in dependency])
     return f"set({res})" if res != "" else "set()"
+
 def buildDependencyTreeFromStr(dependency_str: str) -> DependencySet:
     res = set()
     for i in dependency_str.split(","):
@@ -22,16 +23,24 @@ def buildDependencyTreeFromStr(dependency_str: str) -> DependencySet:
             continue
         res.add(BaseGraph.findObjectById(int(i)))
     return res
+
 def add(first: Coordinate, second: Coordinate) -> Coordinate:
     return (first[0] + second[0], first[1] + second[1])
+
 def sub(first: Coordinate, second: Coordinate) -> Coordinate:
     return (first[0] - second[0], first[1] - second[1])
+
 def mul(first: Coordinate, second: Coordinate) -> Coordinate:
     return (first[0] * second[0], first[1] * second[1])
+
+def getDistanceToCoor(first: Coordinate, other: Coordinate) -> float:
+    return ((first[0] - other[0])**2 + (first[1] - other[1])**2)**0.5
+
 # 假设 coor 在直线上，计算是否在射线上
 def onRay(start: Coordinate, direction: Coordinate, coor: Coordinate) -> bool:
     dot: float = sum(mul(direction, sub(coor, start)))
     return dot >= - MinDis
+
 class BaseGraph:
     # id 计数器
     __objectId: Id = 0
@@ -57,23 +66,31 @@ class BaseGraph:
         # 注意 Python 对于类变量默认传入引用，因此这里只是传入了弱引用
         BaseGraph.__idToObject[self.id_number] = self
         log(f"创建 {self.getTypeName()} 对象 id={self.id_number}", 5)
+
     def getTypeName(self):
         raise NotImplementedError
+    
     def getId(self) -> int:
         return self.id_number
+    
     def getName(self) -> Optional[str]:
         return self.name
+    
     class ErrorCommand(Exception):
         def __init__(self, command: str):
             super().__init__(f"构造命令格式错误: {command}")
+    
     # 生成创建对象的命令字符串
     def objectToCommand(self) -> str:
         raise NotImplementedError
+   
     # 试图通过弱引用全局字典找到对象，找不到则返回 None
     @staticmethod
     def findObjectById(id: Id) -> Optional['BaseGraph']:
         return BaseGraph.__idToObject.get(id, None)
+    
     @staticmethod
+    
     # 从命令字符串中解析出对象
     @staticmethod
     def commandToObject(command: str)-> "BaseGraph":
@@ -86,34 +103,40 @@ class BaseGraph:
             return eval(command1, globals(), {"dependency_set": dependency_set})
         except Exception as e:
             raise Point.ErrorCommand(command = command) from e
+    
     def draw(self, painter):
         raise NotImplementedError
+    
     # 返回可能吸附的最近点以及两点间的距离
     def attachTo(self, coor: Coordinate) -> (Coordinate, float):
         raise NotImplementedError
+    
     # 检测指定点是否在对象上
     def on(self, coor: Coordinate) -> bool:
         (_, dis) = self.attachTo(coor)
         log(f"检测位置 {coor} 是否在 {self.objectToCommand()} 上，距最近点距离为：{dis}", 1)
         return dis < MinDis
+    
     # 返回依赖的对象的引用
     def dependencyObject(self) -> DependencySet:
         raise NotImplementedError
+    
     def __del__(self):
         log(f"析构 {self.getTypeName()} 对象 id={self.getId()}", 5)
+    
     @staticmethod
     def reset():
         BaseGraph.__objectId = 0
         BaseGraph.__idToObject = wr.WeakValueDictionary()
         BaseGraph.__idToName = wr.WeakValueDictionary()
-def getDistanceToCoor(first: Coordinate, other: Coordinate) -> float:
-    return ((first[0] - other[0])**2 + (first[1] - other[1])**2)**0.5
+
 
 # 偷懒起见这里只用依赖对象的数量判断构造方法
 class PointBuildMethod(Enum):
     Arbitrary = 0,
     OnLine = 1,
     Cross = 2
+
 
 class Point(BaseGraph):
     # 注意为了安全性起见所有构造函数的参数都应该是关键字参数
@@ -128,8 +151,10 @@ class Point(BaseGraph):
                 self.build_method = PointBuildMethod.OnLine
             case 2:
                 self.build_method = PointBuildMethod.Cross
+    
     def getTypeName(self) -> Literal['Point']:
         return "Point"
+    
     @lru_cache
     def objectToCommand(self) -> str:
         name: str | None = self.getName()
@@ -143,16 +168,21 @@ class Point(BaseGraph):
         #painter.drawPoint(self.coor[0], self.coor[1])
         #TODO
         pass
+    
     def __sub__(self, other: 'Point') -> DirectionVector:
         return (self.coor[0] - other.coor[0], self.coor[1] - other.coor[1])
+    
     def attachTo(self, coor: Coordinate) -> (Coordinate, float) :
         dis = getDistanceToCoor(self.coor, coor)
         log(f"计算点 id={self.getId()}, coor={self.coor} 到鼠标位置 {coor} 的距离为 {dis}", 1)
         return self.coor, dis
+    
     def move(self, coor: Coordinate):
         self.coor = coor
+
     def dependencyObject(self) -> DependencySet:
         return self.dependency        
+    
 def getDistance(first: Point | Coordinate, other: Point | Coordinate) -> float:
     match (isinstance(first, Point), isinstance(other, Point)):
         case (True, True):
@@ -199,6 +229,7 @@ class Line(BaseGraph):
         if not isinstance(self.start, Point):
             raise Exception(f"起点 id={startId} 对象类型错误")
         self.direction: DirectionVector = direction
+
     # 将点 coor 投影到直线上
     def __projectionToLine(self, coor: Coordinate) -> Coordinate:
         directionLen: float = (self.direction[0]**2 + self.direction[1]**2)**0.5
@@ -207,11 +238,14 @@ class Line(BaseGraph):
         # 注意这里的点积是向量点积
         projection: float = sum(mul(unitDirection, sub(coor, self.start.coor)))
         return add(self.start.coor, tuple(projection * i for i in unitDirection))
+    
     def __projectionDistance(self, coor: Coordinate) -> float:
         projection_point = self.__projectionToLine(coor)
         return getDistance(coor, projection_point)
+    
     def getTypeName(self):
         return "Line"
+    
     @lru_cache
     def objectToCommand(self) -> str:
         name: str | None = self.getName()
@@ -253,9 +287,11 @@ class Line(BaseGraph):
                         return add(self.start.coor, self.direction), getDistance(add(self.start.coor, self.direction), coor)
                     case (False, False):
                         raise Exception(f"投影点 {projection_point} 不在以起点为开始和与终点为开始的两条重合射线上，这是荒谬的")
+                    
     def draw(self, painter):
         #TODO
         pass
+
     def cross(self, other: "Line") -> Coordinate | None:
         # 计算两直线交点
         # 注意这里的 direction 是向量
@@ -284,8 +320,11 @@ class Line(BaseGraph):
             return (x, y)
         else:
             return None
+        
     def dependencyObject(self) -> DependencySet:
         return self.dependency
+    
+
 def line_create_decorator[**P](func: Callable[P, tuple[Point, Optional[Point], DirectionVector, LineType, DependencySet]]) -> Callable[Concatenate[str, Id, P], Line]:
     # 这里传入 point 作为参数是为了防止函数运行中发生引用丢失
     def wrapper(*, name: str, id: Id, **kwargs) -> Line:
