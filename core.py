@@ -55,7 +55,7 @@ def runtime_reset():
     closeLog()
     reopenLog()
 
-# 为所有创建函数顺路记录进活跃对象，同时提供 name, id 参数。hide 参数表示是否是显式操作（从而对象将被画出并可以被撤回）。请保证构造函数仅有仅限关键字函数
+# 为所有创建函数顺路记录进活跃对象，同时提供可选的 name, id 参数。id 参数若为空则将自动分配。hide 参数表示是否是显式操作（从而对象将被画出并可以被撤回）。请注意所有参数都是仅限关键字参数
 # 请不要使用裸的构造函数而是使用下面的包装后的构造函数
 def create_decorator[BaseGraph, **P](func: Callable[P, Callable[[str, DependencySet, Id], BaseGraph]]) -> Callable[Concatenate[bool, str, DependencySet, Id, P], BaseGraph]:
     def wrapper(*,hide: bool = False, name: Optional[str] = None, id: Optional[Id] = None, dependency: DependencySet = set(), **kwargs) -> BaseGraph:
@@ -81,7 +81,7 @@ def create_from_command(command: str) -> AvailableGraph:
 def create_point(*, coor: Coordinate):
     return partial(Point, coor=coor)
 
-# 注意 LineType 包括 Segment, Segment, Ray，它们的 direction 分别是两个端点的差，射线方向，直线方向。
+# 注意 LineType 包括 Segment, Ray, Infinite，它们的 direction 分别是两个端点的差，射线方向，直线方向。
 # 也就是说线段的方向向量需要指定方向和大小，射线只需要保证方向，直线则方向和大小都无关紧要
 @create_decorator
 def create_line_from_start_and_direction(*, start: Point, direction: DirectionVector, line_type: LineType):
@@ -102,6 +102,7 @@ def create_line_from_start_coordinate_and_end_coordinate(*, start: Coordinate, e
 def create_line_from_start_point_and_end_point(*, start: Point, end: Point, line_type: LineType):
     return partial(lineFromStartPointAndEndPoint, startPoint=start, endPoint=end, line_type=line_type)
 
+# 以此方法得到的交点将会依赖于两条线，换言之若两条线发生移动该点也会发生移动
 def get_cross(line1: Line, line2: Line, hide: bool = False, name: Optional[str] = None, id : Optional[Id] = None, dependency: DependencySet = set()) -> Point | None:
     cross_coor: Coordinate | None = line1.cross(line2)
     if cross_coor is None:
@@ -140,11 +141,12 @@ def __check_circle_dependency():
     for i in dependency_tree:
         dfs(i)
 
-check_circle_denpendency = __check_circle_dependency if CircleDetection else lambda: None
+# 检查是否在依赖中出现了循环引用的情况，正常情况下应该不会发生
+check_circle_dependency = __check_circle_dependency if CircleDetection else lambda: None
 
 def recursive_renew(obj: BaseGraph):
     # 更新某个对象以及依赖于它的对象
-    check_circle_denpendency()
+    check_circle_dependency()
     obj.renew()
     for i in dependency_tree.get(obj, set()):
         recursive_renew(i)
@@ -199,7 +201,7 @@ class tests(unittest.TestCase):
     def __init__(self, methodName: str = "runTest") -> None:
         super().__init__(methodName)
         self.addCleanup(runtime_reset)
-        
+
     def assertCoorEqual(self, coor1: Coordinate, coor2: Coordinate) -> None:
         dis = getDistanceToCoor(coor1, coor2)
         self.assertLessEqual(dis, MinDis)
@@ -230,7 +232,7 @@ class tests(unittest.TestCase):
         _p3 = create_from_command(p3_command)
         self.assertEqual(len(active_set), 3)
         self.assertEqual(0, len(_p3.dependency))
-        check_circle_denpendency()
+        check_circle_dependency()
 
     def __test_line(self, line_type: LineType):
         p1 = create_point(name="A", coor=(0.0, 0.0), dependency=set(), hide=True)
@@ -267,7 +269,7 @@ class tests(unittest.TestCase):
                 expected_cross_point = (2.0, 0.0) 
                 match_expected = True if getDistanceToCoor(cross_point, expected_cross_point) < 0.01 else False
         self.assertEqual(match_expected, True)
-        check_circle_denpendency()
+        check_circle_dependency()
 
     def __test_cross(self, line_type: LineType):
         p1 = create_point(coor=(0.0, 0.0))
@@ -285,16 +287,19 @@ class tests(unittest.TestCase):
         renew_obj(cross_point)
         # 移动端点后，新的交点应为 (1.0, 1.0)
         expected_cross_point = (1.0, 1.0) if line_type == LineType.Infinite else None
-        self.assertCoorEqual(cross_point.coor, expected_cross_point)
-        check_circle_denpendency()
+        if cross_point is None or cross_point.coor is None:
+            self.assertEqual(expected_cross_point, None)
+        else:
+            self.assertCoorEqual(cross_point.coor, expected_cross_point)
+        check_circle_dependency()
 
     def test_segment(self):
         self.__test_line(LineType.Segment)
-        #self.__test_cross(LineType.Segment)
+        self.__test_cross(LineType.Segment)
 
     def test_ray(self):
         self.__test_line(LineType.Ray)
-        #self.__test_cross(LineType.Ray)
+        self.__test_cross(LineType.Ray)
 
     def test_line(self):
         self.__test_line(LineType.Infinite)
