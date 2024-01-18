@@ -12,6 +12,8 @@ ExtraCheck: Final[bool] = True
 LogFile: Final[str] = "log.txt"
 # LogLevel 越低日志越详细，也就是 level 越高越重要
 LogLevel: Final[int] = 1
+# 检查是否有循环依赖
+CircleDetection: Final[bool] = True
 def logWrapper() -> (Callable[[str, int], None], Callable[[], None], Callable[[], None]):
     if Log:
         logHandler: TextIOWrapper = open(LogFile, "a+")

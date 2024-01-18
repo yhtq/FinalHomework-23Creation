@@ -108,7 +108,8 @@ def get_cross(line1: Line, line2: Line, hide: bool = False, name: Optional[str] 
         return None
     else:
         return create_point(coor=cross_coor, dependency=set([line1, line2]) | dependency, name=name, id=id, hide=hide)
-    
+
+# 将线上某个点挂靠到线上并返回点对象，请保证坐标确实在线上
 def get_point_on_line(line: Line, coor: Coordinate, hide: bool = False, name: Optional[str] = None, id : Optional[Id] = None, dependency: DependencySet = set()) -> Point:
     if not line.on(coor):
         raise Exception(f"点 {coor} 不在直线 {line.objectToCommand()} 上")
@@ -125,6 +126,28 @@ def delete(objectId: Id, add_to_operation: bool = True):
     if add_to_operation:
         operation_list.append((OperationType.Delete, objectId))
     deleted_list.append(obj)
+
+def __check_circle_dependency():
+    temp_set: WeakSet[BaseGraph] = WeakSet()
+    def dfs(obj: BaseGraph):
+        nonlocal temp_set
+        if obj in temp_set:
+            raise Exception("Circle dependency detected")
+        temp_set.add(obj)
+        for i in dependency_tree.get(obj, WeakSet()):
+            dfs(i)
+        temp_set.remove(obj)
+    for i in dependency_tree:
+        dfs(i)
+
+check_circle_denpendency = __check_circle_dependency if CircleDetection else lambda: None
+
+def recursive_renew(obj: BaseGraph):
+    # 更新某个对象以及依赖于它的对象
+    check_circle_denpendency()
+    obj.renew()
+    for i in dependency_tree.get(obj, set()):
+        recursive_renew(i)
 
 class UndoStatus(Enum):
     NoOperation = 1,
@@ -205,6 +228,7 @@ class tests(unittest.TestCase):
         _p3 = create_from_command(p3_command)
         self.assertEqual(len(active_set), 3)
         self.assertEqual(0, len(_p3.dependency))
+        check_circle_denpendency()
     def __test_line(self, line_type: LineType):
         p1 = create_point(name="A", coor=(0.0, 0.0), dependency=set(), hide=True)
         l1: Line = create_line_from_start_and_direction(name="l", id=1, dependency=set([p1]), start=p1, direction=(1.0, 0.0), line_type=line_type)
@@ -240,6 +264,7 @@ class tests(unittest.TestCase):
                 expected_cross_point = (2.0, 0.0) 
                 match_expected = True if getDistanceToCoor(cross_point, expected_cross_point) < 0.01 else False
         self.assertEqual(match_expected, True)
+        check_circle_denpendency()
     def __test_cross(self, line_type: LineType):
         p1 = create_point(coor=(0.0, 0.0))
         p2 = create_point(coor=(2.0, 0.0))
@@ -257,6 +282,7 @@ class tests(unittest.TestCase):
         # 移动端点后，新的交点应为 (1.0, 1.0)
         expected_cross_point = (1.0, 1.0) if line_type == LineType.Infinite else None
         self.assertCoorEqual(cross_point.coor, expected_cross_point)
+        check_circle_denpendency()
     def test_segment(self):
         self.__test_line(LineType.Segment)
         #self.__test_cross(LineType.Segment)
