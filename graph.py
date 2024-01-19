@@ -89,7 +89,6 @@ class BaseGraph:
     def findObjectById(id: Id) -> Optional['BaseGraph']:
         return BaseGraph.__idToObject.get(id, None)
     
-    @staticmethod
     
     # 从命令字符串中解析出对象
     @staticmethod
@@ -140,17 +139,19 @@ class PointBuildMethod(Enum):
 
 class Point(BaseGraph):
     # 注意为了安全性起见所有构造函数的参数都应该是关键字参数
-    def __init__(self, *, coor: Coordinate, dependency: DependencySet = set(), name: Optional[str] = None, id: Id = None):
+    def __init__(self, *, coor: Coordinate, dependency: Optional[set[BaseGraph]] = None, name: Optional[str] = None, id: Id = None):
         super().__init__(name=name, id=id)
         self.coor: Optional[Coordinate] = coor
-        self.dependency: DependencySet = dependency
-        match len(self.dependency):
-            case 0:
-                self.build_method = PointBuildMethod.Arbitrary
-            case 1:
-                self.build_method = PointBuildMethod.OnLine
-            case 2:
-                self.build_method = PointBuildMethod.Cross
+        if dependency is None:
+            self.build_method = PointBuildMethod.Arbitrary
+            self.dependency: DependencySet = set()
+        else:
+            self.dependency: DependencySet = dependency
+            match len(self.dependency):
+                case 1:
+                    self.build_method = PointBuildMethod.OnLine
+                case 2:
+                    self.build_method = PointBuildMethod.Cross
     
     def getTypeName(self) -> Literal['Point']:
         return "Point"
@@ -158,9 +159,10 @@ class Point(BaseGraph):
     @lru_cache
     def objectToCommand(self) -> str:
         name: str | None = self.getName()
+        name = f"\"{name}\"" if name is not None else "None"
         id: Id = self.getId()
         dependency_str = dependencySetToStr(self.dependency)
-        res = f"Point (coor={self.coor}, name=\"{name}\", id={id}, dependency={dependency_str})"
+        res = f"Point (coor={self.coor}, name={name}, id={id}, dependency={dependency_str})"
         return res
 
     def draw(self, painter):
@@ -193,6 +195,7 @@ def getDistance(first: Point | Coordinate, other: Point | Coordinate) -> float:
             return getDistanceToCoor(first, other.coor)
         case (False, False):
             return getDistanceToCoor(first, other)
+
 class LineType(Enum):
     # 无限长直线
     Infinite = 0
@@ -205,7 +208,7 @@ class LineType(Enum):
 # 射线中同时表示射向的方向
 # 线段中表示起点与终点之间的向量
 class Line(BaseGraph):
-    def __init__(self, *, startId: Id, direction: DirectionVector, line_type: LineType, endId: Optional[Id] = None, dependency: DependencySet = set() ,name: Optional[str] = None, id: Id = None):
+    def __init__(self, *, startId: Id, direction: DirectionVector, line_type: LineType, endId: Optional[Id] = None, dependency: Optional[set[BaseGraph]] = None ,name: Optional[str] = None, id: Id = None):
         # 请保证 startId 对应对象为 Point 类型，且不会在构造函数期间丢失引用而被析构。
         # dependency 中会自动添加 start 和 end
         # 注意为了安全性起见所有构造函数的参数都应该是关键字参数
@@ -215,16 +218,19 @@ class Line(BaseGraph):
         self.end: Optional[Point]
         if self.start is None:
             raise Exception(f"起点 id={startId} 对象已被析构不存在")
+        if dependency is None:
+            self.dependency: DependencySet = set()
+        else:
+            self.dependency: DependencySet = dependency
         if endId is not None:
             end_point = BaseGraph.findObjectById(endId)
             if end_point is None:
                 raise Exception(f"终点 id={endId} 对象已被析构不存在")
             self.end = end_point
-            dependency.add(self.end)
+            self.dependency.add(self.end)
         else:
             self.end = None
-        dependency.add(self.start)
-        self.dependency: DependencySet = dependency
+        self.dependency.add(self.start)
         self.line_type: LineType = line_type
         if not isinstance(self.start, Point):
             raise Exception(f"起点 id={startId} 对象类型错误")
@@ -249,7 +255,7 @@ class Line(BaseGraph):
     @lru_cache
     def objectToCommand(self) -> str:
         name: str | None = self.getName()
-        name_str = f"name=\"{name}\"" if name is not None else "name=None"
+        name_str = f"\"{name}\"" if name is not None else "None"
         dependency_str = dependencySetToStr(self.dependency)
         end_id = str(self.end.getId()) if self.end is not None else "None"
         res = f"Line (startId={self.start.getId()}, endId={end_id}, direction={self.direction}, line_type={self.line_type}, name={name_str}, id={self.getId()}, dependency={dependency_str})"
@@ -292,11 +298,11 @@ class Line(BaseGraph):
         #TODO
         pass
 
-    def cross(self, other: "Line") -> Coordinate | None:
-        # 计算两直线交点
+    # 计算与给定起点和方向直线的交点
+    def crossDirection(self, other_start: Coordinate, other_direction: DirectionVector) -> Coordinate | None:
         # 注意这里的 direction 是向量
         direction1 = self.direction
-        direction2 = other.direction
+        direction2 = other_direction
         # 两直线平行
         if abs (direction1[0] * direction2[1] - direction1[1] * direction2[0]) < MinDis:
             return None
@@ -305,8 +311,8 @@ class Line(BaseGraph):
         # y1 + t1 * direction1[1] = y2 + t2 * direction2[1]
         # 注意这里的 t1, t2 是标量
         det: float = direction1[0] * direction2[1] - direction1[1] * direction2[0]
-        t1: float = (other.start.coor[0] - self.start.coor[0]) * direction2[1] - (other.start.coor[1] - self.start.coor[1]) * direction2[0]
-        t2: float = (other.start.coor[0] - self.start.coor[0]) * direction1[1] - (other.start.coor[1] - self.start.coor[1]) * direction1[0]
+        t1: float = (other_start.coor[0] - self.start.coor[0]) * direction2[1] - (other_start.coor[1] - self.start.coor[1]) * direction2[0]
+        t2: float = (other_start.coor[0] - self.start.coor[0]) * direction1[1] - (other_start.coor[1] - self.start.coor[1]) * direction1[0]
         t1 /= det
         t2 /= det
         x: float = self.start.coor[0] + t1 * direction1[0]
@@ -315,9 +321,18 @@ class Line(BaseGraph):
             # 检查交点是否在两条直线上
             if not (self.__projectionDistance((x, y)) < MinDis and other.__projectionDistance((x, y)) < MinDis):
                 raise Exception(f"计算交点时出现错误，交点不在两条直线上")
-        (onFirst, onSecond) = (self.on((x, y)), other.on((x, y)))
-        if onFirst and onSecond:
+        if self.on((x, y)):
             return (x, y)
+        else:
+            return None
+    def cross(self, other: "Line") -> Coordinate | None:
+        # 计算两直线交点
+        res = self.crossDirection(other.start.coor, other.direction)
+        if res is None:
+            return None
+        onSecond = other.on(res)
+        if onSecond:
+            return res
         else:
             return None
         
@@ -333,7 +348,7 @@ def line_create_decorator[**P](func: Callable[P, tuple[Point, Optional[Point], D
         return Line(startId = start.getId(), endId=endId, direction = direction, line_type = line_type, dependency = dependency, name = name, id = id)
     return wrapper
 @line_create_decorator
-def lineFromStartAndDirection(start: Point, direction: DirectionVector, line_type: LineType, dependency: DependencySet = set()):
+def lineFromStartAndDirection(start: Point, direction: DirectionVector, line_type: LineType, dependency: Optional[set[BaseGraph]] = None):
     return start, None, direction, line_type, dependency
 
 # @line_create_decorator
@@ -349,7 +364,7 @@ def lineFromStartAndDirection(start: Point, direction: DirectionVector, line_typ
 #     return start, end, direction, line_type, dependency
 
 @line_create_decorator
-def lineFromStartPointAndEndPoint(startPoint: Point, endPoint: Point, line_type: LineType, dependency: DependencySet = set()):
+def lineFromStartPointAndEndPoint(startPoint: Point, endPoint: Point, line_type: LineType, dependency: Optional[set[BaseGraph]] = None):
     direction = endPoint - startPoint
     return startPoint, endPoint, direction, line_type, dependency
 

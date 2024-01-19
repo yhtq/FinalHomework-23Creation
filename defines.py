@@ -4,8 +4,10 @@ from typing import Final
 
 type Id = int
 MaxId: Final[Id] = 2**32 - 1
-# 用于鼠标点击时判断是否选中对象的最小距离
-MinDis: Final[float] = 1e-2
+# 用于浮点数的比较
+MinDis: Final[float] = 1e-5
+# 用于鼠标吸附
+MinAttachDis: Final[float] = 1e-1
 DeletedListLength: Final[int] = 50
 Log: Final[bool] = True
 ExtraCheck: Final[bool] = True

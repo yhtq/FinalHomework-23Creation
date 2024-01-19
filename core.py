@@ -50,15 +50,18 @@ def runtime_reset():
     operation_list.clear()
     undo_list.clear()
     active_set.clear()
+    hide_set.clear()
+    dependency_tree.clear()
     deleted_list.clear()
     BaseGraph.reset()
     closeLog()
     reopenLog()
 
+
 # 为所有创建函数顺路记录进活跃对象，同时提供可选的 name, id 参数。id 参数若为空则将自动分配。hide 参数表示是否是显式操作（从而对象将被画出并可以被撤回）。请注意所有参数都是仅限关键字参数
 # 请不要使用裸的构造函数而是使用下面的包装后的构造函数
 def create_decorator[BaseGraph, **P](func: Callable[P, Callable[[str, DependencySet, Id], BaseGraph]]) -> Callable[Concatenate[bool, str, DependencySet, Id, P], BaseGraph]:
-    def wrapper(*,hide: bool = False, name: Optional[str] = None, id: Optional[Id] = None, dependency: DependencySet = set(), **kwargs) -> BaseGraph:
+    def wrapper(*,hide: bool = False, name: Optional[str] = None, id: Optional[Id] = None, dependency: Optional[set[BaseGraph]] = None, **kwargs) -> BaseGraph:
         resFunc: Callable[[str, DependencySet, Id], BaseGraph] = func(**kwargs)
         res: BaseGraph = resFunc(name=name, dependency=dependency, id=id)
         if not hide:
@@ -71,10 +74,16 @@ def create_decorator[BaseGraph, **P](func: Callable[P, Callable[[str, Dependency
         return res
     return wrapper
 
-def create_from_command(command: str) -> AvailableGraph:
+# 这个函数比较特殊就不用装饰器了，请注意这里应该手动传入是否 hide
+def create_from_command(command: str, hide: bool = False) -> AvailableGraph:
     obj = BaseGraph.commandToObject(command)
     assert isinstance(obj, Line | Point)
-    active_set.add(obj)
+    if not hide:
+        active_set.add(obj)
+    else:
+        hide_set.add(obj)
+    for i in obj.dependencyObject():
+        dependency_tree.setdefault(i, set()).add(obj)
     return obj
 
 @create_decorator
@@ -103,15 +112,19 @@ def create_line_from_start_point_and_end_point(*, start: Point, end: Point, line
     return partial(lineFromStartPointAndEndPoint, startPoint=start, endPoint=end, line_type=line_type)
 
 # 以此方法得到的交点将会依赖于两条线，换言之若两条线发生移动该点也会发生移动
-def get_cross(line1: Line, line2: Line, hide: bool = False, name: Optional[str] = None, id : Optional[Id] = None, dependency: DependencySet = set()) -> Point | None:
+def get_cross(line1: Line, line2: Line, hide: bool = False, name: Optional[str] = None, id : Optional[Id] = None, dependency: Optional[set[BaseGraph]] = None) -> Point | None:
     cross_coor: Coordinate | None = line1.cross(line2)
+    if dependency is None:
+        dependency = set()
     if cross_coor is None:
         return None
     else:
         return create_point(coor=cross_coor, dependency=set([line1, line2]) | dependency, name=name, id=id, hide=hide)
 
 # 将线上某个点挂靠到线上并返回点对象，请保证坐标确实在线上
-def get_point_on_line(line: Line, coor: Coordinate, hide: bool = False, name: Optional[str] = None, id : Optional[Id] = None, dependency: DependencySet = set()) -> Point:
+def get_point_on_line(line: Line, coor: Coordinate, hide: bool = False, name: Optional[str] = None, id : Optional[Id] = None, dependency: Optional[set[BaseGraph]] = None) -> Point:
+    if dependency is None:
+        dependency = set()  
     if not line.on(coor):
         raise Exception(f"点 {coor} 不在直线 {line.objectToCommand()} 上")
     return create_point(coor=coor, dependency=set([line]) | dependency, name=name, id=id, hide=hide)
@@ -147,9 +160,14 @@ check_circle_dependency = __check_circle_dependency if CircleDetection else lamb
 def recursive_renew(obj: BaseGraph):
     # 更新某个对象以及依赖于它的对象
     check_circle_dependency()
-    obj.renew()
+    renew_obj(obj)
     for i in dependency_tree.get(obj, set()):
         recursive_renew(i)
+
+# 暂时只实现了移动点的功能，会自动更新所有依赖于该点的对象
+def modify_point(obj: Point, coor: Coordinate):
+    obj.move(coor)
+    recursive_renew(obj)
 
 class UndoStatus(Enum):
     NoOperation = 1,
@@ -196,6 +214,45 @@ def redo() -> RedoStatus:
             delete(id, False)
             operation_list.append(operation)
             return RedoStatus.RedoDelete
+
+def save(filename: sys.path):
+    saved_set: set[AvailableGraph] = set()
+    file_handler = open(filename, "w")
+    check_circle_dependency()
+    def recursive_save(obj: BaseGraph):
+        nonlocal file_handler
+        nonlocal saved_set
+        if obj in saved_set:
+            return
+        saved_set.add(obj)
+        # 保存一个对象前应该先保存它的依赖对象，一个对象应该只需要保存一次
+        dependency = obj.dependencyObject()
+        for i in dependency:
+            recursive_save(i)
+        command_str: str = obj.objectToCommand()
+        if obj in hide_set:
+            command_str = f"hide {command_str}"
+        file_handler.write(command_str + "\n")
+    for i in active_set:
+        recursive_save(i)
+    file_handler.close()
+
+def load(filename: sys.path):
+    file_handler = open(filename, "r")
+    # 这里暂时保存一份对象，防止隐藏对象被析构
+    loaded: list[AvailableGraph] = []
+    for line in file_handler:
+        line = line.strip()
+        if line == "":
+            continue
+        if line.startswith("hide "):
+            line = line[5:]
+            obj = create_from_command(line, hide=True)
+        else:
+            obj = create_from_command(line, hide=False)
+        loaded.append(obj)
+    check_circle_dependency()
+    file_handler.close()
 
 class tests(unittest.TestCase):
     def __init__(self, methodName: str = "runTest") -> None:
@@ -271,20 +328,22 @@ class tests(unittest.TestCase):
         self.assertEqual(match_expected, True)
         check_circle_dependency()
 
-    def __test_cross(self, line_type: LineType):
+    def __test_cross_and_save(self, line_type: LineType):
         p1 = create_point(coor=(0.0, 0.0))
         p2 = create_point(coor=(2.0, 0.0))
         p3 = create_point(coor=(1.0, -1.0))
         p4 = create_point(coor=(1.0, 1.0))
         l1 = create_line_from_start_point_and_end_point(start=p1, end=p2, line_type=line_type)
         l2 = create_line_from_start_point_and_end_point(start=p3, end=p4, line_type=LineType.Segment)
+        l3 = create_line_from_start_coordinate_and_end_coordinate(start=(0.0, 1.0), end=(2.0, 1.0), line_type=LineType.Segment)
         cross_point = get_cross(l1, l2)
         self.assertIn(cross_point, dependency_tree[l1])
         self.assertIn(cross_point, dependency_tree[l2])
         self.assertEqual(cross_point.coor, (1.0, 0.0))
+        self.assertEqual(len(active_set), 8)
+        self.assertEqual(len(hide_set), 2)
         p1.move((1.1, 0.9))
-        renew_obj(l1)
-        renew_obj(cross_point)
+        modify_point(p1, (1.1, 0.9))
         # 移动端点后，新的交点应为 (1.0, 1.0)
         expected_cross_point = (1.0, 1.0) if line_type == LineType.Infinite else None
         if cross_point is None or cross_point.coor is None:
@@ -292,19 +351,28 @@ class tests(unittest.TestCase):
         else:
             self.assertCoorEqual(cross_point.coor, expected_cross_point)
         check_circle_dependency()
+        save("test.txt")
+        runtime_reset()
+        load("test.txt")
+        self.assertEqual(len(active_set), 8)
+        self.assertEqual(len(hide_set), 2)
+
 
     def test_segment(self):
         self.__test_line(LineType.Segment)
-        self.__test_cross(LineType.Segment)
+        runtime_reset()
+        self.__test_cross_and_save(LineType.Segment)
 
     def test_ray(self):
         self.__test_line(LineType.Ray)
-        self.__test_cross(LineType.Ray)
+        runtime_reset()
+        self.__test_cross_and_save(LineType.Ray)
 
     def test_line(self):
         self.__test_line(LineType.Infinite)
-        self.__test_cross(LineType.Infinite)
-
+        runtime_reset()
+        self.__test_cross_and_save(LineType.Infinite)
+    
 
 if __name__ == "__main__":
     unittest.main()
