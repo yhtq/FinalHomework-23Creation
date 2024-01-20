@@ -66,7 +66,7 @@ def create_decorator[BaseGraph, **P](func: Callable[P, Callable[[str, Dependency
         res: BaseGraph = resFunc(name=name, dependency=dependency, id=id)
         if not hide:
             active_set.add(res)
-            operation_list.append((OperationType.Create, id))
+            operation_list.append((OperationType.Create, res.getId()))
         else:
             hide_set.add(res)
         for i in res.dependencyObject():
@@ -112,14 +112,15 @@ def create_line_from_start_point_and_end_point(*, start: Point, end: Point, line
     return partial(lineFromStartPointAndEndPoint, startPoint=start, endPoint=end, line_type=line_type)
 
 # 以此方法得到的交点将会依赖于两条线，换言之若两条线发生移动该点也会发生移动
-def get_cross(line1: Line, line2: Line, hide: bool = False, name: Optional[str] = None, id : Optional[Id] = None, dependency: Optional[set[BaseGraph]] = None) -> Point | None:
-    cross_coor: Coordinate | None = line1.cross(line2)
+def get_cross(line1: Line, line2: Line, hide: bool = False, name: Optional[str] = None, id : Optional[Id] = None, dependency: Optional[set[BaseGraph]] = None) \
+        -> (Point | None, Line.CrossStatus):
+    (cross_coor, status)  = line1.cross(line2)
     if dependency is None:
         dependency = set()
     if cross_coor is None:
-        return None
+        return None, status
     else:
-        return create_point(coor=cross_coor, dependency=set([line1, line2]) | dependency, name=name, id=id, hide=hide)
+        return create_point(coor=cross_coor, dependency=set([line1, line2]) | dependency, name=name, id=id, hide=hide), status
 
 # 将线上某个点挂靠到线上并返回点对象，请保证坐标确实在线上
 def get_point_on_line(line: Line, coor: Coordinate, hide: bool = False, name: Optional[str] = None, id : Optional[Id] = None, dependency: Optional[set[BaseGraph]] = None) -> Point:
@@ -183,12 +184,14 @@ class RedoStatus(Enum):
 
 def undo() -> UndoStatus:
     if len(operation_list) == 0:
+        log("No operation to undo")
         return UndoStatus.NoOperation
     operation = operation_list.pop()
     match operation:
         case (OperationType.Create, id):
             delete(id, False)
             undo_list.append(operation)
+            log(f"Undo create {id}")
             return UndoStatus.UndoCreate
         case (OperationType.Delete, id):
             obj = BaseGraph.findObjectById(id)
@@ -196,6 +199,7 @@ def undo() -> UndoStatus:
                 return UndoStatus.UndoDeleteButObjectNotExist
             undo_list.append(operation)
             active_set.add(obj)
+            log(f"Undo delete {id}")
             return UndoStatus.UndoDelete
 
 def redo() -> RedoStatus:
@@ -230,7 +234,7 @@ def save(filename: sys.path):
         for i in dependency:
             recursive_save(i)
         command_str: str = obj.objectToCommand()
-        if obj in hide_set:
+        if obj in hide_set or obj not in active_set:
             command_str = f"hide {command_str}"
         file_handler.write(command_str + "\n")
     for i in active_set:
@@ -253,6 +257,12 @@ def load(filename: sys.path):
         loaded.append(obj)
     check_circle_dependency()
     file_handler.close()
+
+def set_active(obj: AvailableGraph):
+    if obj not in active_set:
+        active_set.add(obj)
+    if obj in hide_set:
+        hide_set.remove(obj)
 
 class tests(unittest.TestCase):
     def __init__(self, methodName: str = "runTest") -> None:
@@ -302,7 +312,7 @@ class tests(unittest.TestCase):
         self.assertEqual(l1.on((1.5, 0.0)), True if line_type != LineType.Segment else False)
         self.assertEqual(l1.on((-1.5, 0.0)), False if line_type != LineType.Infinite else True)
         l2 = create_line_from_start_coordinate_and_end_coordinate(name="l", dependency=set(), start=(3.0, 0.0), end=(3.0, 1.0), line_type=line_type)
-        cross_point: Coordinate | None = l1.cross(l2)
+        cross_point: Coordinate | None = l1.cross(l2)[0]
         expected_cross_point: Coordinate | None 
         match_expected: bool = False
         self.assertEqual(cross_point, l2.cross(l1))
@@ -316,7 +326,7 @@ class tests(unittest.TestCase):
         self.assertEqual(match_expected, True)
         l2.start.move((0.0, -2.0))
         renew_obj(l2)
-        cross_point = l1.cross(l2)
+        cross_point = l1.cross(l2)[0]
         self.assertEqual(cross_point, l2.cross(l1))
         # 交点应为 (2.0, 0.0)
         match line_type:

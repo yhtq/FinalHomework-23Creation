@@ -1,0 +1,102 @@
+尝试以命令 Point (coor=(350, 450), name=None, id=0, dependency=set()) 创建对象
+创建 Point 对象 id=0
+尝试以命令 Point (coor=(500, 0), name=None, id=28, dependency=set()) 创建对象
+创建 Point 对象 id=28
+尝试以命令 Line (startId=28, endId=None, direction=(0, 1), line_type=LineType.Infinite, name=None, id=29, dependency=set(28)) 创建对象
+创建 Line 对象 id=29
+尝试以命令 Point (coor=(750, 750), name=None, id=23, dependency=set()) 创建对象
+创建 Point 对象 id=23
+尝试以命令 Point (coor=(300, 600), name=None, id=26, dependency=set()) 创建对象
+创建 Point 对象 id=26
+尝试以命令 Line (startId=23, endId=26, direction=(-450, -150), line_type=LineType.Segment, name=None, id=27, dependency=set(23, 26)) 创建对象
+创建 Line 对象 id=27
+尝试以命令 Point (coor=(500.0, 666.6666666666666), name=None, id=30, dependency=set(29, 27)) 创建对象
+创建 Point 对象 id=30
+尝试以命令 Point (coor=(250, 750), name=None, id=17, dependency=set()) 创建对象
+创建 Point 对象 id=17
+尝试以命令 Line (startId=30, endId=17, direction=(-250.0, 83.33333333333337), line_type=LineType.Segment, name=None, id=32, dependency=set(30, 17)) 创建对象
+创建 Line 对象 id=32
+尝试以命令 Point (coor=(300, 600), name=None, id=34, dependency=set()) 创建对象
+创建 Point 对象 id=34
+尝试以命令 Point (coor=(550, 750), name=None, id=33, dependency=set()) 创建对象
+创建 Point 对象 id=33
+尝试以命令 Line (startId=33, endId=34, direction=(-250, -150), line_type=LineType.Segment, name=None, id=35, dependency=set(34, 33)) 创建对象
+创建 Line 对象 id=35
+尝试以命令 Point (coor=(442.85714285714283, 685.7142857142857), name=None, id=36, dependency=set(32, 35)) 创建对象
+创建 Point 对象 id=36
+尝试以命令 Line (startId=0, endId=36, direction=(92.85714285714283, 235.71428571428567), line_type=LineType.Ray, name=None, id=7, dependency=set(0, 36)) 创建对象
+创建 Line 对象 id=7
+尝试以命令 Point (coor=(0, 750), name=None, id=9, dependency=set()) 创建对象
+创建 Point 对象 id=9
+尝试以命令 Line (startId=9, endId=None, direction=(1, 0), line_type=LineType.Infinite, name=None, id=10, dependency=set(9)) 创建对象
+创建 Line 对象 id=10
+尝试以命令 Point (coor=(468.1818181818182, 750.0), name=None, id=11, dependency=set(7, 10)) 创建对象
+创建 Point 对象 id=11
+尝试以命令 Point (coor=(750, 750), name=None, id=15, dependency=set()) 创建对象
+创建 Point 对象 id=15
+尝试以命令 Point (coor=(750, 750), name=None, id=44, dependency=set()) 创建对象
+创建 Point 对象 id=44
+尝试以命令 Point (coor=(750, 750), name=None, id=25, dependency=set()) 创建对象
+创建 Point 对象 id=25
+尝试以命令 Point (coor=(550, 750), name=None, id=20, dependency=set()) 创建对象
+创建 Point 对象 id=20
+尝试以命令 Point (coor=(350, 450), name=None, id=19, dependency=set()) 创建对象
+创建 Point 对象 id=19
+尝试以命令 Point (coor=(250, 750), name=None, id=22, dependency=set()) 创建对象
+创建 Point 对象 id=22
+尝试以命令 Point (coor=(250, 750), name=None, id=31, dependency=set()) 创建对象
+创建 Point 对象 id=31
+尝试以命令 Line (startId=0, endId=11, direction=(118.18181818181819, 300.0), line_type=LineType.Segment, name=None, id=14, dependency=set(0, 11)) 创建对象
+创建 Line 对象 id=14
+尝试以命令 Point (coor=(0, 650), name=None, id=51, dependency=set()) 创建对象
+创建 Point 对象 id=51
+尝试以命令 Line (startId=51, endId=None, direction=(1, 0), line_type=LineType.Infinite, name=None, id=52, dependency=set(51)) 创建对象
+创建 Line 对象 id=52
+尝试以命令 Point (coor=(350, 450), name=None, id=16, dependency=set()) 创建对象
+创建 Point 对象 id=16
+尝试以命令 Line (startId=16, endId=17, direction=(-100, 300), line_type=LineType.Segment, name=None, id=18, dependency=set(16, 17)) 创建对象
+创建 Line 对象 id=18
+尝试以命令 Point (coor=(283.33333333333337, 650.0), name=None, id=53, dependency=set(52, 18)) 创建对象
+创建 Point 对象 id=53
+尝试以命令 Line (startId=25, endId=53, direction=(-466.66666666666663, -100.0), line_type=LineType.Segment, name=None, id=54, dependency=set(25, 53)) 创建对象
+创建 Line 对象 id=54
+尝试以命令 Line (startId=17, endId=23, direction=(500, 0), line_type=LineType.Segment, name=None, id=24, dependency=set(23, 17)) 创建对象
+创建 Line 对象 id=24
+尝试以命令 Line (startId=19, endId=20, direction=(200, 300), line_type=LineType.Segment, name=None, id=21, dependency=set(19, 20)) 创建对象
+创建 Line 对象 id=21
+尝试以命令 Point (coor=(350, 450), name=None, id=8, dependency=set()) 创建对象
+创建 Point 对象 id=8
+析构 Point 对象 id=22
+析构 Point 对象 id=31
+析构 Point 对象 id=8
+析构 Point 对象 id=15
+析构 Point 对象 id=44
+析构 Line 对象 id=24
+析构 Line 对象 id=14
+析构 Point 对象 id=11
+析构 Line 对象 id=10
+析构 Point 对象 id=9
+析构 Line 对象 id=7
+析构 Point 对象 id=0
+析构 Point 对象 id=36
+析构 Line 对象 id=35
+析构 Point 对象 id=33
+析构 Point 对象 id=34
+析构 Line 对象 id=32
+析构 Point 对象 id=30
+析构 Line 对象 id=27
+析构 Point 对象 id=23
+析构 Point 对象 id=26
+析构 Line 对象 id=29
+析构 Point 对象 id=28
+析构 Line 对象 id=54
+析构 Point 对象 id=25
+析构 Point 对象 id=53
+析构 Line 对象 id=18
+析构 Point 对象 id=16
+析构 Point 对象 id=17
+析构 Line 对象 id=52
+析构 Point 对象 id=51
+析构 Line 对象 id=21
+析构 Point 对象 id=19
+析构 Point 对象 id=20

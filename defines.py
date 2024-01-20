@@ -1,13 +1,24 @@
 from collections.abc import Callable
 from io import TextIOWrapper
+from math import sqrt
 from typing import Final
 
 type Id = int
 MaxId: Final[Id] = 2**32 - 1
+class Settings:
+    # 分别表示每个格子的长宽，以及格子的数量
+    WIDTH = 50
+    HEIGHT = 50
+    NUM_BLOCKS_X = 20
+    NUM_BLOCKS_Y = 20
+
+XSize: Final[int] = Settings.WIDTH * Settings.NUM_BLOCKS_X
+YSize: Final[int] = Settings.HEIGHT * Settings.NUM_BLOCKS_Y
+RefSize: Final[int] = sqrt(XSize**2 + YSize**2)
 # 用于浮点数的比较
-MinDis: Final[float] = 1e-5
+MinDis: Final[float] = 1e-5 * float(RefSize)
 # 用于鼠标吸附
-MinAttachDis: Final[float] = 1e-1
+MinAttachDis: Final[float] = 1e-2 * float(RefSize)
 DeletedListLength: Final[int] = 50
 Log: Final[bool] = True
 ExtraCheck: Final[bool] = True
@@ -16,6 +27,8 @@ LogFile: Final[str] = "log.txt"
 LogLevel: Final[int] = 1
 # 检查是否有循环依赖
 CircleDetection: Final[bool] = True
+
+
 def logWrapper() -> (Callable[[str, int], None], Callable[[], None], Callable[[], None]):
     if Log:
         logHandler: TextIOWrapper = open(LogFile, "a+")
