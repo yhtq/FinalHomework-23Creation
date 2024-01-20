@@ -30,24 +30,34 @@ def polar_to_machine(r,theta):
     machine = (step,serv)
     return tuple((step, serv))
 
+
 def tran(polarcoor):
     info = polarcoor
-    if info == 1 or info == 0:
-        print('send up' if info else 'send down')
+    if type(info) == int:
+        if info == 1:
+            print('send up')
+        elif info == 0:
+            print('send down')
+        else:
+            print(f'数量是{info}个')
+        mess = str(info)+'p'
+        ser.write(mess.encode())
     else:
-        print(f'发送极坐标{info}')
-    ser.write(str(info).encode())
+        print(f'发送调整极坐标{info}')
+        mess = str(info[0])+','+str(info[1])+'p'
+        ser.write(mess.encode())
     # ser.close()
-    #sleep(0.5)
+    sleep(5)
 
 
-startpoint = (0,200)
-direction = (400,0)
+startpoint = (400,200)
+direction = (-400,0)
 endpoint = (startpoint[0]+direction[0],startpoint[1]+direction[1])
 delta_x = endpoint[0]-startpoint[0]
 delta_y = endpoint[1]-startpoint[1]
 grid_num = max(abs(delta_x // gridwide), abs(delta_y // gridwide))
 points = []
+del_points = []
 
 for pointnum in range(grid_num):
     points += [(startpoint[0]+pointnum/grid_num*delta_x, startpoint[1]+(pointnum/grid_num)*delta_y)]
@@ -59,14 +69,15 @@ for poin in points:
     points[i] = coor_to_polar(poin[0],poin[1])
     #point = polar_to_machine(point[0],point[1])
     if i == 0:
-        continue
-    #else:
-        #points[i] = (points[i][0]-points[i-1][0],points[i][1]-points[i-1][1])
+        del_points += [points[0]]
+    else:
+        del_points += [(points[i][0]-points[i-1][0],points[i][1]-points[i-1][1])]
 
-tran(grid_num + 2)
+tran(grid_num + 2) # c传送数据总数
+# print(del_points)
 
 for _ in range(len(points)):
-    tran(points[_])
+    tran(del_points[_])
     if _ == 0:
         tran(0)
     if _ == len(points)-1:
