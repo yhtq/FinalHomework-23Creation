@@ -148,6 +148,8 @@ class Point(BaseGraph):
         else:
             self.dependency: DependencySet = dependency
             match len(self.dependency):
+                case 0:
+                    self.build_method = PointBuildMethod.Arbitrary
                 case 1:
                     self.build_method = PointBuildMethod.OnLine
                 case 2:
@@ -259,15 +261,15 @@ class Line(BaseGraph):
         dependency_str = dependencySetToStr(self.dependency)
         end_id = str(self.end.getId()) if self.end is not None else "None"
         res = f"Line (startId={self.start.getId()}, endId={end_id}, direction={self.direction}, line_type={self.line_type}, name={name_str}, id={self.getId()}, dependency={dependency_str})"
-        log(f"生成 {self.getTypeName()} 对象 id={self.getId()} 的命令字符串为 {res}", 4)
+        log(f"生成 {self.getTypeName()} 对象 id={self.getId()} 的命令字符串为 {res}", 1)
         return res
 
     # 返回可能吸附的最近点以及两点间的距离
     def attachTo(self, coor: Coordinate) -> (Coordinate, float):
         projection_point = self.__projectionToLine(coor)
-        log(f"计算位置: {coor} 到 {self.objectToCommand()} 的投影点 {projection_point} ", 1)
+        log(f"计算位置: {coor} 到 {self.objectToCommand()} 的投影点 {projection_point} ", 2)
         dis = getDistance(projection_point, coor)
-        log(f"计算位置: {coor} 到 {self.objectToCommand()} 的距离为 {dis} ", 1)
+        log(f"计算位置: {coor} 到 {self.objectToCommand()} 的距离为 {dis} ", 2)
         match self.line_type:
             case LineType.Infinite:
                 return projection_point, dis
@@ -298,43 +300,54 @@ class Line(BaseGraph):
         #TODO
         pass
 
+    class CrossStatus(Enum):
+        # 两直线平行
+        Parallel = 0,
+        # 两直线相交
+        Cross = 1,
+        # 两直线重合
+        Coincide = 2,
+        CrossPointNotOnLine = 3
+
     # 计算与给定起点和方向直线的交点
-    def crossDirection(self, other_start: Coordinate, other_direction: DirectionVector) -> Coordinate | None:
+    def crossDirection(self, other_start: Coordinate, other_direction: DirectionVector) -> (Coordinate | None, CrossStatus):
         # 注意这里的 direction 是向量
         direction1 = self.direction
         direction2 = other_direction
         # 两直线平行
         if abs (direction1[0] * direction2[1] - direction1[1] * direction2[0]) < MinDis:
-            return None
+            if self.on(other_start):
+                return None, Line.CrossStatus.Coincide
+            return None, Line.CrossStatus.Parallel
         # 否则，求解方程组
         # x1 + t1 * direction1[0] = x2 + t2 * direction2[0]
         # y1 + t1 * direction1[1] = y2 + t2 * direction2[1]
         # 注意这里的 t1, t2 是标量
         det: float = direction1[0] * direction2[1] - direction1[1] * direction2[0]
-        t1: float = (other_start.coor[0] - self.start.coor[0]) * direction2[1] - (other_start.coor[1] - self.start.coor[1]) * direction2[0]
-        t2: float = (other_start.coor[0] - self.start.coor[0]) * direction1[1] - (other_start.coor[1] - self.start.coor[1]) * direction1[0]
+        t1: float = (other_start[0] - self.start.coor[0]) * direction2[1] - (other_start[1] - self.start.coor[1]) * direction2[0]
+        t2: float = (other_start[0] - self.start.coor[0]) * direction1[1] - (other_start[1] - self.start.coor[1]) * direction1[0]
         t1 /= det
         t2 /= det
         x: float = self.start.coor[0] + t1 * direction1[0]
         y: float = self.start.coor[1] + t1 * direction1[1]
         if ExtraCheck:
             # 检查交点是否在两条直线上
-            if not (self.__projectionDistance((x, y)) < MinDis and other.__projectionDistance((x, y)) < MinDis):
+            if not (self.__projectionDistance((x, y)) < MinDis):
                 raise Exception(f"计算交点时出现错误，交点不在两条直线上")
         if self.on((x, y)):
-            return (x, y)
+            return (x, y), Line.CrossStatus.Cross
         else:
-            return None
-    def cross(self, other: "Line") -> Coordinate | None:
+            return None, Line.CrossStatus.Parallel
+    def cross(self, other: "Line") -> (Coordinate | None, CrossStatus):
         # 计算两直线交点
         res = self.crossDirection(other.start.coor, other.direction)
-        if res is None:
-            return None
-        onSecond = other.on(res)
+        if res[0] is None:
+            return res
+        onSecond = other.on(res[0])
         if onSecond:
             return res
         else:
-            return None
+            return None, Line.CrossStatus.CrossPointNotOnLine
         
     def dependencyObject(self) -> DependencySet:
         return self.dependency
@@ -395,9 +408,9 @@ def renew_obj(obj: BaseGraph):
                             raise Exception(f"点 id={obj.getId()} 的依赖数量错误")
                         if not isinstance(line1, Line) or not isinstance(line2, Line):
                             raise Exception(f"点 id={obj.getId()} 的依赖类型错误")
-                    obj.coor = line1.cross(line2)
+                    obj.coor = line1.cross(line2)[0]
         case Line():
-            if obj.end is None:
+            if obj.end is None or obj.start is None:
                 pass
             else:
                 obj.direction = sub(obj.end.coor, obj.start.coor)
