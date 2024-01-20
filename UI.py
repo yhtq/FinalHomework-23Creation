@@ -172,6 +172,7 @@ class QS(QtWidgets.QWidget):
         self.redo_button = QtWidgets.QPushButton("取消撤回")
         self.save_button = QtWidgets.QPushButton("保存")
         self.load_button = QtWidgets.QPushButton("加载")
+        self.print_button = QtWidgets.QPushButton("发送至设备")
         self.draw_point_button.clicked.connect(self.create_point_tool)
         self.draw_line_button.clicked.connect(partial(self.create_line_tool, LineType.Infinite))
         self.draw_ray_button.clicked.connect(partial(self.create_line_tool, LineType.Ray))
@@ -180,6 +181,7 @@ class QS(QtWidgets.QWidget):
         self.redo_button.clicked.connect(self.redo)
         self.save_button.clicked.connect(self.save)
         self.load_button.clicked.connect(self.load)
+        self.print_button.clicked.connect(self.send_to_device)
         self.layout = QtWidgets.QVBoxLayout()
         self.buttonLayout = QtWidgets.QHBoxLayout()
         self.buttonLayout.addWidget(self.draw_point_button)
@@ -190,6 +192,7 @@ class QS(QtWidgets.QWidget):
         self.buttonLayout.addWidget(self.redo_button)
         self.buttonLayout.addWidget(self.save_button)
         self.buttonLayout.addWidget(self.load_button)
+        self.buttonLayout.addWidget(self.print_button)
         self.layout.addLayout(self.buttonLayout)
         self.layout.setAlignment(QtCore.Qt.AlignmentFlag.AlignBottom)
         self.setLayout(self.layout)
@@ -200,6 +203,18 @@ class QS(QtWidgets.QWidget):
         self.mousePressEvent = self.__mousePressEvent
         self.keyPressEvent = self.__keyPressEvent
     
+    def send_to_device(self):
+        # 将需要的数据发送到机械臂进行绘制
+        for i in core.active_set:
+            if isinstance(i, Line):
+                if i.line_type == LineType.Segment:
+                    if i.start is None or i.direction is None:
+                        continue
+                    start: Coordinate = i.start.coor
+                    direction: DirectionVector = i.direction
+                    end: Coordinate = (start[0] + direction[0], start[1] + direction[1])
+                    # 这里写画线段的代码就行，或者独立出一个函数
+
     def __mousePressEvent(self, event: QMouseEvent) -> None:
         (x, y) = event.pos().x(), event.pos().y()
         print(f"鼠标点击 {x, y}")
