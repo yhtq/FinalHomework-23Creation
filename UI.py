@@ -5,7 +5,7 @@ from graph import Line, Point, LineType
 from defines import *
 from PyQt6 import QtWidgets, QtCore, QtGui
 from PyQt6.QtCore import QEvent
-from PyQt6.QtGui import QMouseEvent, QGraphicsSceneMouseEvent
+from PyQt6.QtGui import QMouseEvent
 class Settings:
     # 分别表示每个格子的长宽，以及格子的数量
     WIDTH = 20
@@ -117,9 +117,9 @@ def pos_attach(coor: Coordinate, immde_create: bool = False, name: str = None) -
     else:
         return ([], coor, AttachStatus.NoneAttached)
 
-def defaultKeyPressEvent(event: QtGui.QKeyEvent):
-    match event.key():
-        case QtCore.Qt.Key.
+#def defaultKeyPressEvent(event: QtGui.QKeyEvent):
+    #match event.key():
+        #case QtCore.Qt.Key.
 
 # 初始的方格，来自 https://stackoverflow.com/questions/39614777/how-to-draw-a-proper-grid-on-pyqt
 class QS(QtWidgets.QWidget):
@@ -134,9 +134,12 @@ class QS(QtWidgets.QWidget):
         self.setWindowTitle("Grapher")
         self.keyPressEvent 
     
+    def draw_point(self, coor: Coordinate) -> None:
+        # 坐标
+        # TODO
     def draw_line(start: Coordinate, direction: DirectionVector, line_type: LineType):
         # 以指定参数画一条线，第二个参数意为方向向量（线段则起点到终点，射线则起点到方向向量，直线则只表示方向）
-        TODO
+        # TODO
     def draw_grid(self):
         for x in range(0,Settings.NUM_BLOCKS_X+1):
             xc = x * Settings.WIDTH
