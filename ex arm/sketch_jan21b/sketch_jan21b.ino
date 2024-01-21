@@ -1,29 +1,55 @@
-//#include "tools.h"
+#include "tools.h"
 void setup() {
   // 初始化串口通信
   Serial.begin(115200);
+  Timer_Setup();
+  Ir_Setup();
+  Stepper_Setup(); 
+  Servo_Setup(); 
+  Servo1_Setup();
 }
 
 bool BoardLED = LOW;
+//int num1,num2;
+
 
 void loop() {
+  Timer_Loop();
+  Stepper_Loop();
+  Servo_Loop();
+  Servo1_Loop();
   if (Serial.available() > 0) {
     char receivedChar = Serial.read();
+    Serial.print(receivedChar);
+    if (receivedChar == 's'){
+      Serial.print('s');
+    }
+    if (receivedChar == 'i'){
+      int com = readNumberFromSerial();
+      servo1_move(com);
+    }
+    //Serial.print('a');
     if (receivedChar == 'p') {
       int num1 = readNumberFromSerial(); // 读取第一个值
       int num2 = readNumberFromSerial(); // 读取第二个值
-      //servo_move(num2); // 控制舵机移动
+      servo_move(num2); // 控制舵机移动
       stepper_move(num1); // 控制步进电机移动
-      delay(10);
+      delay(100);
+      Serial.print('e');
+      Serial.print(num1);
+      Serial.print(num2);
     }
+
   }
 }
 
 int readNumberFromSerial() {
   char numberChars[10]; // 存储数字字符的数组
   int index = 0;
+  delay(10);
   while (Serial.available() > 0) {
     char digit = Serial.read();
+    Serial.print('i');
     if (isdigit(digit) || digit == '-') {
       numberChars[index++] = digit;
     } else if (digit == ',') {
@@ -31,13 +57,14 @@ int readNumberFromSerial() {
     }
   }
   numberChars[index] = '\0'; // 添加字符串终止符
+  //Serial.print('h');
   return atoi(numberChars); // 将字符数组转换为整数
 }
 
 
 
 void servo_move(int angle) {
-  if (angle == 0) {
+  /*if (angle == 0) {
     if (BoardLED == LOW) {
       digitalWrite(13, HIGH);
       BoardLED = HIGH;
@@ -45,11 +72,20 @@ void servo_move(int angle) {
       digitalWrite(13, LOW);
       BoardLED = LOW;
     }
+  }*/
+  Serial.print(angle);
+  if (angle != 0){
+      if (angle > 0){
+        Servo_Turn(CW,angle);
+      }
+      if (angle < 0){
+        Servo_Turn(CCW,-angle);
+      }
   }
 }
 
 void stepper_move(int steps) {
-    if (steps == -1) {
+    /*if (steps == 1) {
     if (BoardLED == LOW) {
       digitalWrite(13, HIGH);
       BoardLED = HIGH;
@@ -58,7 +94,27 @@ void stepper_move(int steps) {
       BoardLED = LOW;
   // 控制步进电机移动的逻辑
   // 使用接收到的步数值来控制步进电机的运动
+    }
+    }*/
+    Serial.print(steps);
+    if (steps != 0){
+      if (steps > 0){
+        Stepper_Go(GO_FAR,steps*50);
+      }
+      if (steps < 0){
+        Stepper_Go(GO_NEAR,-steps*50);
+      }
+    Stepper_Loop();
+    }
 }
-    }
-    }
+
+void servo1_move(int com){
+  Serial.print(com);
+  if (com == 0){
+    Servo1_Turn(DOWN);
+  }
+  else{
+    Servo1_Turn(UP);
+  }
+}
 

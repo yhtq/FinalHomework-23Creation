@@ -10,6 +10,7 @@ from time import sleep
 port = r'/dev/cu.usbserial-1410'
 ser = serial.Serial(port, 115200, timeout=0)
 gridwide = 10
+timeflag = 0
 
 def coor_to_polar(x,y):
     realy = y - 200 # Settings.WIDTH*Settings.NUM_BLOCKS_y/2
@@ -24,12 +25,6 @@ def coor_to_polar(x,y):
     machine = (step,serv)
     return machine
 
-def polar_to_machine(r,theta):
-    serv = int(theta*12/0.7)
-    step = int((r-240)/8)
-    machine = (step,serv)
-    return tuple((step, serv))
-
 
 def tran(polarcoor):
     info = polarcoor
@@ -40,18 +35,35 @@ def tran(polarcoor):
             print('send down')
         else:
             print(f'数量是{info}个')
-        mess = str(info)+'p'
+        mess = 'i'+str(info)
+        print(mess)
         ser.write(mess.encode())
-    else:
+    elif type(info) == tuple:
         print(f'发送调整极坐标{info}')
-        mess = str(info[0])+','+str(info[1])+'p'
+        mess = 'p'+str(info[0])+','+str(info[1])
+        print(mess)
         ser.write(mess.encode())
+    elif type(info) == str:
+        print('发送开始信号')
+        print(info)
+        ser.write(info.encode())
     # ser.close()
-    sleep(3)
+    sleep(0.5)
+    global timeflag
+    timeflag += 1
+    if timeflag > 3:
+        while True:
+            data = ser.read(9999)
+            if len(data) > 0:
+                print('Got:', data)
+            sleep(0.1)
+            print('idling')
+            if len(data) >= 1:
+                break
 
 
-startpoint = (400,200)
-direction = (-400,0)
+startpoint = (0,0)
+direction = (-40,-20)
 endpoint = (startpoint[0]+direction[0],startpoint[1]+direction[1])
 delta_x = endpoint[0]-startpoint[0]
 delta_y = endpoint[1]-startpoint[1]
@@ -75,13 +87,15 @@ for poin in points:
 
 #tran(grid_num + 2) # c传送数据总数
 # print(del_points)
+# tran('s')
 
 for _ in range(len(points)):
     tran(del_points[_])
     if _ == 0:
-        #tran(0)
+        tran(0)
         pass
     if _ == len(points)-1:
-        #tran(1)
+        tran(1)
         pass
+
 

@@ -35,7 +35,7 @@ WORD ServoMotionCountDown = 0;
 #define SERVO1_STEP   ((SERVO1_MAX-SERVO1_MIN)/SERVO1_GRIDS) // 4
 #define UP           1
 #define DOWN          0
-BYTE Servo1_Angle = (SERVO_MIN+SERVO_MAX)/2;//SERVO1_MAX - 5*SERVO1_STEP;      // 
+BYTE Servo1_Angle = SERVO1_MIN + 1*SERVO1_STEP;      // 
 WORD Servo1_Counter = 0;                           // 
 BYTE Servo1_Flag = 0;
 WORD Servo1MotionCountDown = 0;
@@ -235,11 +235,11 @@ void Servo1_Loop()
 
 void Servo1_Turn(int dir)
 {
-  if (dir == DOWN) Servo1_Angle = SERVO1_MAX;
+  if (dir == DOWN) Servo1_Angle = SERVO1_MAX-SERVO1_STEP; 
 
   else
   {
-    Servo1_Angle = SERVO1_MIN;
+    Servo1_Angle = SERVO1_MIN+SERVO1_STEP;
   }
 }
 
