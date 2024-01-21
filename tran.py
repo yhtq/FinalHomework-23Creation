@@ -47,7 +47,7 @@ def tran(polarcoor):
         mess = str(info[0])+','+str(info[1])+'p'
         ser.write(mess.encode())
     # ser.close()
-    sleep(5)
+    sleep(3)
 
 
 startpoint = (400,200)
@@ -73,13 +73,15 @@ for poin in points:
     else:
         del_points += [(points[i][0]-points[i-1][0],points[i][1]-points[i-1][1])]
 
-tran(grid_num + 2) # c传送数据总数
+#tran(grid_num + 2) # c传送数据总数
 # print(del_points)
 
 for _ in range(len(points)):
     tran(del_points[_])
     if _ == 0:
-        tran(0)
+        #tran(0)
+        pass
     if _ == len(points)-1:
-        tran(1)
+        #tran(1)
+        pass
 
