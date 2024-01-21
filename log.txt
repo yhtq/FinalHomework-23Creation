@@ -1842,3 +1842,1560 @@ Undo create 3
 计算点 id=1, coor=(260, 160) 到鼠标位置 (260, 160) 的距离为 0.0
 吸附到点 1
 创建 Line 对象 id=2
+吸附到网格线 (8, 17)
+吸附到网格线 (8, 16)
+吸附到网格线 (8, 15)
+吸附到网格线 (8, 13)
+吸附到网格线 (8, 12)
+吸附到网格线 (8, 11)
+吸附到网格线 (8, 11)
+吸附到网格线 (8, 11)
+吸附到网格线 (7, 9)
+吸附到网格线 (6, 8)
+吸附到网格线 (6, 8)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (7, 8)
+吸附到网格线 (7, 8)
+吸附到网格线 (7, 8)
+吸附到网格线 (7, 8)
+吸附到网格线 (7, 8)
+吸附到网格线 (7, 8)
+吸附到网格线 (7, 8)
+吸附到网格线 (7, 8)
+吸附到网格线 (7, 8)
+吸附到网格线 (7, 8)
+吸附到网格线 (7, 8)
+吸附到网格线 (7, 8)
+吸附到网格线 (7, 8)
+吸附到网格线 (7, 8)
+吸附到网格线 (7, 8)
+吸附到网格线 (7, 8)
+吸附到网格线 (7, 8)
+吸附到网格线 (8, 7)
+吸附到网格线 (8, 7)
+吸附到网格线 (8, 7)
+吸附到网格线 (8, 6)
+吸附到网格线 (8, 6)
+吸附到网格线 (8, 5)
+吸附到网格线 (8, 5)
+吸附到网格线 (9, 5)
+吸附到网格线 (9, 5)
+吸附到网格线 (9, 5)
+吸附到网格线 (9, 5)
+吸附到网格线 (9, 5)
+吸附到网格线 (9, 5)
+吸附到网格线 (9, 5)
+吸附到网格线 (9, 5)
+吸附到网格线 (9, 5)
+吸附到网格线 (9, 5)
+吸附到网格线 (9, 5)
+吸附到网格线 (9, 5)
+吸附到网格线 (9, 5)
+吸附到网格线 (9, 5)
+吸附到网格线 (9, 5)
+吸附到网格线 (9, 5)
+吸附到网格线 (9, 5)
+创建 Point 对象 id=0
+计算点 id=0, coor=(140, 160) 到鼠标位置 (140, 160) 的距离为 0.0
+吸附到点 0
+创建 Point 对象 id=1
+计算点 id=1, coor=(180, 100) 到鼠标位置 (180, 100) 的距离为 0.0
+吸附到点 1
+创建 Line 对象 id=2
+析构 Line 对象 id=2
+析构 Point 对象 id=0
+析构 Point 对象 id=1
+吸附到网格线 (8, 17)
+吸附到网格线 (8, 17)
+吸附到网格线 (7, 15)
+吸附到网格线 (7, 14)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 10)
+吸附到网格线 (6, 9)
+吸附到网格线 (6, 9)
+吸附到网格线 (6, 8)
+吸附到网格线 (6, 8)
+吸附到网格线 (6, 8)
+吸附到网格线 (6, 8)
+吸附到网格线 (6, 8)
+吸附到网格线 (6, 8)
+吸附到网格线 (6, 8)
+吸附到网格线 (6, 8)
+吸附到网格线 (6, 8)
+吸附到网格线 (6, 8)
+吸附到网格线 (6, 8)
+吸附到网格线 (6, 8)
+吸附到网格线 (6, 8)
+吸附到网格线 (6, 8)
+吸附到网格线 (7, 6)
+吸附到网格线 (7, 6)
+吸附到网格线 (7, 6)
+吸附到网格线 (7, 5)
+吸附到网格线 (7, 5)
+吸附到网格线 (7, 5)
+吸附到网格线 (7, 5)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+吸附到网格线 (8, 3)
+创建 Point 对象 id=0
+计算点 id=0, coor=(120, 160) 到鼠标位置 (120, 160) 的距离为 0.0
+吸附到点 0
+创建 Point 对象 id=1
+计算点 id=0, coor=(120, 160) 到鼠标位置 (160, 60) 的距离为 107.70329614269008
+计算点 id=1, coor=(160, 60) 到鼠标位置 (160, 60) 的距离为 0.0
+吸附到点 1
+创建 Line 对象 id=2
+计算点 id=0, coor=(120, 160) 到鼠标位置 (160, 339) 的距离为 183.41483037093812
+计算点 id=1, coor=(160, 60) 到鼠标位置 (160, 339) 的距离为 279.0
+生成 Line 对象 id=2 的命令字符串为 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1))
+计算位置: (160, 339) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (63.79310344827587, 300.51724137931035) 
+计算位置: (160, 339) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 103.61799870279492 
+吸附到网格线 (8, 17)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (159, 332) 的距离为 176.36609651517495
+计算点 id=1, coor=(160, 60) 到鼠标位置 (159, 332) 的距离为 272.0018382290826
+计算位置: (159, 332) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (66.0689655172414, 294.8275862068965) 
+计算位置: (159, 332) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 100.08978727743096 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (156, 320) 的距离为 164.0
+计算点 id=1, coor=(160, 60) 到鼠标位置 (156, 320) 的距离为 260.0307674103201
+计算位置: (156, 320) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (69.79310344827587, 285.51724137931035) 
+计算位置: (156, 320) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 92.84766908852592 
+吸附到网格线 (8, 16)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (154, 307) 的距离为 150.88074761214565
+计算点 id=1, coor=(160, 60) 到鼠标位置 (154, 307) 的距离为 247.07286374670934
+计算位置: (154, 307) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (74.0, 275.0) 
+计算位置: (154, 307) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 86.16263691415206 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (149, 276) 的距离为 119.57006314291216
+计算点 id=1, coor=(160, 60) 到鼠标位置 (149, 276) 的距离为 216.27991122617004
+计算位置: (149, 276) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (84.0, 250.0) 
+计算位置: (149, 276) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 70.00714249274856 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (146, 262) 的距离为 105.26157893552613
+计算点 id=1, coor=(160, 60) 到鼠标位置 (146, 262) 的距离为 202.48456731316588
+计算位置: (146, 262) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (88.41379310344828, 238.9655172413793) 
+计算位置: (146, 262) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 62.02224295113532 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (144, 247) 的距离为 90.24965373894794
+计算点 id=1, coor=(160, 60) 到鼠标位置 (144, 247) 的距离为 187.6832437912346
+计算位置: (144, 247) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (93.3103448275862, 226.72413793103448) 
+计算位置: (144, 247) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 54.594429424053246 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (141, 235) 的距离为 77.88452991448301
+计算点 id=1, coor=(160, 60) 到鼠标位置 (141, 235) 的距离为 176.0284067984483
+计算位置: (141, 235) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (97.0344827586207, 217.41379310344828) 
+计算位置: (141, 235) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 47.352311235148214 
+吸附到网格线 (7, 12)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (138, 212) 的距离为 55.02726596879042
+计算点 id=1, coor=(160, 60) 到鼠标位置 (138, 212) 的距离为 153.5838533179839
+计算位置: (138, 212) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (104.55172413793103, 198.6206896551724) 
+计算位置: (138, 212) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 36.02489560634806 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (134, 192) 的距离为 34.92849839314596
+计算点 id=1, coor=(160, 60) 到鼠标位置 (134, 192) 的距离为 134.5362404707371
+计算位置: (134, 192) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (110.89655172413794, 182.75862068965517) 
+计算位置: (134, 192) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 24.883175315724944 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (131, 174) 的距离为 17.804493814764857
+计算点 id=1, coor=(160, 60) 到鼠标位置 (131, 174) 的距离为 117.63077828527702
+计算位置: (131, 174) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (116.6896551724138, 168.27586206896552) 
+计算位置: (131, 174) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 15.412713068695302 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (130, 166) 的距离为 11.661903789690601
+计算点 id=1, coor=(160, 60) 到鼠标位置 (130, 166) 的距离为 110.16351483136329
+计算位置: (130, 166) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (119.3103448275862, 161.72413793103448) 
+计算位置: (130, 166) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 11.51311096697722 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (129, 160) 的距离为 9.0
+计算点 id=1, coor=(160, 60) 到鼠标位置 (129, 160) 的距离为 104.69479452198185
+计算位置: (129, 160) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (121.24137931034483, 156.89655172413794) 
+计算位置: (129, 160) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 8.356290217967334 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (128, 154) 的距离为 10.0
+计算点 id=1, coor=(160, 60) 到鼠标位置 (128, 154) 的距离为 99.29753269845128
+计算位置: (128, 154) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (123.17241379310344, 152.06896551724137) 
+计算位置: (128, 154) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 5.19946946895746 
+吸附到第一条线 2
+吸附到线 2 上的点 (123.17241379310344, 152.06896551724137)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (127, 145) 的距离为 16.55294535724685
+计算点 id=1, coor=(160, 60) 到鼠标位置 (127, 145) 的距离为 91.18113840043894
+计算位置: (127, 145) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (126.13793103448276, 144.6551724137931) 
+计算位置: (127, 145) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 0.928476690885254 
+计算位置: (128.0, 140.0) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (128.0, 140.0) 
+计算位置: (128.0, 140.0) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 0.0 
+检测位置 (128.0, 140.0) 是否在 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 上，距最近点距离为：0.0
+吸附到线 2 与 y 网格线 7 
+且有交点 (128.0, 140.0)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (126, 141) 的距离为 19.924858845171276
+计算点 id=1, coor=(160, 60) 到鼠标位置 (126, 141) 的距离为 87.84645695758026
+计算位置: (126, 141) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (127.37931034482759, 141.55172413793105) 
+计算位置: (126, 141) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 1.4855627054164202 
+计算位置: (128.0, 140.0) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (128.0, 140.0) 
+计算位置: (128.0, 140.0) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 0.0 
+检测位置 (128.0, 140.0) 是否在 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 上，距最近点距离为：0.0
+吸附到线 2 与 y 网格线 7 
+且有交点 (128.0, 140.0)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (125, 134) 的距离为 26.476404589747453
+计算点 id=1, coor=(160, 60) 到鼠标位置 (125, 134) 的距离为 81.85963596303125
+计算位置: (125, 134) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (129.6551724137931, 135.86206896551724) 
+计算位置: (125, 134) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 5.013774130780406 
+计算位置: (120.0, 160.0) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (120.0, 160.0) 
+计算位置: (120.0, 160.0) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 0.0 
+检测位置 (120.0, 160.0) 是否在 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 上，距最近点距离为：0.0
+吸附到线 2 与 x 网格线 6 
+且有交点 (120.0, 160.0)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (124, 129) 的距离为 31.25699921617557
+计算点 id=1, coor=(160, 60) 到鼠标位置 (124, 129) 的距离为 77.82673062643708
+计算位置: (124, 129) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.24137931034483, 131.89655172413794) 
+计算位置: (124, 129) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 7.799204203436179 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (124, 127) 的距离为 33.24154027718932
+计算点 id=1, coor=(160, 60) 到鼠标位置 (124, 127) 的距离为 76.05918747922567
+计算位置: (124, 127) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.93103448275863, 130.17241379310346) 
+计算位置: (124, 127) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 8.541985556144402 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (124, 126) 的距离为 34.23448553724738
+计算点 id=1, coor=(160, 60) 到鼠标位置 (124, 126) 的距离为 75.17978451685
+计算位置: (124, 126) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.27586206896552, 129.31034482758622) 
+计算位置: (124, 126) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 8.9133762324985 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (124, 125) 的距离为 35.22782990761707
+计算点 id=1, coor=(160, 60) 到鼠标位置 (124, 125) 的距离为 74.30343195303969
+计算位置: (124, 125) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.6206896551724, 128.44827586206895) 
+计算位置: (124, 125) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 9.284766908852587 
+吸附到网格线 (6, 6)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (123, 125) 的距离为 35.12833614050059
+计算点 id=1, coor=(160, 60) 到鼠标位置 (123, 125) 的距离为 74.79304780526061
+计算位置: (123, 125) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.48275862068965, 128.79310344827587) 
+计算位置: (123, 125) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 10.213243599737853 
+吸附到网格线 (6, 6)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (123, 125) 的距离为 35.12833614050059
+计算点 id=1, coor=(160, 60) 到鼠标位置 (123, 125) 的距离为 74.79304780526061
+计算位置: (123, 125) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.48275862068965, 128.79310344827587) 
+计算位置: (123, 125) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 10.213243599737853 
+吸附到网格线 (6, 6)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (123, 125) 的距离为 35.12833614050059
+计算点 id=1, coor=(160, 60) 到鼠标位置 (123, 125) 的距离为 74.79304780526061
+计算位置: (123, 125) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.48275862068965, 128.79310344827587) 
+计算位置: (123, 125) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 10.213243599737853 
+吸附到网格线 (6, 6)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (123, 124) 的距离为 36.124783736376884
+计算点 id=1, coor=(160, 60) 到鼠标位置 (123, 124) 的距离为 73.92563831310488
+计算位置: (123, 124) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.82758620689654, 127.93103448275862) 
+计算位置: (123, 124) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 10.584634276091945 
+吸附到网格线 (6, 6)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (122, 124) 的距离为 36.05551275463989
+计算点 id=1, coor=(160, 60) 到鼠标位置 (122, 124) 的距离为 74.43117626371358
+计算位置: (122, 124) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.68965517241378, 128.27586206896552) 
+计算位置: (122, 124) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 11.513110966977205 
+吸附到网格线 (6, 6)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (121, 122) 的距离为 38.01315561749642
+计算点 id=1, coor=(160, 60) 到鼠标位置 (121, 122) 的距离为 73.24616030891995
+计算位置: (121, 122) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (133.24137931034483, 126.89655172413794) 
+计算位置: (121, 122) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 13.184369010570682 
+吸附到网格线 (6, 6)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (121, 121) 的距离为 39.01281840626232
+计算点 id=1, coor=(160, 60) 到鼠标位置 (121, 121) 的距离为 72.40165743959182
+计算位置: (121, 121) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (133.58620689655172, 126.0344827586207) 
+计算位置: (121, 121) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 13.55575968692478 
+吸附到网格线 (6, 6)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (120, 120) 的距离为 40.0
+计算点 id=1, coor=(160, 60) 到鼠标位置 (120, 120) 的距离为 72.11102550927978
+计算位置: (120, 120) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (133.79310344827587, 125.51724137931035) 
+计算位置: (120, 120) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 14.85562705416416 
+吸附到网格线 (6, 6)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (118, 116) 的距离为 44.04543109109048
+计算点 id=1, coor=(160, 60) 到鼠标位置 (118, 116) 的距离为 70.0
+计算位置: (118, 116) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (134.89655172413794, 122.75862068965517) 
+计算位置: (118, 116) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 18.19814314135109 
+吸附到网格线 (6, 6)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (116, 111) 的距离为 49.16299421312742
+计算点 id=1, coor=(160, 60) 到鼠标位置 (116, 111) 的距离为 67.35725647619564
+计算位置: (116, 111) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (136.3448275862069, 119.13793103448276) 
+计算位置: (116, 111) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 21.912049904892115 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (114, 109) 的距离为 51.35172830587107
+计算点 id=1, coor=(160, 60) 到鼠标位置 (114, 109) 的距离为 67.20863039818622
+计算位置: (114, 109) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (136.75862068965517, 118.10344827586206) 
+计算位置: (114, 109) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 24.511784639370845 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (113, 106) 的距离为 54.45181356024793
+计算点 id=1, coor=(160, 60) 到鼠标位置 (113, 106) 的距离为 65.76473218982953
+计算位置: (113, 106) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (137.6551724137931, 115.86206896551724) 
+计算位置: (113, 106) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 26.55443335931842 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (111, 100) 的距离为 60.67124524847005
+计算点 id=1, coor=(160, 60) 到鼠标位置 (111, 100) 的距离为 63.25345840347388
+计算位置: (111, 100) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (139.44827586206895, 111.37931034482759) 
+计算位置: (111, 100) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 30.63973079921355 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (110, 99) 的距离为 61.814237842102365
+计算点 id=1, coor=(160, 60) 到鼠标位置 (110, 99) 的距离为 63.41135544995076
+计算位置: (110, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (139.6551724137931, 110.86206896551724) 
+计算位置: (110, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 31.939598166452924 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (108, 96) 的距离为 65.11528238439882
+计算点 id=1, coor=(160, 60) 到鼠标位置 (108, 96) 的距离为 63.245553203367585
+计算位置: (108, 96) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (140.41379310344828, 108.96551724137932) 
+计算位置: (108, 96) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 34.91072357728576 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (108, 95) 的距离为 66.09841147864296
+计算点 id=1, coor=(160, 60) 到鼠标位置 (108, 95) 的距离为 62.68173577685928
+计算位置: (108, 95) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (140.75862068965517, 108.10344827586206) 
+计算位置: (108, 95) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 35.282114253639854 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (108, 94) 的距离为 67.08203932499369
+计算点 id=1, coor=(160, 60) 到鼠标位置 (108, 94) 的距离为 62.12889826803627
+计算位置: (108, 94) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (141.10344827586206, 107.24137931034483) 
+计算位置: (108, 94) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 35.65350492999395 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (107, 94) 的距离为 67.26812023536856
+计算点 id=1, coor=(160, 60) 到鼠标位置 (107, 94) 的距离为 62.96824596572466
+计算位置: (107, 94) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (140.9655172413793, 107.58620689655173) 
+计算位置: (107, 94) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 36.58198162087921 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (107, 94) 的距离为 67.26812023536856
+计算点 id=1, coor=(160, 60) 到鼠标位置 (107, 94) 的距离为 62.96824596572466
+计算位置: (107, 94) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (140.9655172413793, 107.58620689655173) 
+计算位置: (107, 94) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 36.58198162087921 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (106, 94) 的距离为 67.468511173732
+计算点 id=1, coor=(160, 60) 到鼠标位置 (106, 94) 的距离为 63.812224534175265
+计算位置: (106, 94) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (140.82758620689654, 107.93103448275863) 
+计算位置: (106, 94) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 37.510458311764474 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (106, 95) 的距离为 66.49060083951716
+计算点 id=1, coor=(160, 60) 到鼠标位置 (106, 95) 的距离为 64.35060217278468
+计算位置: (106, 95) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (140.48275862068965, 108.79310344827587) 
+计算位置: (106, 95) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 37.13906763541037 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (106, 95) 的距离为 66.49060083951716
+计算点 id=1, coor=(160, 60) 到鼠标位置 (106, 95) 的距离为 64.35060217278468
+计算位置: (106, 95) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (140.48275862068965, 108.79310344827587) 
+计算位置: (106, 95) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 37.13906763541037 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (106, 96) 的距离为 65.5133574166368
+计算点 id=1, coor=(160, 60) 到鼠标位置 (106, 96) 的距离为 64.89992295835181
+计算位置: (106, 96) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (140.13793103448276, 109.65517241379311) 
+计算位置: (106, 96) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 36.767676959056274 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (105, 96) 的距离为 65.73431371817918
+计算点 id=1, coor=(160, 60) 到鼠标位置 (105, 96) 的距离为 65.73431371817918
+计算位置: (105, 96) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (140.0, 110.0) 
+计算位置: (105, 96) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 37.69615364994153 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (105, 97) 的距离为 64.76109943476871
+计算点 id=1, coor=(160, 60) 到鼠标位置 (105, 97) 的距离为 66.2872536767062
+计算位置: (105, 97) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (139.6551724137931, 110.86206896551724) 
+计算位置: (105, 97) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 37.32476297358743 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (104, 98) 的距离为 64.03124237432849
+计算点 id=1, coor=(160, 60) 到鼠标位置 (104, 98) 的距离为 67.67569726275453
+计算位置: (104, 98) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (139.17241379310346, 112.06896551724138) 
+计算位置: (104, 98) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 37.88184898811859 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (104, 98) 的距离为 64.03124237432849
+计算点 id=1, coor=(160, 60) 到鼠标位置 (104, 98) 的距离为 67.67569726275453
+计算位置: (104, 98) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (139.17241379310346, 112.06896551724138) 
+计算位置: (104, 98) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 37.88184898811859 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (103, 98) 的距离为 64.28841264178172
+计算点 id=1, coor=(160, 60) 到鼠标位置 (103, 98) 的距离为 68.5054742338158
+计算位置: (103, 98) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (139.0344827586207, 112.41379310344828) 
+计算位置: (103, 98) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 38.810325679003846 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (103, 98) 的距离为 64.28841264178172
+计算点 id=1, coor=(160, 60) 到鼠标位置 (103, 98) 的距离为 68.5054742338158
+计算位置: (103, 98) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (139.0344827586207, 112.41379310344828) 
+计算位置: (103, 98) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 38.810325679003846 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (102, 99) 的距离为 63.60031446463138
+计算点 id=1, coor=(160, 60) 到鼠标位置 (102, 99) 的距离为 69.8927750200262
+计算位置: (102, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (138.55172413793105, 113.62068965517241) 
+计算位置: (102, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 39.367411693535004 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (102, 99) 的距离为 63.60031446463138
+计算点 id=1, coor=(160, 60) 到鼠标位置 (102, 99) 的距离为 69.8927750200262
+计算位置: (102, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (138.55172413793105, 113.62068965517241) 
+计算位置: (102, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 39.367411693535004 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (101, 99) 的距离为 63.89053137985315
+计算点 id=1, coor=(160, 60) 到鼠标位置 (101, 99) 的距离为 70.7248188403477
+计算位置: (101, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (138.41379310344828, 113.9655172413793) 
+计算位置: (101, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 40.29588838442026 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (101, 99) 的距离为 63.89053137985315
+计算点 id=1, coor=(160, 60) 到鼠标位置 (101, 99) 的距离为 70.7248188403477
+计算位置: (101, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (138.41379310344828, 113.9655172413793) 
+计算位置: (101, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 40.29588838442026 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (101, 99) 的距离为 63.89053137985315
+计算点 id=1, coor=(160, 60) 到鼠标位置 (101, 99) 的距离为 70.7248188403477
+计算位置: (101, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (138.41379310344828, 113.9655172413793) 
+计算位置: (101, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 40.29588838442026 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (100, 99) 的距离为 64.19501538281614
+计算点 id=1, coor=(160, 60) 到鼠标位置 (100, 99) 的距离为 71.56116265125938
+计算位置: (100, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (138.27586206896552, 114.3103448275862) 
+计算位置: (100, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 41.22436507530552 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (100, 99) 的距离为 64.19501538281614
+计算点 id=1, coor=(160, 60) 到鼠标位置 (100, 99) 的距离为 71.56116265125938
+计算位置: (100, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (138.27586206896552, 114.3103448275862) 
+计算位置: (100, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 41.22436507530552 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (100, 99) 的距离为 64.19501538281614
+计算点 id=1, coor=(160, 60) 到鼠标位置 (100, 99) 的距离为 71.56116265125938
+计算位置: (100, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (138.27586206896552, 114.3103448275862) 
+计算位置: (100, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 41.22436507530552 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (99, 99) 的距离为 64.51356446515724
+计算点 id=1, coor=(160, 60) 到鼠标位置 (99, 99) 的距离为 72.40165743959182
+计算位置: (99, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (138.13793103448276, 114.65517241379311) 
+计算位置: (99, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 42.152841766190775 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (99, 99) 的距离为 64.51356446515724
+计算点 id=1, coor=(160, 60) 到鼠标位置 (99, 99) 的距离为 72.40165743959182
+计算位置: (99, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (138.13793103448276, 114.65517241379311) 
+计算位置: (99, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 42.152841766190775 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (99, 99) 的距离为 64.51356446515724
+计算点 id=1, coor=(160, 60) 到鼠标位置 (99, 99) 的距离为 72.40165743959182
+计算位置: (99, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (138.13793103448276, 114.65517241379311) 
+计算位置: (99, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 42.152841766190775 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (98, 99) 的距离为 64.8459713474939
+计算点 id=1, coor=(160, 60) 到鼠标位置 (98, 99) 的距离为 73.24616030891995
+计算位置: (98, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (138.0, 115.0) 
+计算位置: (98, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 43.08131845707603 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (98, 99) 的距离为 64.8459713474939
+计算点 id=1, coor=(160, 60) 到鼠标位置 (98, 99) 的距离为 73.24616030891995
+计算位置: (98, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (138.0, 115.0) 
+计算位置: (98, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 43.08131845707603 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (98, 99) 的距离为 64.8459713474939
+计算点 id=1, coor=(160, 60) 到鼠标位置 (98, 99) 的距离为 73.24616030891995
+计算位置: (98, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (138.0, 115.0) 
+计算位置: (98, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 43.08131845707603 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (99, 99) 的距离为 64.51356446515724
+计算点 id=1, coor=(160, 60) 到鼠标位置 (99, 99) 的距离为 72.40165743959182
+计算位置: (99, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (138.13793103448276, 114.65517241379311) 
+计算位置: (99, 99) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 42.152841766190775 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (102, 101) 的距离为 61.68468205316454
+计算点 id=1, coor=(160, 60) 到鼠标位置 (102, 101) 的距离为 71.02816342831905
+计算位置: (102, 101) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (137.86206896551724, 115.34482758620689) 
+计算位置: (102, 101) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 38.62463034082678 
+吸附到网格线 (5, 5)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (107, 104) 的距离为 57.48912940721924
+计算点 id=1, coor=(160, 60) 到鼠标位置 (107, 104) 的距离为 68.8839603971781
+计算位置: (107, 104) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (137.51724137931035, 116.20689655172413) 
+计算位置: (107, 104) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 32.86807485733818 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (112, 108) 的距离为 52.61178575186362
+计算点 id=1, coor=(160, 60) 到鼠标位置 (112, 108) 的距离为 67.88225099390856
+计算位置: (112, 108) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (136.82758620689654, 117.93103448275862) 
+计算位置: (112, 108) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 26.740128697495457 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (119, 114) 的距离为 46.010868281309364
+计算点 id=1, coor=(160, 60) 到鼠标位置 (119, 114) 的距离为 67.80117993073571
+计算位置: (119, 114) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (135.72413793103448, 120.6896551724138) 
+计算位置: (119, 114) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 18.012447803174027 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (121, 116) 的距离为 44.01136216933077
+计算点 id=1, coor=(160, 60) 到鼠标位置 (121, 116) 的距离为 68.24221567329127
+计算位置: (121, 116) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (135.31034482758622, 121.72413793103448) 
+计算位置: (121, 116) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 15.412713068695314 
+吸附到网格线 (6, 6)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (124, 119) 的距离为 41.19465984809196
+计算点 id=1, coor=(160, 60) 到鼠标位置 (124, 119) 的距离为 69.1158447825099
+计算位置: (124, 119) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (134.68965517241378, 123.27586206896552) 
+计算位置: (124, 119) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 11.513110966977205 
+吸附到网格线 (6, 6)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (132, 127) 的距离为 35.11409973215888
+计算点 id=1, coor=(160, 60) 到鼠标位置 (132, 127) 的距离为 72.61542535852834
+计算位置: (132, 127) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (133.0344827586207, 127.41379310344828) 
+计算位置: (132, 127) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 1.1141720290623216 
+吸附到第一条线 2
+吸附到线 2 上的点 (133.0344827586207, 127.41379310344828)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (135, 130) 的距离为 33.54101966249684
+计算点 id=1, coor=(160, 60) 到鼠标位置 (135, 130) 的距离为 74.33034373659252
+计算位置: (135, 130) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.41379310344828, 128.9655172413793) 
+计算位置: (135, 130) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 2.785430072655773 
+计算位置: (140.0, 110.0) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (140.0, 110.0) 
+计算位置: (140.0, 110.0) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 0.0 
+检测位置 (140.0, 110.0) 是否在 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 上，距最近点距离为：0.0
+吸附到线 2 与 x 网格线 7 
+且有交点 (140.0, 110.0)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (138, 133) 的距离为 32.449961479175904
+计算点 id=1, coor=(160, 60) 到鼠标位置 (138, 133) 的距离为 76.24303246854758
+计算位置: (138, 133) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.79310344827587, 130.51724137931035) 
+计算位置: (138, 133) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 6.685032174373856 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (140, 135) 的距离为 32.01562118716424
+计算点 id=1, coor=(160, 60) 到鼠标位置 (140, 135) 的距离为 77.62087348130012
+计算位置: (140, 135) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.3793103448276, 131.55172413793105) 
+计算位置: (140, 135) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 9.284766908852587 
+吸附到网格线 (7, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (143, 138) 的距离为 31.827660925679098
+计算点 id=1, coor=(160, 60) 到鼠标位置 (143, 138) 的距离为 79.83107164506812
+计算位置: (143, 138) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (130.75862068965517, 133.10344827586206) 
+计算位置: (143, 138) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 13.184369010570682 
+吸附到网格线 (7, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (144, 140) 的距离为 31.240998703626616
+计算点 id=1, coor=(160, 60) 到鼠标位置 (144, 140) 的距离为 81.58431221748455
+计算位置: (144, 140) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (130.20689655172413, 134.48275862068965) 
+计算位置: (144, 140) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 14.85562705416416 
+吸附到网格线 (7, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (145, 141) 的距离为 31.400636936215164
+计算点 id=1, coor=(160, 60) 到鼠标位置 (145, 141) 的距离为 82.37718130647589
+计算位置: (145, 141) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (130.0, 135.0) 
+计算位置: (145, 141) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 16.15549442140351 
+吸附到网格线 (7, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (145, 142) 的距离为 30.805843601498726
+计算点 id=1, coor=(160, 60) 到鼠标位置 (145, 142) 的距离为 83.3606621854697
+计算位置: (145, 142) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (129.6551724137931, 135.86206896551724) 
+计算位置: (145, 142) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 16.52688509775761 
+吸附到网格线 (7, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (146, 142) 的距离为 31.622776601683793
+计算点 id=1, coor=(160, 60) 到鼠标位置 (146, 142) 的距离为 83.18653737234169
+计算位置: (146, 142) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (129.79310344827587, 135.51724137931035) 
+计算位置: (146, 142) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 17.455361788642865 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (146, 142) 的距离为 31.622776601683793
+计算点 id=1, coor=(160, 60) 到鼠标位置 (146, 142) 的距离为 83.18653737234169
+计算位置: (146, 142) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (129.79310344827587, 135.51724137931035) 
+计算位置: (146, 142) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 17.455361788642865 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (146, 143) 的距离为 31.064449134018133
+计算点 id=1, coor=(160, 60) 到鼠标位置 (146, 143) 的距离为 84.17244204607586
+计算位置: (146, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (129.44827586206895, 136.3793103448276) 
+计算位置: (146, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 17.82675246499699 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (146, 143) 的距离为 31.064449134018133
+计算点 id=1, coor=(160, 60) 到鼠标位置 (146, 143) 的距离为 84.17244204607586
+计算位置: (146, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (129.44827586206895, 136.3793103448276) 
+计算位置: (146, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 17.82675246499699 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (146, 143) 的距离为 31.064449134018133
+计算点 id=1, coor=(160, 60) 到鼠标位置 (146, 143) 的距离为 84.17244204607586
+计算位置: (146, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (129.44827586206895, 136.3793103448276) 
+计算位置: (146, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 17.82675246499699 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (147, 143) 的距离为 31.906112267087632
+计算点 id=1, coor=(160, 60) 到鼠标位置 (147, 143) 的距离为 84.01190391843289
+计算位置: (147, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (129.58620689655172, 136.0344827586207) 
+计算位置: (147, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 18.755229155882244 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (147, 143) 的距离为 31.906112267087632
+计算点 id=1, coor=(160, 60) 到鼠标位置 (147, 143) 的距离为 84.01190391843289
+计算位置: (147, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (129.58620689655172, 136.0344827586207) 
+计算位置: (147, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 18.755229155882244 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (148, 143) 的距离为 32.7566787083184
+计算点 id=1, coor=(160, 60) 到鼠标位置 (148, 143) 的距离为 83.86298349093002
+计算位置: (148, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (129.72413793103448, 135.68965517241378) 
+计算位置: (148, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 19.68370584676751 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (151, 145) 的距离为 34.438350715445125
+计算点 id=1, coor=(160, 60) 到鼠标位置 (151, 145) 的距离为 85.47514258543241
+计算位置: (151, 145) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (129.44827586206895, 136.3793103448276) 
+计算位置: (151, 145) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 23.211917272131494 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (154, 146) 的距离为 36.76955262170047
+计算点 id=1, coor=(160, 60) 到鼠标位置 (154, 146) 的距离为 86.20904824900923
+计算位置: (154, 146) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (129.51724137931035, 136.20689655172413) 
+计算位置: (154, 146) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 26.368738021141365 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (161, 150) 的距离为 42.20189569201838
+计算点 id=1, coor=(160, 60) 到鼠标位置 (161, 150) 的距离为 90.00555538409837
+计算位置: (161, 150) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (129.10344827586206, 137.24137931034483) 
+计算位置: (161, 150) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 34.3536375627546 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (166, 154) 的距离为 46.389654018972806
+计算点 id=1, coor=(160, 60) 到鼠标位置 (166, 154) 的距离为 94.19129471453293
+计算位置: (166, 154) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (128.41379310344828, 138.9655172413793) 
+计算位置: (166, 154) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 40.4815837225973 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (169, 155) 的距离为 49.25444142409901
+计算点 id=1, coor=(160, 60) 到鼠标位置 (169, 155) 的距离为 95.42536350467836
+计算位置: (169, 155) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (128.48275862068965, 138.79310344827587) 
+计算位置: (169, 155) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 43.63840447160719 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (173, 158) 的距离为 53.03772242470448
+计算点 id=1, coor=(160, 60) 到鼠标位置 (173, 158) 的距离为 98.85848471426213
+计算位置: (173, 158) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (128.0, 140.0) 
+计算位置: (173, 158) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 48.46648326421054 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (174, 159) 的距离为 54.00925846556311
+计算点 id=1, coor=(160, 60) 到鼠标位置 (174, 159) 的距离为 99.98499887483122
+计算位置: (174, 159) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (127.79310344827586, 140.51724137931035) 
+计算位置: (174, 159) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 49.7663506314499 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (175, 160) 的距离为 55.0
+计算点 id=1, coor=(160, 60) 到鼠标位置 (175, 160) 的距离为 101.11874208078342
+计算位置: (175, 160) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (127.58620689655173, 141.0344827586207) 
+计算位置: (175, 160) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 51.066217998689254 
+吸附到网格线 (9, 8)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (176, 160) 的距离为 56.0
+计算点 id=1, coor=(160, 60) 到鼠标位置 (176, 160) 的距离为 101.27191120937731
+计算位置: (176, 160) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (127.72413793103448, 140.68965517241378) 
+计算位置: (176, 160) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 51.99469468957453 
+吸附到网格线 (9, 8)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (176, 161) 的距离为 56.00892785976178
+计算点 id=1, coor=(160, 60) 到鼠标位置 (176, 161) 的距离为 102.25947388873072
+计算位置: (176, 161) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (127.37931034482759, 141.55172413793105) 
+计算位置: (176, 161) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 52.36608536592862 
+吸附到网格线 (9, 8)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (176, 161) 的距离为 56.00892785976178
+计算点 id=1, coor=(160, 60) 到鼠标位置 (176, 161) 的距离为 102.25947388873072
+计算位置: (176, 161) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (127.37931034482759, 141.55172413793105) 
+计算位置: (176, 161) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 52.36608536592862 
+吸附到网格线 (9, 8)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (176, 161) 的距离为 56.00892785976178
+计算点 id=1, coor=(160, 60) 到鼠标位置 (176, 161) 的距离为 102.25947388873072
+计算位置: (176, 161) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (127.37931034482759, 141.55172413793105) 
+计算位置: (176, 161) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 52.36608536592862 
+吸附到网格线 (9, 8)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (176, 160) 的距离为 56.0
+计算点 id=1, coor=(160, 60) 到鼠标位置 (176, 160) 的距离为 101.27191120937731
+计算位置: (176, 160) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (127.72413793103448, 140.68965517241378) 
+计算位置: (176, 160) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 51.99469468957453 
+吸附到网格线 (9, 8)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (176, 160) 的距离为 56.0
+计算点 id=1, coor=(160, 60) 到鼠标位置 (176, 160) 的距离为 101.27191120937731
+计算位置: (176, 160) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (127.72413793103448, 140.68965517241378) 
+计算位置: (176, 160) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 51.99469468957453 
+吸附到网格线 (9, 8)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (176, 160) 的距离为 56.0
+计算点 id=1, coor=(160, 60) 到鼠标位置 (176, 160) 的距离为 101.27191120937731
+计算位置: (176, 160) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (127.72413793103448, 140.68965517241378) 
+计算位置: (176, 160) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 51.99469468957453 
+吸附到网格线 (9, 8)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (176, 159) 的距离为 56.00892785976178
+计算点 id=1, coor=(160, 60) 到鼠标位置 (176, 159) 的距离为 100.2845950283492
+计算位置: (176, 159) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (128.06896551724137, 139.82758620689654) 
+计算位置: (176, 159) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 51.623304013220434 
+吸附到网格线 (9, 8)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (176, 159) 的距离为 56.00892785976178
+计算点 id=1, coor=(160, 60) 到鼠标位置 (176, 159) 的距离为 100.2845950283492
+计算位置: (176, 159) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (128.06896551724137, 139.82758620689654) 
+计算位置: (176, 159) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 51.623304013220434 
+吸附到网格线 (9, 8)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (176, 158) 的距离为 56.0357029044876
+计算点 id=1, coor=(160, 60) 到鼠标位置 (176, 158) 的距离为 99.29753269845128
+计算位置: (176, 158) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (128.41379310344828, 138.9655172413793) 
+计算位置: (176, 158) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 51.25191333686631 
+吸附到网格线 (9, 8)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (176, 158) 的距离为 56.0357029044876
+计算点 id=1, coor=(160, 60) 到鼠标位置 (176, 158) 的距离为 99.29753269845128
+计算位置: (176, 158) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (128.41379310344828, 138.9655172413793) 
+计算位置: (176, 158) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 51.25191333686631 
+吸附到网格线 (9, 8)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (174, 156) 的距离为 54.147945482723536
+计算点 id=1, coor=(160, 60) 到鼠标位置 (174, 156) 的距离为 97.01546268507923
+计算位置: (174, 156) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (128.82758620689654, 137.93103448275863) 
+计算位置: (174, 156) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 48.65217860238759 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (173, 155) 的距离为 53.23532661682466
+计算点 id=1, coor=(160, 60) 到鼠标位置 (173, 155) 的距离为 95.88534820294495
+计算位置: (173, 155) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (129.0344827586207, 137.41379310344828) 
+计算位置: (173, 155) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 47.352311235148214 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (170, 153) 的距离为 50.48762224545735
+计算点 id=1, coor=(160, 60) 到鼠标位置 (170, 153) 的距离为 93.53608929178085
+计算位置: (170, 153) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (129.31034482758622, 136.72413793103448) 
+计算位置: (170, 153) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 43.82409980978423 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (168, 151) 的距离为 48.83646178829912
+计算点 id=1, coor=(160, 60) 到鼠标位置 (168, 151) 的距离为 91.35097153287424
+计算位置: (168, 151) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (129.72413793103448, 135.68965517241378) 
+计算位置: (168, 151) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 41.22436507530553 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (167, 149) 的距离为 48.27007354458868
+计算点 id=1, coor=(160, 60) 到鼠标位置 (167, 149) 的距离为 89.27485648266257
+计算位置: (167, 149) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (130.27586206896552, 134.31034482758622) 
+计算位置: (167, 149) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 39.55310703171204 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (165, 148) 的距离为 46.57252408878007
+计算点 id=1, coor=(160, 60) 到鼠标位置 (165, 148) 的距离为 88.14193099768123
+计算位置: (165, 148) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (130.3448275862069, 134.13793103448276) 
+计算位置: (165, 148) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 37.32476297358743 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (164, 147) 的距离为 45.880278987817846
+计算点 id=1, coor=(160, 60) 到鼠标位置 (164, 147) 的距离为 87.09190547921202
+计算位置: (164, 147) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (130.55172413793105, 133.6206896551724) 
+计算位置: (164, 147) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 36.02489560634805 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (162, 146) 的距离为 44.27188724235731
+计算点 id=1, coor=(160, 60) 到鼠标位置 (162, 146) 的距离为 86.02325267042627
+计算位置: (162, 146) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (130.6206896551724, 133.44827586206895) 
+计算位置: (162, 146) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 33.79655154822345 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (161, 145) 的距离为 43.657759905886145
+计算点 id=1, coor=(160, 60) 到鼠标位置 (161, 145) 的距离为 85.00588214941364
+计算位置: (161, 145) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (130.82758620689654, 132.93103448275863) 
+计算位置: (161, 145) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 32.49668418098408 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (160, 145) 的距离为 42.720018726587654
+计算点 id=1, coor=(160, 60) 到鼠标位置 (160, 145) 的距离为 85.0
+计算位置: (160, 145) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (130.68965517241378, 133.27586206896552) 
+计算位置: (160, 145) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 31.568207490098825 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (160, 144) 的距离为 43.08131845707603
+计算点 id=1, coor=(160, 60) 到鼠标位置 (160, 144) 的距离为 84.0
+计算位置: (160, 144) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.0344827586207, 132.41379310344828) 
+计算位置: (160, 144) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 31.196816813744704 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (158, 143) 的距离为 41.6293165929973
+计算点 id=1, coor=(160, 60) 到鼠标位置 (158, 143) 的距离为 83.02409288875127
+计算位置: (158, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.10344827586206, 132.24137931034483) 
+计算位置: (158, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 28.9684727556201 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (158, 143) 的距离为 41.6293165929973
+计算点 id=1, coor=(160, 60) 到鼠标位置 (158, 143) 的距离为 83.02409288875127
+计算位置: (158, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.10344827586206, 132.24137931034483) 
+计算位置: (158, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 28.9684727556201 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (157, 142) 的距离为 41.14608122288197
+计算点 id=1, coor=(160, 60) 到鼠标位置 (157, 142) 的距离为 82.05485969764375
+计算位置: (157, 142) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.31034482758622, 131.72413793103448) 
+计算位置: (157, 142) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 27.66860538838072 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (155, 141) 的距离为 39.824615503479755
+计算点 id=1, coor=(160, 60) 到鼠标位置 (155, 141) 的距离为 81.15417426109393
+计算位置: (155, 141) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.3793103448276, 131.55172413793105) 
+计算位置: (155, 141) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 25.4402613302561 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (154, 140) 的距离为 39.44616584663204
+计算点 id=1, coor=(160, 60) 到鼠标位置 (154, 140) 的距离为 80.22468448052632
+计算位置: (154, 140) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.58620689655172, 131.0344827586207) 
+计算位置: (154, 140) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 24.14039396301675 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (153, 140) 的距离为 38.58756276314948
+计算点 id=1, coor=(160, 60) 到鼠标位置 (153, 140) 的距离为 80.30566605165541
+计算位置: (153, 140) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.44827586206895, 131.3793103448276) 
+计算位置: (153, 140) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 23.211917272131494 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (152, 139) 的距离为 38.27531841800928
+计算点 id=1, coor=(160, 60) 到鼠标位置 (152, 139) 的距离为 79.40403012442127
+计算位置: (152, 139) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.6551724137931, 130.86206896551724) 
+计算位置: (152, 139) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 21.912049904892115 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (152, 139) 的距离为 38.27531841800928
+计算点 id=1, coor=(160, 60) 到鼠标位置 (152, 139) 的距离为 79.40403012442127
+计算位置: (152, 139) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.6551724137931, 130.86206896551724) 
+计算位置: (152, 139) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 21.912049904892115 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (152, 138) 的距离为 38.8329756778952
+计算点 id=1, coor=(160, 60) 到鼠标位置 (152, 138) 的距离为 78.40918313565064
+计算位置: (152, 138) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.0, 130.0) 
+计算位置: (152, 138) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 21.540659228538015 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (152, 138) 的距离为 38.8329756778952
+计算点 id=1, coor=(160, 60) 到鼠标位置 (152, 138) 的距离为 78.40918313565064
+计算位置: (152, 138) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.0, 130.0) 
+计算位置: (152, 138) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 21.540659228538015 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (152, 138) 的距离为 38.8329756778952
+计算点 id=1, coor=(160, 60) 到鼠标位置 (152, 138) 的距离为 78.40918313565064
+计算位置: (152, 138) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.0, 130.0) 
+计算位置: (152, 138) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 21.540659228538015 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (152, 137) 的距离为 39.408120990476064
+计算点 id=1, coor=(160, 60) 到鼠标位置 (152, 137) 的距离为 77.41446893184762
+计算位置: (152, 137) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.3448275862069, 129.13793103448276) 
+计算位置: (152, 137) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 21.16926855218392 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (152, 137) 的距离为 39.408120990476064
+计算点 id=1, coor=(160, 60) 到鼠标位置 (152, 137) 的距离为 77.41446893184762
+计算位置: (152, 137) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.3448275862069, 129.13793103448276) 
+计算位置: (152, 137) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 21.16926855218392 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (152, 137) 的距离为 39.408120990476064
+计算点 id=1, coor=(160, 60) 到鼠标位置 (152, 137) 的距离为 77.41446893184762
+计算位置: (152, 137) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.3448275862069, 129.13793103448276) 
+计算位置: (152, 137) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 21.16926855218392 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (153, 137) 的距离为 40.22437072223753
+计算点 id=1, coor=(160, 60) 到鼠标位置 (153, 137) 的距离为 77.31752712031083
+计算位置: (153, 137) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.48275862068965, 128.79310344827587) 
+计算位置: (153, 137) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 22.09774524306917 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (153, 137) 的距离为 40.22437072223753
+计算点 id=1, coor=(160, 60) 到鼠标位置 (153, 137) 的距离为 77.31752712031083
+计算位置: (153, 137) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.48275862068965, 128.79310344827587) 
+计算位置: (153, 137) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 22.09774524306917 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (153, 137) 的距离为 40.22437072223753
+计算点 id=1, coor=(160, 60) 到鼠标位置 (153, 137) 的距离为 77.31752712031083
+计算位置: (153, 137) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.48275862068965, 128.79310344827587) 
+计算位置: (153, 137) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 22.09774524306917 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (153, 137) 的距离为 40.22437072223753
+计算点 id=1, coor=(160, 60) 到鼠标位置 (153, 137) 的距离为 77.31752712031083
+计算位置: (153, 137) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.48275862068965, 128.79310344827587) 
+计算位置: (153, 137) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 22.09774524306917 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (154, 137) 的距离为 41.048751503547585
+计算点 id=1, coor=(160, 60) 到鼠标位置 (154, 137) 的距离为 77.23341245859851
+计算位置: (154, 137) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.6206896551724, 128.44827586206895) 
+计算位置: (154, 137) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 23.02622193395444 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (154, 138) 的距离为 40.496913462633174
+计算点 id=1, coor=(160, 60) 到鼠标位置 (154, 138) 的距离为 78.23042886243178
+计算位置: (154, 138) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.27586206896552, 129.31034482758622) 
+计算位置: (154, 138) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 23.397612610308524 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (154, 138) 的距离为 40.496913462633174
+计算点 id=1, coor=(160, 60) 到鼠标位置 (154, 138) 的距离为 78.23042886243178
+计算位置: (154, 138) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.27586206896552, 129.31034482758622) 
+计算位置: (154, 138) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 23.397612610308524 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (154, 138) 的距离为 40.496913462633174
+计算点 id=1, coor=(160, 60) 到鼠标位置 (154, 138) 的距离为 78.23042886243178
+计算位置: (154, 138) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.27586206896552, 129.31034482758622) 
+计算位置: (154, 138) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 23.397612610308524 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (154, 138) 的距离为 40.496913462633174
+计算点 id=1, coor=(160, 60) 到鼠标位置 (154, 138) 的距离为 78.23042886243178
+计算位置: (154, 138) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.27586206896552, 129.31034482758622) 
+计算位置: (154, 138) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 23.397612610308524 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (154, 138) 的距离为 40.496913462633174
+计算点 id=1, coor=(160, 60) 到鼠标位置 (154, 138) 的距离为 78.23042886243178
+计算位置: (154, 138) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.27586206896552, 129.31034482758622) 
+计算位置: (154, 138) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 23.397612610308524 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (154, 139) 的距离为 39.96248240537617
+计算点 id=1, coor=(160, 60) 到鼠标位置 (154, 139) 的距离为 79.22752047110903
+计算位置: (154, 139) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.93103448275863, 130.17241379310346) 
+计算位置: (154, 139) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 23.76900328666262 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (154, 139) 的距离为 39.96248240537617
+计算点 id=1, coor=(160, 60) 到鼠标位置 (154, 139) 的距离为 79.22752047110903
+计算位置: (154, 139) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.93103448275863, 130.17241379310346) 
+计算位置: (154, 139) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 23.76900328666262 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (154, 139) 的距离为 39.96248240537617
+计算点 id=1, coor=(160, 60) 到鼠标位置 (154, 139) 的距离为 79.22752047110903
+计算位置: (154, 139) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.93103448275863, 130.17241379310346) 
+计算位置: (154, 139) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 23.76900328666262 
+计算点 id=0, coor=(120, 160) 到鼠标位置 (155, 139) 的距离为 40.8166632639171
+计算点 id=1, coor=(160, 60) 到鼠标位置 (155, 139) 的距离为 79.1580697086532
+计算位置: (155, 139) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.06896551724137, 129.82758620689654) 
+计算位置: (155, 139) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 24.697479977547914 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (155, 139) 的距离为 40.8166632639171
+计算点 id=1, coor=(160, 60) 到鼠标位置 (155, 139) 的距离为 79.1580697086532
+计算位置: (155, 139) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.06896551724137, 129.82758620689654) 
+计算位置: (155, 139) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 24.697479977547914 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (155, 139) 的距离为 40.8166632639171
+计算点 id=1, coor=(160, 60) 到鼠标位置 (155, 139) 的距离为 79.1580697086532
+计算位置: (155, 139) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.06896551724137, 129.82758620689654) 
+计算位置: (155, 139) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 24.697479977547914 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (156, 139) 的距离为 41.677331968349414
+计算点 id=1, coor=(160, 60) 到鼠标位置 (156, 139) 的距离为 79.1012010022604
+计算位置: (156, 139) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.20689655172413, 129.48275862068965) 
+计算位置: (156, 139) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 25.625956668433165 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (156, 140) 的距离为 41.182520563948
+计算点 id=1, coor=(160, 60) 到鼠标位置 (156, 140) 的距离为 80.09993757800315
+计算位置: (156, 140) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.86206896551724, 130.3448275862069) 
+计算位置: (156, 140) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 25.997347344787265 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (156, 140) 的距离为 41.182520563948
+计算点 id=1, coor=(160, 60) 到鼠标位置 (156, 140) 的距离为 80.09993757800315
+计算位置: (156, 140) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.86206896551724, 130.3448275862069) 
+计算位置: (156, 140) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 25.997347344787265 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (156, 140) 的距离为 41.182520563948
+计算点 id=1, coor=(160, 60) 到鼠标位置 (156, 140) 的距离为 80.09993757800315
+计算位置: (156, 140) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.86206896551724, 130.3448275862069) 
+计算位置: (156, 140) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 25.997347344787265 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (157, 140) 的距离为 42.05948168962618
+计算点 id=1, coor=(160, 60) 到鼠标位置 (157, 140) 的距离为 80.05623023850174
+计算位置: (157, 140) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.0, 130.0) 
+计算位置: (157, 140) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 26.92582403567252 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (157, 141) 的距离为 41.593268686170845
+计算点 id=1, coor=(160, 60) 到鼠标位置 (157, 141) 的距离为 81.05553651663777
+计算位置: (157, 141) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.6551724137931, 130.86206896551724) 
+计算位置: (157, 141) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 27.29721471202662 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (157, 141) 的距离为 41.593268686170845
+计算点 id=1, coor=(160, 60) 到鼠标位置 (157, 141) 的距离为 81.05553651663777
+计算位置: (157, 141) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.6551724137931, 130.86206896551724) 
+计算位置: (157, 141) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 27.29721471202662 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (157, 141) 的距离为 41.593268686170845
+计算点 id=1, coor=(160, 60) 到鼠标位置 (157, 141) 的距离为 81.05553651663777
+计算位置: (157, 141) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.6551724137931, 130.86206896551724) 
+计算位置: (157, 141) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 27.29721471202662 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (158, 142) 的距离为 42.04759208325728
+计算点 id=1, coor=(160, 60) 到鼠标位置 (158, 142) 的距离为 82.02438661763951
+计算位置: (158, 142) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.44827586206895, 131.3793103448276) 
+计算位置: (158, 142) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 28.597082079266 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (158, 142) 的距离为 42.04759208325728
+计算点 id=1, coor=(160, 60) 到鼠标位置 (158, 142) 的距离为 82.02438661763951
+计算位置: (158, 142) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.44827586206895, 131.3793103448276) 
+计算位置: (158, 142) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 28.597082079266 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (159, 143) 的距离为 42.5440947723653
+计算点 id=1, coor=(160, 60) 到鼠标位置 (159, 143) 的距离为 83.00602387778854
+计算位置: (159, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.24137931034483, 131.89655172413794) 
+计算位置: (159, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 29.89694944650535 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (159, 143) 的距离为 42.5440947723653
+计算点 id=1, coor=(160, 60) 到鼠标位置 (159, 143) 的距离为 83.00602387778854
+计算位置: (159, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.24137931034483, 131.89655172413794) 
+计算位置: (159, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 29.89694944650535 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (159, 143) 的距离为 42.5440947723653
+计算点 id=1, coor=(160, 60) 到鼠标位置 (159, 143) 的距离为 83.00602387778854
+计算位置: (159, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.24137931034483, 131.89655172413794) 
+计算位置: (159, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 29.89694944650535 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (160, 143) 的距离为 43.46262762420146
+计算点 id=1, coor=(160, 60) 到鼠标位置 (160, 143) 的距离为 83.0
+计算位置: (160, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.3793103448276, 131.55172413793105) 
+计算位置: (160, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 30.825426137390604 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (160, 143) 的距离为 43.46262762420146
+计算点 id=1, coor=(160, 60) 到鼠标位置 (160, 143) 的距离为 83.0
+计算位置: (160, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.3793103448276, 131.55172413793105) 
+计算位置: (160, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 30.825426137390604 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (160, 143) 的距离为 43.46262762420146
+计算点 id=1, coor=(160, 60) 到鼠标位置 (160, 143) 的距离为 83.0
+计算位置: (160, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.3793103448276, 131.55172413793105) 
+计算位置: (160, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 30.825426137390604 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (160, 143) 的距离为 43.46262762420146
+计算点 id=1, coor=(160, 60) 到鼠标位置 (160, 143) 的距离为 83.0
+计算位置: (160, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.3793103448276, 131.55172413793105) 
+计算位置: (160, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 30.825426137390604 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (161, 143) 的距离为 44.384682042344295
+计算点 id=1, coor=(160, 60) 到鼠标位置 (161, 143) 的距离为 83.00602387778854
+计算位置: (161, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.51724137931035, 131.20689655172413) 
+计算位置: (161, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 31.75390282827587 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (161, 143) 的距离为 44.384682042344295
+计算点 id=1, coor=(160, 60) 到鼠标位置 (161, 143) 的距离为 83.00602387778854
+计算位置: (161, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.51724137931035, 131.20689655172413) 
+计算位置: (161, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 31.75390282827587 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (161, 143) 的距离为 44.384682042344295
+计算点 id=1, coor=(160, 60) 到鼠标位置 (161, 143) 的距离为 83.00602387778854
+计算位置: (161, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.51724137931035, 131.20689655172413) 
+计算位置: (161, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 31.75390282827587 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (161, 143) 的距离为 44.384682042344295
+计算点 id=1, coor=(160, 60) 到鼠标位置 (161, 143) 的距离为 83.00602387778854
+计算位置: (161, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.51724137931035, 131.20689655172413) 
+计算位置: (161, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 31.75390282827587 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (161, 143) 的距离为 44.384682042344295
+计算点 id=1, coor=(160, 60) 到鼠标位置 (161, 143) 的距离为 83.00602387778854
+计算位置: (161, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.51724137931035, 131.20689655172413) 
+计算位置: (161, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 31.75390282827587 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (161, 143) 的距离为 44.384682042344295
+计算点 id=1, coor=(160, 60) 到鼠标位置 (161, 143) 的距离为 83.00602387778854
+计算位置: (161, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.51724137931035, 131.20689655172413) 
+计算位置: (161, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 31.75390282827587 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (162, 143) 的距离为 45.31004303683677
+计算点 id=1, coor=(160, 60) 到鼠标位置 (162, 143) 的距离为 83.02409288875127
+计算位置: (162, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (131.6551724137931, 130.86206896551724) 
+计算位置: (162, 143) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 32.682379519161124 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (162, 142) 的距离为 45.69463863518345
+计算点 id=1, coor=(160, 60) 到鼠标位置 (162, 142) 的距离为 82.02438661763951
+计算位置: (162, 142) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.0, 130.0) 
+计算位置: (162, 142) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 32.31098884280702 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (162, 142) 的距离为 45.69463863518345
+计算点 id=1, coor=(160, 60) 到鼠标位置 (162, 142) 的距离为 82.02438661763951
+计算位置: (162, 142) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.0, 130.0) 
+计算位置: (162, 142) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 32.31098884280702 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (162, 142) 的距离为 45.69463863518345
+计算点 id=1, coor=(160, 60) 到鼠标位置 (162, 142) 的距离为 82.02438661763951
+计算位置: (162, 142) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.0, 130.0) 
+计算位置: (162, 142) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 32.31098884280702 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (162, 142) 的距离为 45.69463863518345
+计算点 id=1, coor=(160, 60) 到鼠标位置 (162, 142) 的距离为 82.02438661763951
+计算位置: (162, 142) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.0, 130.0) 
+计算位置: (162, 142) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 32.31098884280702 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (162, 141) 的距离为 46.09772228646444
+计算点 id=1, coor=(160, 60) 到鼠标位置 (162, 141) 的距离为 81.02468759581859
+计算位置: (162, 141) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.3448275862069, 129.13793103448276) 
+计算位置: (162, 141) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 31.939598166452924 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (162, 141) 的距离为 46.09772228646444
+计算点 id=1, coor=(160, 60) 到鼠标位置 (162, 141) 的距离为 81.02468759581859
+计算位置: (162, 141) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.3448275862069, 129.13793103448276) 
+计算位置: (162, 141) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 31.939598166452924 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (162, 141) 的距离为 46.09772228646444
+计算点 id=1, coor=(160, 60) 到鼠标位置 (162, 141) 的距离为 81.02468759581859
+计算位置: (162, 141) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.3448275862069, 129.13793103448276) 
+计算位置: (162, 141) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 31.939598166452924 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (162, 141) 的距离为 46.09772228646444
+计算点 id=1, coor=(160, 60) 到鼠标位置 (162, 141) 的距离为 81.02468759581859
+计算位置: (162, 141) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.3448275862069, 129.13793103448276) 
+计算位置: (162, 141) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 31.939598166452924 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (162, 140) 的距离为 46.51881339845203
+计算点 id=1, coor=(160, 60) 到鼠标位置 (162, 140) 的距离为 80.02499609497022
+计算位置: (162, 140) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.68965517241378, 128.27586206896552) 
+计算位置: (162, 140) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 31.568207490098825 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (162, 140) 的距离为 46.51881339845203
+计算点 id=1, coor=(160, 60) 到鼠标位置 (162, 140) 的距离为 80.02499609497022
+计算位置: (162, 140) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.68965517241378, 128.27586206896552) 
+计算位置: (162, 140) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 31.568207490098825 
+吸附到网格线 (8, 7)
+计算点 id=0, coor=(120, 160) 到鼠标位置 (162, 140) 的距离为 46.51881339845203
+计算点 id=1, coor=(160, 60) 到鼠标位置 (162, 140) 的距离为 80.02499609497022
+计算位置: (162, 140) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的投影点 (132.68965517241378, 128.27586206896552) 
+计算位置: (162, 140) 到 Line (startId=0, endId=1, direction=(40, -100), line_type=LineType.Segment, name=None, id=2, dependency=set(0, 1)) 的距离为 31.568207490098825 
+吸附到网格线 (8, 7)
+创建 Point 对象 id=3
+计算点 id=0, coor=(120, 160) 到鼠标位置 (100, 100) 的距离为 63.245553203367585
+计算点 id=3, coor=(100, 100) 到鼠标位置 (100, 100) 的距离为 0.0
+吸附到点 3
+创建 Point 对象 id=4
+计算点 id=4, coor=(160, 140) 到鼠标位置 (160, 140) 的距离为 0.0
+吸附到点 4
+创建 Line 对象 id=5
+析构 Line 对象 id=5
+析构 Point 对象 id=3
+析构 Point 对象 id=4
+吸附到网格线 (7, 15)
+吸附到网格线 (7, 13)
+吸附到网格线 (7, 12)
+吸附到网格线 (6, 9)
+吸附到网格线 (6, 7)
+吸附到网格线 (4, 3)
+吸附到网格线 (4, 3)
+吸附到网格线 (4, 3)
+吸附到网格线 (3, 1)
+吸附到网格线 (3, 1)
+吸附到网格线 (3, 1)
+吸附到网格线 (3, 1)
+吸附到网格线 (3, 1)
+吸附到网格线 (4, 3)
+吸附到网格线 (4, 3)
+吸附到网格线 (4, 3)
+吸附到网格线 (4, 4)
+吸附到网格线 (4, 4)
+吸附到网格线 (4, 4)
+吸附到网格线 (4, 4)
+吸附到网格线 (4, 4)
+吸附到网格线 (4, 4)
+吸附到网格线 (4, 4)
+吸附到网格线 (4, 4)
+吸附到网格线 (4, 4)
+吸附到网格线 (4, 4)
+吸附到网格线 (4, 4)
+吸附到网格线 (4, 4)
+吸附到网格线 (4, 4)
+吸附到网格线 (4, 4)
+吸附到网格线 (4, 4)
+吸附到网格线 (4, 4)
+吸附到网格线 (6, 5)
+吸附到网格线 (6, 5)
+吸附到网格线 (7, 6)
+吸附到网格线 (11, 10)
+吸附到网格线 (12, 11)
+吸附到网格线 (13, 13)
+吸附到网格线 (13, 13)
+吸附到网格线 (13, 13)
+吸附到网格线 (14, 14)
+吸附到网格线 (15, 14)
+吸附到网格线 (15, 14)
+吸附到网格线 (15, 14)
+吸附到网格线 (16, 15)
+吸附到网格线 (16, 15)
+吸附到网格线 (16, 16)
+吸附到网格线 (16, 16)
+吸附到网格线 (16, 16)
+吸附到网格线 (16, 16)
+吸附到网格线 (16, 16)
+吸附到网格线 (16, 16)
+吸附到网格线 (16, 16)
+吸附到网格线 (16, 16)
+吸附到网格线 (16, 16)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (15, 15)
+吸附到网格线 (14, 15)
+吸附到网格线 (14, 15)
+吸附到网格线 (13, 15)
+吸附到网格线 (12, 15)
+吸附到网格线 (11, 15)
+吸附到网格线 (11, 15)
+吸附到网格线 (10, 14)
+吸附到网格线 (10, 14)
+吸附到网格线 (10, 14)
+吸附到网格线 (10, 14)
+吸附到网格线 (10, 14)
+吸附到网格线 (10, 14)
+吸附到网格线 (10, 14)
+吸附到网格线 (10, 14)
+吸附到网格线 (10, 14)
+吸附到网格线 (10, 14)
+吸附到网格线 (10, 14)
+创建 Point 对象 id=0
+计算点 id=0, coor=(80, 80) 到鼠标位置 (80, 80) 的距离为 0.0
+吸附到点 0
+创建 Point 对象 id=1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (200, 280) 的距离为 0.0
+吸附到点 1
+创建 Line 对象 id=2
+计算点 id=1, coor=(200, 280) 到鼠标位置 (169, 346) 的距离为 72.91776189653656
+生成 Line 对象 id=2 的命令字符串为 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0))
+计算位置: (169, 346) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (220.91176470588238, 314.8529411764706) 
+计算位置: (169, 346) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 60.539000555305634 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (169, 346) 的距离为 280.49420671379295
+计算点 id=1, coor=(200, 280) 到鼠标位置 (171, 344) 的距离为 70.26378868236469
+计算位置: (171, 344) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (220.55882352941177, 314.2647058823529) 
+计算位置: (171, 344) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 57.795023193025486 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (171, 344) 的距离为 279.24362123421906
+计算点 id=1, coor=(200, 280) 到鼠标位置 (173, 340) 的距离为 65.79513659838392
+计算位置: (173, 340) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (219.32352941176472, 312.20588235294116) 
+计算位置: (173, 340) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 54.02205431989031 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (173, 340) 的距离为 276.1322147088239
+计算点 id=1, coor=(200, 280) 到鼠标位置 (175, 337) 的距离为 62.24146527838174
+计算位置: (175, 337) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (218.52941176470588, 310.88235294117646) 
+计算位置: (175, 337) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 50.76358120218262 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (175, 337) 的距离为 273.99635034065693
+吸附到网格线 (9, 17)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (177, 332) 的距离为 56.859475903318
+计算位置: (177, 332) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (216.8529411764706, 308.0882352941177) 
+计算位置: (177, 332) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 46.4761165736199 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (177, 332) 的距离为 270.0240730009086
+计算点 id=1, coor=(200, 280) 到鼠标位置 (178, 330) 的距离为 54.62600113499065
+计算位置: (178, 330) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (216.2352941176471, 307.0588235294118) 
+计算位置: (178, 330) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 44.5896321370523 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (178, 330) 的距离为 268.5218799278748
+计算点 id=1, coor=(200, 280) 到鼠标位置 (179, 327) 的距离为 51.478150704935004
+计算位置: (179, 327) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (215.1764705882353, 305.29411764705884) 
+计算位置: (179, 327) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 42.188651945057174 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (179, 327) 的距离为 266.101484400219
+计算点 id=1, coor=(200, 280) 到鼠标位置 (180, 326) 的距离为 50.15974481593781
+计算位置: (180, 326) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (215.00000000000003, 305.0) 
+计算位置: (180, 326) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 40.81666326391713 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (180, 326) 的距离为 265.5484889808263
+计算点 id=1, coor=(200, 280) 到鼠标位置 (180, 323) 的距离为 47.4236228055175
+计算位置: (180, 323) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (213.6764705882353, 302.79411764705884) 
+计算位置: (180, 323) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 39.273175997634524 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (180, 323) 的距离为 262.7717640843475
+吸附到网格线 (9, 16)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (181, 319) 的距离为 43.382023926967726
+计算位置: (181, 319) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (212.17647058823533, 300.2941176470589) 
+计算位置: (181, 319) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 36.35770005021187 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (181, 319) 的距离为 259.46483384073457
+吸附到网格线 (9, 16)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (182, 317) 的距离为 41.14608122288197
+计算位置: (182, 317) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (211.5588235294118, 299.264705882353) 
+计算位置: (182, 317) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 34.47121561364428 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (182, 317) 的距离为 258.0174412709342
+吸附到网格线 (9, 16)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (183, 312) 的距离为 36.235341863986875
+计算位置: (183, 312) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (209.61764705882356, 296.0294117647059) 
+计算位置: (183, 312) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 31.041243910794115 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (183, 312) 的距离为 253.83656159032725
+计算点 id=1, coor=(200, 280) 到鼠标位置 (183, 309) 的距离为 33.61547262794322
+计算位置: (183, 309) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (208.29411764705884, 293.82352941176475) 
+计算位置: (183, 309) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 29.49775664451151 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (183, 309) 的距离为 251.09759058979438
+计算点 id=1, coor=(200, 280) 到鼠标位置 (183, 305) 的距离为 30.23243291566195
+计算位置: (183, 305) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (206.5294117647059, 290.88235294117646) 
+计算位置: (183, 305) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 27.439773622801443 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (183, 305) 的距离为 247.45504642257754
+吸附到网格线 (9, 15)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (184, 303) 的距离为 28.0178514522438
+计算位置: (184, 303) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (205.91176470588238, 289.8529411764706) 
+计算位置: (184, 303) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 25.553289186233826 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (184, 303) 的距离为 246.05893602956183
+吸附到网格线 (9, 15)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (184, 301) 的距离为 26.40075756488817
+计算位置: (184, 301) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (205.0294117647059, 288.38235294117646) 
+计算位置: (184, 301) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 24.524297675378794 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (184, 301) 的距离为 244.24782496472716
+吸附到网格线 (9, 15)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (184, 300) 的距离为 25.612496949731394
+计算位置: (184, 300) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (204.58823529411768, 287.6470588235294) 
+计算位置: (184, 300) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 24.009801919951276 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (184, 300) 的距离为 243.34337878808208
+吸附到网格线 (9, 15)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (184, 299) 的距离为 24.839484696748443
+计算位置: (184, 299) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (204.14705882352945, 286.9117647058824) 
+计算位置: (184, 299) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 23.49530616452373 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (184, 299) 的距离为 242.4396832203837
+吸附到网格线 (9, 15)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (184, 298) 的距离为 24.08318915758459
+计算位置: (184, 298) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (203.7058823529412, 286.1764705882353) 
+计算位置: (184, 298) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 22.98081040909619 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (184, 298) 的距离为 241.5367466867102
+吸附到网格线 (9, 15)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (184, 298) 的距离为 24.08318915758459
+计算位置: (184, 298) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (203.7058823529412, 286.1764705882353) 
+计算位置: (184, 298) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 22.98081040909619 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (184, 298) 的距离为 241.5367466867102
+吸附到网格线 (9, 15)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (184, 298) 的距离为 24.08318915758459
+计算位置: (184, 298) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (203.7058823529412, 286.1764705882353) 
+计算位置: (184, 298) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 22.98081040909619 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (184, 298) 的距离为 241.5367466867102
+吸附到网格线 (9, 15)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (184, 298) 的距离为 24.08318915758459
+计算位置: (184, 298) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (203.7058823529412, 286.1764705882353) 
+计算位置: (184, 298) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 22.98081040909619 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (184, 298) 的距离为 241.5367466867102
+吸附到网格线 (9, 15)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (184, 297) 的距离为 23.345235059857504
+计算位置: (184, 297) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (203.26470588235296, 285.44117647058823) 
+计算位置: (184, 297) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 22.46631465366867 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (184, 297) 的距离为 240.63457773146402
+吸附到网格线 (9, 15)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (185, 297) 的距离为 22.67156809750927
+计算位置: (185, 297) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (203.5294117647059, 285.88235294117646) 
+计算位置: (185, 297) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 21.608821727956144 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (185, 297) 的距离为 241.0684550081159
+吸附到网格线 (9, 15)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (186, 296) 的距离为 21.2602916254693
+计算位置: (186, 296) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (203.3529411764706, 285.5882352941177) 
+计算位置: (186, 296) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 20.23683304681604 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (186, 296) 的距离为 240.60756430336932
+计算点 id=1, coor=(200, 280) 到鼠标位置 (187, 295) 的距离为 19.849433241279208
+计算位置: (187, 295) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (203.1764705882353, 285.29411764705884) 
+计算位置: (187, 295) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 18.86484436567597 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (187, 295) 的距离为 240.15411718311222
+计算点 id=1, coor=(200, 280) 到鼠标位置 (188, 293) 的距离为 17.69180601295413
+计算位置: (188, 293) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (202.55882352941177, 284.2647058823529) 
+计算位置: (188, 293) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 16.978359929108386 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (188, 293) 的距离为 238.8158286211364
+计算点 id=1, coor=(200, 280) 到鼠标位置 (192, 290) 的距离为 12.806248474865697
+计算位置: (192, 290) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (202.29411764705884, 283.82352941176475) 
+计算位置: (192, 290) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 12.00490095997561 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (192, 290) 的距离为 238.0
+计算点 id=1, coor=(200, 280) 到鼠标位置 (194, 288) 的距离为 10.0
+计算位置: (194, 288) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (201.94117647058823, 283.2352941176471) 
+计算位置: (194, 288) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 9.260923597695466 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (194, 288) 的距离为 237.19190542680835
+计算点 id=1, coor=(200, 280) 到鼠标位置 (196, 286) 的距离为 7.211102550927978
+计算位置: (196, 286) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (201.58823529411768, 282.6470588235294) 
+计算位置: (196, 286) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 6.516946235415375 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (196, 286) 的距离为 236.4148895480147
+计算点 id=1, coor=(200, 280) 到鼠标位置 (199, 282) 的距离为 2.23606797749979
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (201, 281) 的距离为 1.4142135623730951
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (202, 280) 的距离为 2.0
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (203, 279) 的距离为 3.1622776601683795
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (204, 278) 的距离为 4.47213595499958
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (205, 278) 的距离为 5.385164807134504
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (206, 278) 的距离为 6.324555320336759
+计算位置: (206, 278) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (200.70588235294122, 281.1764705882353) 
+计算位置: (206, 278) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 6.173949065130289 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (206, 278) 的距离为 234.69128658729537
+计算点 id=1, coor=(200, 280) 到鼠标位置 (206, 278) 的距离为 6.324555320336759
+计算位置: (206, 278) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (200.70588235294122, 281.1764705882353) 
+计算位置: (206, 278) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 6.173949065130289 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (206, 278) 的距离为 234.69128658729537
+计算点 id=1, coor=(200, 280) 到鼠标位置 (207, 277) 的距离为 7.615773105863909
+计算位置: (207, 277) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (200.5294117647059, 280.88235294117646) 
+计算位置: (207, 277) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 7.54593774627036 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (207, 277) 的距离为 234.3885662740399
+计算点 id=1, coor=(200, 280) 到鼠标位置 (208, 277) 的距离为 8.54400374531753
+计算位置: (208, 277) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (200.79411764705884, 281.3235294117647) 
+计算位置: (208, 277) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 8.403430671982914 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (208, 277) 的距离为 234.93190502781866
+计算点 id=1, coor=(200, 280) 到鼠标位置 (209, 277) 的距离为 9.486832980505138
+计算位置: (209, 277) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (201.05882352941177, 281.7647058823529) 
+计算位置: (209, 277) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 9.260923597695466 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (209, 277) 的距离为 235.47823678633233
+计算点 id=1, coor=(200, 280) 到鼠标位置 (209, 277) 的距离为 9.486832980505138
+计算位置: (209, 277) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (201.05882352941177, 281.7647058823529) 
+计算位置: (209, 277) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 9.260923597695466 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (209, 277) 的距离为 235.47823678633233
+计算点 id=1, coor=(200, 280) 到鼠标位置 (210, 276) 的距离为 10.770329614269007
+计算位置: (210, 276) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (200.8823529411765, 281.47058823529414) 
+计算位置: (210, 276) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 10.632912278835542 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (210, 276) 的距离为 235.1935373261774
+计算点 id=1, coor=(200, 280) 到鼠标位置 (210, 276) 的距离为 10.770329614269007
+计算位置: (210, 276) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (200.8823529411765, 281.47058823529414) 
+计算位置: (210, 276) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 10.632912278835542 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (210, 276) 的距离为 235.1935373261774
+计算点 id=1, coor=(200, 280) 到鼠标位置 (209, 276) 的距离为 9.848857801796104
+计算位置: (209, 276) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (200.61764705882354, 281.02941176470586) 
+计算位置: (209, 276) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 9.775419353122983 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (209, 276) 的距离为 234.6422809299296
+计算点 id=1, coor=(200, 280) 到鼠标位置 (209, 276) 的距离为 9.848857801796104
+计算位置: (209, 276) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (200.61764705882354, 281.02941176470586) 
+计算位置: (209, 276) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 9.775419353122983 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (209, 276) 的距离为 234.6422809299296
+计算点 id=1, coor=(200, 280) 到鼠标位置 (208, 276) 的距离为 8.94427190999916
+计算位置: (208, 276) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (200.3529411764706, 280.5882352941177) 
+计算位置: (208, 276) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 8.91792642741046 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (208, 276) 的距离为 234.0939982143925
+计算点 id=1, coor=(200, 280) 到鼠标位置 (207, 276) 的距离为 8.06225774829855
+计算位置: (207, 276) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (200.08823529411765, 280.1470588235294) 
+计算位置: (207, 276) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 8.0604335016979 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (207, 276) 的距离为 233.54871012274933
+计算点 id=1, coor=(200, 280) 到鼠标位置 (205, 276) 的距离为 6.4031242374328485
+计算位置: (205, 276) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (199.55882352941177, 279.2647058823529) 
+计算位置: (205, 276) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 6.345447650272817 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (205, 276) 的距离为 232.46720198772127
+吸附到网格线 (10, 14)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (204, 277) 的距离为 5.0
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (202, 278) 的距离为 2.8284271247461903
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (201, 278) 的距离为 2.23606797749979
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (200, 279) 的距离为 1.0
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (199, 279) 的距离为 1.4142135623730951
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (200, 279) 的距离为 1.0
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (200, 279) 的距离为 1.0
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (200, 279) 的距离为 1.0
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (200, 279) 的距离为 1.0
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (201, 279) 的距离为 1.4142135623730951
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (201, 279) 的距离为 1.4142135623730951
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (201, 279) 的距离为 1.4142135623730951
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (201, 279) 的距离为 1.4142135623730951
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (201, 279) 的距离为 1.4142135623730951
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (202, 279) 的距离为 2.23606797749979
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (202, 279) 的距离为 2.23606797749979
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (202, 278) 的距离为 2.8284271247461903
+吸附到点 1
+计算点 id=1, coor=(200, 280) 到鼠标位置 (203, 275) 的距离为 5.830951894845301
+计算位置: (203, 275) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (198.58823529411768, 277.6470588235294) 
+计算位置: (203, 275) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 5.144957554275226 
+计算位置: (200.0, 280.0) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (200.0, 280.0) 
+计算位置: (200.0, 280.0) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 0.0 
+检测位置 (200.0, 280.0) 是否在 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 上，距最近点距离为：0.0
+吸附到线 2 与 x 网格线 10 
+且有交点 (200.0, 280.0)
+计算点 id=0, coor=(80, 80) 到鼠标位置 (203, 275) 的距离为 230.5515126820902
+计算点 id=1, coor=(200, 280) 到鼠标位置 (205, 271) 的距离为 10.295630140987
+计算位置: (205, 271) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (197.3529411764706, 275.5882352941177) 
+计算位置: (205, 271) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 8.91792642741046 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (205, 271) 的距离为 228.2673870705143
+计算点 id=1, coor=(200, 280) 到鼠标位置 (208, 267) 的距离为 15.264337522473747
+计算位置: (208, 267) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (196.3823529411765, 273.97058823529414) 
+计算位置: (208, 267) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 13.548388226258194 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (208, 267) 的距离为 226.61200321253946
+计算点 id=1, coor=(200, 280) 到鼠标位置 (217, 255) 的距离为 30.23243291566195
+计算位置: (217, 255) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (193.47058823529414, 269.11764705882354) 
+计算位置: (217, 255) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 27.439773622801393 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (217, 255) 的距离为 222.24760966093652
+吸附到网格线 (11, 13)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (236, 227) 的距离为 64.07027391856539
+计算位置: (236, 227) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (186.14705882352945, 256.9117647058824) 
+计算位置: (236, 227) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 58.138020363310474 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (236, 227) 的距离为 214.34784813475503
+计算点 id=1, coor=(200, 280) 到鼠标位置 (247, 208) 的距离为 85.98255637046388
+计算位置: (247, 208) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (180.6764705882353, 247.79411764705884) 
+计算位置: (247, 208) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 77.34586189927148 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (247, 208) 的距离为 210.41150158677164
+计算点 id=1, coor=(200, 280) 到鼠标位置 (260, 184) 的距离为 113.20777358467925
+计算位置: (260, 184) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (173.52941176470588, 235.88235294117646) 
+计算位置: (260, 184) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 100.8411680637952 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (260, 184) 的距离为 207.88458336298052
+吸附到网格线 (13, 9)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (278, 151) 的距离为 150.74813431681335
+计算位置: (278, 151) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (163.73529411764707, 219.55882352941177) 
+计算位置: (278, 151) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 133.25440065572934 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (278, 151) 的距离为 210.34495477667156
+计算点 id=1, coor=(200, 280) 到鼠标位置 (287, 133) 的距离为 170.8156901458411
+计算位置: (287, 133) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (158.1764705882353, 210.29411764705884) 
+计算位置: (287, 133) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 150.23276058483773 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (287, 133) 的距离为 213.67732682715777
+计算点 id=1, coor=(200, 280) 到鼠标位置 (299, 111) 的距离为 195.86219645454813
+计算位置: (299, 111) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (151.64705882352945, 199.41176470588238) 
+计算位置: (299, 111) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 171.84158231279383 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (299, 111) 的距离为 221.18318200080222
+计算点 id=1, coor=(200, 280) 到鼠标位置 (307, 95) 的距离为 213.71476317746513
+计算位置: (307, 95) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (146.7058823529412, 191.1764705882353) 
+计算位置: (307, 95) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 186.93345780533463 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (307, 95) 的距离为 227.49505489130968
+计算点 id=1, coor=(200, 280) 到鼠标位置 (312, 85) 的距离为 224.8755211222422
+计算位置: (312, 85) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (143.61764705882354, 186.0294117647059) 
+计算位置: (312, 85) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 196.36587998817262 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (312, 85) 的距离为 232.0538730553748
+计算点 id=1, coor=(200, 280) 到鼠标位置 (316, 75) 的距离为 235.54405108174564
+计算位置: (316, 75) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (140.26470588235296, 180.44117647058826) 
+计算位置: (316, 75) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 204.94080924529806 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (316, 75) 的距离为 236.05296015936761
+吸附到网格线 (16, 4)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (319, 68) 的距离为 243.11519903124116
+计算位置: (319, 68) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (137.97058823529414, 176.61764705882354) 
+计算位置: (319, 68) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 211.11475831042836 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (319, 68) 的距离为 239.30106560565082
+计算点 id=1, coor=(200, 280) 到鼠标位置 (320, 62) 的距离为 248.8453334905037
+计算位置: (320, 62) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (135.58823529411765, 172.64705882352942) 
+计算位置: (320, 62) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 215.05922576870609 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (320, 62) 的距离为 240.67405344157896
+吸附到网格线 (16, 3)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (322, 57) 的距离为 254.19087316424248
+计算位置: (322, 57) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (133.91176470588238, 169.8529411764706) 
+计算位置: (322, 57) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 219.34669039726882 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (322, 57) 的距离为 243.09051812030842
+吸附到网格线 (16, 3)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (323, 54) 的距离为 257.30332294783915
+计算位置: (323, 54) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (132.8529411764706, 168.08823529411768) 
+计算位置: (323, 54) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 221.74767058926392 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (323, 54) 的距离为 244.38698819699874
+计算点 id=1, coor=(200, 280) 到鼠标位置 (324, 51) 的距离为 260.4169733331528
+计算位置: (324, 51) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (131.79411764705884, 166.32352941176472) 
+计算位置: (324, 51) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 224.14865078125905 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (324, 51) 的距离为 245.7173172570464
+计算点 id=1, coor=(200, 280) 到鼠标位置 (325, 48) 的距离为 263.53178176455305
+计算位置: (325, 48) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (130.73529411764707, 164.55882352941177) 
+计算位置: (325, 48) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 226.54963097325415 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (325, 48) 的距离为 247.08095839218367
+计算点 id=1, coor=(200, 280) 到鼠标位置 (326, 46) 的距离为 265.7668150842012
+计算位置: (326, 46) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (130.11764705882354, 163.5294117647059) 
+计算位置: (326, 46) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 228.43611540982178 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (326, 46) 的距离为 248.33847869389874
+计算点 id=1, coor=(200, 280) 到鼠标位置 (327, 45) 的距离为 267.1216951129204
+计算位置: (327, 45) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (129.94117647058826, 163.23529411764707) 
+计算位置: (327, 45) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 229.80810409096182 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (327, 45) 的距离为 249.46743274423616
+计算点 id=1, coor=(200, 280) 到鼠标位置 (327, 44) 的距离为 268.00186566514793
+计算位置: (327, 44) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (129.5, 162.5) 
+计算位置: (327, 44) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 230.32259984638938 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (327, 44) 的距离为 249.6096953245206
+计算点 id=1, coor=(200, 280) 到鼠标位置 (327, 44) 的距离为 268.00186566514793
+计算位置: (327, 44) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (129.5, 162.5) 
+计算位置: (327, 44) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 230.32259984638938 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (327, 44) 的距离为 249.6096953245206
+计算点 id=1, coor=(200, 280) 到鼠标位置 (328, 43) 的距离为 269.3566409056959
+计算位置: (328, 43) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (129.32352941176472, 162.2058823529412) 
+计算位置: (328, 43) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 231.69458852752942 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (328, 43) 的距离为 250.7448902769506
+计算点 id=1, coor=(200, 280) 到鼠标位置 (328, 42) 的距离为 270.2369330791038
+计算位置: (328, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (128.8823529411765, 161.47058823529414) 
+计算位置: (328, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 232.20908428295695 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (328, 42) 的距离为 250.89440009693323
+计算点 id=1, coor=(200, 280) 到鼠标位置 (328, 42) 的距离为 270.2369330791038
+计算位置: (328, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (128.8823529411765, 161.47058823529414) 
+计算位置: (328, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 232.20908428295695 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (328, 42) 的距离为 250.89440009693323
+计算点 id=1, coor=(200, 280) 到鼠标位置 (328, 42) 的距离为 270.2369330791038
+计算位置: (328, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (128.8823529411765, 161.47058823529414) 
+计算位置: (328, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 232.20908428295695 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (328, 42) 的距离为 250.89440009693323
+计算点 id=1, coor=(200, 280) 到鼠标位置 (327, 42) 的距离为 269.7647122957337
+计算位置: (327, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (128.61764705882354, 161.0294117647059) 
+计算位置: (327, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 231.35159135724442 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (327, 42) 的距离为 249.9059823213522
+计算点 id=1, coor=(200, 280) 到鼠标位置 (327, 42) 的距离为 269.7647122957337
+计算位置: (327, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (128.61764705882354, 161.0294117647059) 
+计算位置: (327, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 231.35159135724442 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (327, 42) 的距离为 249.9059823213522
+计算点 id=1, coor=(200, 280) 到鼠标位置 (327, 42) 的距离为 269.7647122957337
+计算位置: (327, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (128.61764705882354, 161.0294117647059) 
+计算位置: (327, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 231.35159135724442 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (327, 42) 的距离为 249.9059823213522
+计算点 id=1, coor=(200, 280) 到鼠标位置 (327, 42) 的距离为 269.7647122957337
+计算位置: (327, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (128.61764705882354, 161.0294117647059) 
+计算位置: (327, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 231.35159135724442 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (327, 42) 的距离为 249.9059823213522
+计算点 id=1, coor=(200, 280) 到鼠标位置 (326, 42) 的距离为 269.2953768633988
+计算位置: (326, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (128.3529411764706, 160.58823529411768) 
+计算位置: (326, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 230.49409843153188 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (326, 42) 的距离为 248.91765706755317
+计算点 id=1, coor=(200, 280) 到鼠标位置 (326, 42) 的距离为 269.2953768633988
+计算位置: (326, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (128.3529411764706, 160.58823529411768) 
+计算位置: (326, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 230.49409843153188 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (326, 42) 的距离为 248.91765706755317
+计算点 id=1, coor=(200, 280) 到鼠标位置 (326, 42) 的距离为 269.2953768633988
+计算位置: (326, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (128.3529411764706, 160.58823529411768) 
+计算位置: (326, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 230.49409843153188 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (326, 42) 的距离为 248.91765706755317
+计算点 id=1, coor=(200, 280) 到鼠标位置 (325, 42) 的距离为 268.8289418942834
+计算位置: (325, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (128.08823529411765, 160.14705882352942) 
+计算位置: (325, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 229.63660550581935 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (325, 42) 的距离为 247.9294254419995
+吸附到网格线 (16, 2)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (324, 42) 的距离为 268.36542251191753
+计算位置: (324, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (127.82352941176472, 159.7058823529412) 
+计算位置: (324, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 228.77911258010678 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (324, 42) 的距离为 246.94128856876083
+吸附到网格线 (16, 2)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (323, 43) 的距离为 267.01685340067957
+计算位置: (323, 43) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (128.0, 160.0) 
+计算位置: (323, 43) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 227.40712389896672 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (323, 43) 的距离为 245.80073230159425
+吸附到网格线 (16, 2)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (321, 43) 的距离为 266.101484400219
+计算位置: (321, 43) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (127.47058823529414, 159.11764705882354) 
+计算位置: (321, 43) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 225.69213804754162 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (321, 43) 的距离为 243.82370680473218
+吸附到网格线 (16, 2)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (320, 43) 的距离为 265.64826368715455
+计算位置: (320, 43) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (127.20588235294119, 158.6764705882353) 
+计算位置: (320, 43) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 224.83464512182908 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (320, 43) 的距离为 242.83533515532702
+吸附到网格线 (16, 2)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (320, 43) 的距离为 265.64826368715455
+计算位置: (320, 43) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (127.20588235294119, 158.6764705882353) 
+计算位置: (320, 43) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 224.83464512182908 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (320, 43) 的距离为 242.83533515532702
+吸附到网格线 (16, 2)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (320, 43) 的距离为 265.64826368715455
+计算位置: (320, 43) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (127.20588235294119, 158.6764705882353) 
+计算位置: (320, 43) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 224.83464512182908 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (320, 43) 的距离为 242.83533515532702
+吸附到网格线 (16, 2)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (320, 43) 的距离为 265.64826368715455
+计算位置: (320, 43) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (127.20588235294119, 158.6764705882353) 
+计算位置: (320, 43) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 224.83464512182908 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (320, 43) 的距离为 242.83533515532702
+吸附到网格线 (16, 2)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (320, 42) 的距离为 266.54080363051355
+计算位置: (320, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (126.76470588235296, 157.94117647058823) 
+计算位置: (320, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 225.3491408772566 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (320, 42) 的距离为 242.98971171636055
+吸附到网格线 (16, 2)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (320, 42) 的距离为 266.54080363051355
+计算位置: (320, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (126.76470588235296, 157.94117647058823) 
+计算位置: (320, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 225.3491408772566 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (320, 42) 的距离为 242.98971171636055
+吸附到网格线 (16, 2)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (320, 42) 的距离为 266.54080363051355
+计算位置: (320, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (126.76470588235296, 157.94117647058823) 
+计算位置: (320, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 225.3491408772566 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (320, 42) 的距离为 242.98971171636055
+吸附到网格线 (16, 2)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (320, 42) 的距离为 266.54080363051355
+计算位置: (320, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (126.76470588235296, 157.94117647058823) 
+计算位置: (320, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 225.3491408772566 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (320, 42) 的距离为 242.98971171636055
+吸附到网格线 (16, 2)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (320, 42) 的距离为 266.54080363051355
+计算位置: (320, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (126.76470588235296, 157.94117647058823) 
+计算位置: (320, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 225.3491408772566 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (320, 42) 的距离为 242.98971171636055
+吸附到网格线 (16, 2)
+计算点 id=1, coor=(200, 280) 到鼠标位置 (320, 42) 的距离为 266.54080363051355
+计算位置: (320, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的投影点 (126.76470588235296, 157.94117647058823) 
+计算位置: (320, 42) 到 Line (startId=0, endId=1, direction=(120, 200), line_type=LineType.Segment, name=None, id=2, dependency=set(1, 0)) 的距离为 225.3491408772566 
+计算点 id=0, coor=(80, 80) 到鼠标位置 (320, 42) 的距离为 242.98971171636055
+吸附到网格线 (16, 2)
+创建 Point 对象 id=3
+计算点 id=1, coor=(200, 280) 到鼠标位置 (200, 280) 的距离为 0.0
+吸附到点 1
+创建 Point 对象 id=4
+计算点 id=4, coor=(320, 40) 到鼠标位置 (320, 40) 的距离为 0.0
+吸附到点 4
+创建 Line 对象 id=5

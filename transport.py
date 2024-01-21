@@ -54,7 +54,7 @@ def tran(startpoint,direction):
             ser.write(info.encode())
         # ser.close()
         sleep(2)
-        global timeflag
+        nonlocal timeflag
         timeflag += 1
         if timeflag > 1:
             while True:
@@ -88,7 +88,7 @@ def tran(startpoint,direction):
         else:
             del_points += [(points[i][0]-points[i-1][0],points[i][1]-points[i-1][1])]
 
-    del_points += [(-coor_to_polar(endpoint[0],endpoint[1])[0]-5,-coor_to_polar(endpoint[0],endpoint[1])[1])]
+    del_points += [(int(-coor_to_polar(endpoint[0],endpoint[1])[0]*1.05),-coor_to_polar(endpoint[0],endpoint[1])[1])]
         #这是回到原位置用的
     #tran(grid_num + 2) # c传送数据总数
     # print(del_points)

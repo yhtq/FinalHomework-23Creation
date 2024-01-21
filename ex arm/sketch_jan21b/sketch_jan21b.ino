@@ -109,10 +109,10 @@ void stepper_move(int steps) {
     Serial.print(steps);
     if (steps != 0){
       if (steps > 0){
-        Stepper_Go(GO_FAR,steps*50);
+        Stepper_Go(GO_FAR,steps*100);
       }
       if (steps < 0){
-        Stepper_Go(GO_NEAR,-steps*50);
+        Stepper_Go(GO_NEAR,-steps*100);
       }
     Stepper_Loop();
     }
@@ -120,7 +120,7 @@ void stepper_move(int steps) {
 
 void servo1_move(int com){
   Serial.print(com);
-  if (com == 0){
+  if (com == 1){
     Servo1_Turn(DOWN);
   }
   else{
