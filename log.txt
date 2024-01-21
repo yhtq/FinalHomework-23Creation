@@ -100,3 +100,1745 @@
 析构 Line 对象 id=21
 析构 Point 对象 id=19
 析构 Point 对象 id=20
+吸附到网格线 (9, 9)
+吸附到网格线 (10, 8)
+吸附到网格线 (10, 10)
+吸附到网格线 (10, 10)
+吸附到网格线 (11, 7)
+吸附到网格线 (11, 7)
+吸附到网格线 (4, 9)
+吸附到网格线 (4, 9)
+创建 Point 对象 id=0
+创建 Line 对象 id=1
+Undo create 1
+No operation to undo
+生成 Line 对象 id=1 的命令字符串为 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0))
+计算位置: (0.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的投影点 (0.5, 0.0) 
+计算位置: (0.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (0.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+计算位置: (1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的投影点 (1.5, 0.0) 
+计算位置: (1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (1.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+计算位置: (-1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的投影点 (-1.5, 0.0) 
+计算位置: (-1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (-1.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+id 被占用，尝试下一个 Id 为 2
+创建 Point 对象 id=2
+创建 Point 对象 id=3
+创建 Line 对象 id=4
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+生成 Line 对象 id=4 的命令字符串为 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(3, 2))
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(3, 2)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(3, 2)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(3, 2)) 上，距最近点距离为：0.0
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(3, 2)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(3, 2)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(3, 2)) 上，距最近点距离为：0.0
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+创建 Point 对象 id=1
+计算点 id=1, coor=(0.0, 0.0) 到鼠标位置 (0, 0.001) 的距离为 0.001
+创建 Point 对象 id=2
+创建 Point 对象 id=3
+Undo delete 2
+Undo delete 3
+Undo create 3
+Undo delete 2
+尝试以命令 Point (coor=(0.0, 0.0), name="A", id=1, dependency=set()) 创建对象
+创建 Point 对象 id=1
+尝试以命令 Point (coor=(1.0, 0.0), name="B", id=2, dependency=set()) 创建对象
+创建 Point 对象 id=2
+尝试以命令 Point (coor=(0.0, 1.0), name="C", id=3, dependency=set()) 创建对象
+创建 Point 对象 id=3
+析构 Point 对象 id=3
+析构 Point 对象 id=2
+析构 Point 对象 id=1
+创建 Point 对象 id=0
+创建 Line 对象 id=1
+Undo create 1
+No operation to undo
+生成 Line 对象 id=1 的命令字符串为 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0))
+计算位置: (0.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的投影点 (0.5, 0.0) 
+计算位置: (0.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (0.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+计算位置: (1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的投影点 (1.5, 0.0) 
+计算位置: (1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (1.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+计算位置: (-1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的投影点 (-1.5, 0.0) 
+计算位置: (-1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (-1.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 上，距最近点距离为：1.5
+id 被占用，尝试下一个 Id 为 2
+创建 Point 对象 id=2
+创建 Point 对象 id=3
+创建 Line 对象 id=4
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+生成 Line 对象 id=4 的命令字符串为 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2))
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2)) 上，距最近点距离为：0.0
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2)) 上，距最近点距离为：0.0
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+创建 Point 对象 id=0
+创建 Line 对象 id=1
+Undo create 1
+No operation to undo
+生成 Line 对象 id=1 的命令字符串为 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0))
+计算位置: (0.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的投影点 (0.5, 0.0) 
+计算位置: (0.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (0.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+计算位置: (1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的投影点 (1.5, 0.0) 
+计算位置: (1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (1.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.5
+计算位置: (-1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的投影点 (-1.5, 0.0) 
+计算位置: (-1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (-1.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 上，距最近点距离为：1.5
+id 被占用，尝试下一个 Id 为 2
+创建 Point 对象 id=2
+创建 Point 对象 id=3
+创建 Line 对象 id=4
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 上，距最近点距离为：2.0
+生成 Line 对象 id=4 的命令字符串为 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Segment, name="l", id=4, dependency=set(2, 3))
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Segment, name="l", id=4, dependency=set(2, 3)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Segment, name="l", id=4, dependency=set(2, 3)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Segment, name="l", id=4, dependency=set(2, 3)) 上，距最近点距离为：0.0
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 上，距最近点距离为：2.0
+析构 Point 对象 id=1
+析构 Point 对象 id=2
+析构 Point 对象 id=3
+创建 Point 对象 id=0
+创建 Line 对象 id=1
+Undo create 1
+No operation to undo
+生成 Line 对象 id=1 的命令字符串为 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0))
+计算位置: (0.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的投影点 (0.5, 0.0) 
+计算位置: (0.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (0.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+计算位置: (1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的投影点 (1.5, 0.0) 
+计算位置: (1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (1.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+计算位置: (-1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的投影点 (-1.5, 0.0) 
+计算位置: (-1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (-1.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+id 被占用，尝试下一个 Id 为 2
+创建 Point 对象 id=2
+创建 Point 对象 id=3
+创建 Line 对象 id=4
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+生成 Line 对象 id=4 的命令字符串为 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(3, 2))
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(3, 2)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(3, 2)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(3, 2)) 上，距最近点距离为：0.0
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(3, 2)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(3, 2)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(3, 2)) 上，距最近点距离为：0.0
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+创建 Point 对象 id=1
+计算点 id=1, coor=(0.0, 0.0) 到鼠标位置 (0, 0.001) 的距离为 0.001
+创建 Point 对象 id=2
+创建 Point 对象 id=3
+Undo delete 2
+Undo delete 3
+Undo create 3
+Undo delete 2
+尝试以命令 Point (coor=(0.0, 0.0), name="A", id=1, dependency=set()) 创建对象
+创建 Point 对象 id=1
+尝试以命令 Point (coor=(1.0, 0.0), name="B", id=2, dependency=set()) 创建对象
+创建 Point 对象 id=2
+尝试以命令 Point (coor=(0.0, 1.0), name="C", id=3, dependency=set()) 创建对象
+创建 Point 对象 id=3
+析构 Point 对象 id=2
+析构 Point 对象 id=3
+析构 Point 对象 id=1
+创建 Point 对象 id=0
+创建 Line 对象 id=1
+Undo create 1
+No operation to undo
+生成 Line 对象 id=1 的命令字符串为 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0))
+计算位置: (0.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的投影点 (0.5, 0.0) 
+计算位置: (0.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (0.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+计算位置: (1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的投影点 (1.5, 0.0) 
+计算位置: (1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (1.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+计算位置: (-1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的投影点 (-1.5, 0.0) 
+计算位置: (-1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (-1.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 上，距最近点距离为：1.5
+id 被占用，尝试下一个 Id 为 2
+创建 Point 对象 id=2
+创建 Point 对象 id=3
+创建 Line 对象 id=4
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+生成 Line 对象 id=4 的命令字符串为 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2))
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2)) 上，距最近点距离为：0.0
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2)) 上，距最近点距离为：0.0
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+创建 Point 对象 id=0
+创建 Line 对象 id=1
+Undo create 1
+No operation to undo
+生成 Line 对象 id=1 的命令字符串为 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0))
+计算位置: (0.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的投影点 (0.5, 0.0) 
+计算位置: (0.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (0.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+计算位置: (1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的投影点 (1.5, 0.0) 
+计算位置: (1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (1.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.5
+计算位置: (-1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的投影点 (-1.5, 0.0) 
+计算位置: (-1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (-1.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 上，距最近点距离为：1.5
+id 被占用，尝试下一个 Id 为 2
+创建 Point 对象 id=2
+创建 Point 对象 id=3
+创建 Line 对象 id=4
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 上，距最近点距离为：2.0
+生成 Line 对象 id=4 的命令字符串为 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Segment, name="l", id=4, dependency=set(3, 2))
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Segment, name="l", id=4, dependency=set(3, 2)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Segment, name="l", id=4, dependency=set(3, 2)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Segment, name="l", id=4, dependency=set(3, 2)) 上，距最近点距离为：0.0
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 上，距最近点距离为：2.0
+析构 Point 对象 id=1
+析构 Point 对象 id=2
+析构 Point 对象 id=3
+吸附到网格线 (9, 7)
+吸附到网格线 (8, 7)
+吸附到网格线 (7, 12)
+创建 Point 对象 id=0
+创建 Line 对象 id=1
+Undo create 1
+No operation to undo
+生成 Line 对象 id=1 的命令字符串为 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0))
+计算位置: (0.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的投影点 (0.5, 0.0) 
+计算位置: (0.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (0.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+计算位置: (1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的投影点 (1.5, 0.0) 
+计算位置: (1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (1.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+计算位置: (-1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的投影点 (-1.5, 0.0) 
+计算位置: (-1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (-1.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+id 被占用，尝试下一个 Id 为 2
+创建 Point 对象 id=2
+创建 Point 对象 id=3
+创建 Line 对象 id=4
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+生成 Line 对象 id=4 的命令字符串为 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(2, 3))
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(2, 3)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(2, 3)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(2, 3)) 上，距最近点距离为：0.0
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(2, 3)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(2, 3)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Infinite, name="l", id=4, dependency=set(2, 3)) 上，距最近点距离为：0.0
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Infinite, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+创建 Point 对象 id=1
+计算点 id=1, coor=(0.0, 0.0) 到鼠标位置 (0, 0.001) 的距离为 0.001
+创建 Point 对象 id=2
+创建 Point 对象 id=3
+Undo delete 2
+Undo delete 3
+Undo create 3
+Undo delete 2
+尝试以命令 Point (coor=(0.0, 0.0), name="A", id=1, dependency=set()) 创建对象
+创建 Point 对象 id=1
+尝试以命令 Point (coor=(1.0, 0.0), name="B", id=2, dependency=set()) 创建对象
+创建 Point 对象 id=2
+尝试以命令 Point (coor=(0.0, 1.0), name="C", id=3, dependency=set()) 创建对象
+创建 Point 对象 id=3
+析构 Point 对象 id=1
+析构 Point 对象 id=2
+析构 Point 对象 id=3
+创建 Point 对象 id=0
+创建 Line 对象 id=1
+Undo create 1
+No operation to undo
+生成 Line 对象 id=1 的命令字符串为 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0))
+计算位置: (0.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的投影点 (0.5, 0.0) 
+计算位置: (0.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (0.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+计算位置: (1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的投影点 (1.5, 0.0) 
+计算位置: (1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (1.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+计算位置: (-1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的投影点 (-1.5, 0.0) 
+计算位置: (-1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (-1.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 上，距最近点距离为：1.5
+id 被占用，尝试下一个 Id 为 2
+创建 Point 对象 id=2
+创建 Point 对象 id=3
+创建 Line 对象 id=4
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+生成 Line 对象 id=4 的命令字符串为 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2))
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2)) 上，距最近点距离为：0.0
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Ray, name="l", id=4, dependency=set(3, 2)) 上，距最近点距离为：0.0
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Ray, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+创建 Point 对象 id=0
+创建 Line 对象 id=1
+Undo create 1
+No operation to undo
+生成 Line 对象 id=1 的命令字符串为 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0))
+计算位置: (0.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的投影点 (0.5, 0.0) 
+计算位置: (0.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (0.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.0
+计算位置: (1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的投影点 (1.5, 0.0) 
+计算位置: (1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (1.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 上，距最近点距离为：0.5
+计算位置: (-1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的投影点 (-1.5, 0.0) 
+计算位置: (-1.5, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (-1.5, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 上，距最近点距离为：1.5
+id 被占用，尝试下一个 Id 为 2
+创建 Point 对象 id=2
+创建 Point 对象 id=3
+创建 Line 对象 id=4
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 上，距最近点距离为：2.0
+生成 Line 对象 id=4 的命令字符串为 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Segment, name="l", id=4, dependency=set(2, 3))
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Segment, name="l", id=4, dependency=set(2, 3)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Segment, name="l", id=4, dependency=set(2, 3)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=2, endId=3, direction=(0.0, 1.0), line_type=LineType.Segment, name="l", id=4, dependency=set(2, 3)) 上，距最近点距离为：0.0
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的投影点 (3.0, 0.0) 
+计算位置: (3.0, 0.0) 到 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 的距离为 0.0 
+检测位置 (3.0, 0.0) 是否在 Line (startId=0, endId=None, direction=(1.0, 0.0), line_type=LineType.Segment, name="l", id=1, dependency=set(0)) 上，距最近点距离为：2.0
+析构 Point 对象 id=1
+析构 Point 对象 id=2
+析构 Point 对象 id=3
+吸附到网格线 (3, 17)
+吸附到网格线 (3, 17)
+吸附到网格线 (4, 15)
+吸附到网格线 (5, 13)
+吸附到网格线 (5, 13)
+吸附到网格线 (6, 10)
+吸附到网格线 (6, 10)
+吸附到网格线 (6, 10)
+吸附到网格线 (6, 10)
+吸附到网格线 (6, 10)
+吸附到网格线 (6, 10)
+吸附到网格线 (6, 10)
+吸附到网格线 (6, 10)
+吸附到网格线 (6, 10)
+吸附到网格线 (6, 10)
+吸附到网格线 (6, 10)
+吸附到网格线 (6, 10)
+吸附到网格线 (6, 10)
+吸附到网格线 (6, 10)
+吸附到网格线 (6, 10)
+吸附到网格线 (6, 10)
+吸附到网格线 (6, 10)
+吸附到网格线 (7, 10)
+吸附到网格线 (7, 10)
+吸附到网格线 (7, 10)
+吸附到网格线 (7, 10)
+吸附到网格线 (7, 10)
+吸附到网格线 (7, 10)
+吸附到网格线 (7, 10)
+吸附到网格线 (7, 10)
+吸附到网格线 (7, 10)
+吸附到网格线 (7, 10)
+吸附到网格线 (7, 10)
+吸附到网格线 (7, 10)
+吸附到网格线 (7, 10)
+吸附到网格线 (7, 10)
+吸附到网格线 (7, 10)
+吸附到网格线 (7, 10)
+吸附到网格线 (7, 10)
+吸附到网格线 (7, 10)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+吸附到网格线 (6, 11)
+鼠标点击 (120, 220)
+创建 Point 对象 id=0
+计算点 id=0, coor=(120, 220) 到鼠标位置 (120, 220) 的距离为 0.0
+吸附到点 0
+计算点 id=0, coor=(120, 220) 到鼠标位置 (326, 275) 的距离为 213.21585306913744
+计算点 id=0, coor=(120, 220) 到鼠标位置 (199, 203) 的距离为 80.8084154033477
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(120, 220) 到鼠标位置 (199, 203) 的距离为 80.8084154033477
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(120, 220) 到鼠标位置 (199, 203) 的距离为 80.8084154033477
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(120, 220) 到鼠标位置 (239, 205) 的距离为 119.94165248152953
+吸附到网格线 (12, 10)
+计算点 id=0, coor=(120, 220) 到鼠标位置 (121, 221) 的距离为 1.4142135623730951
+吸附到点 0
+计算点 id=0, coor=(120, 220) 到鼠标位置 (142, 259) 的距离为 44.77722635447622
+吸附到网格线 (7, 13)
+计算点 id=0, coor=(120, 220) 到鼠标位置 (119, 220) 的距离为 1.0
+吸附到点 0
+计算点 id=0, coor=(119, 220) 到鼠标位置 (119, 221) 的距离为 1.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 240) 的距离为 0.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (100, 350) 的距离为 117.74548823628021
+计算点 id=0, coor=(142, 240) 到鼠标位置 (101, 349) 的距离为 116.45600027478189
+计算点 id=0, coor=(142, 240) 到鼠标位置 (102, 348) 的距离为 115.16944039110375
+计算点 id=0, coor=(142, 240) 到鼠标位置 (103, 347) 的距离为 113.8859078200635
+计算点 id=0, coor=(142, 240) 到鼠标位置 (105, 346) 的距离为 112.27199116431488
+计算点 id=0, coor=(142, 240) 到鼠标位置 (106, 344) 的距离为 110.05453193758083
+计算点 id=0, coor=(142, 240) 到鼠标位置 (109, 341) 的距离为 106.25441167311595
+计算点 id=0, coor=(142, 240) 到鼠标位置 (111, 340) 的距离为 104.69479452198185
+计算点 id=0, coor=(142, 240) 到鼠标位置 (112, 338) 的距离为 102.48902380255166
+计算点 id=0, coor=(142, 240) 到鼠标位置 (114, 337) 的距离为 100.96038827183659
+计算点 id=0, coor=(142, 240) 到鼠标位置 (115, 335) 的距离为 98.76234100101111
+吸附到网格线 (6, 17)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (118, 331) 的距离为 94.11163583744573
+计算点 id=0, coor=(142, 240) 到鼠标位置 (121, 328) 的距离为 90.47098982546837
+计算点 id=0, coor=(142, 240) 到鼠标位置 (122, 326) 的距离为 88.29496021857646
+计算点 id=0, coor=(142, 240) 到鼠标位置 (124, 324) 的距离为 85.90692637965812
+吸附到网格线 (6, 16)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (126, 322) 的距离为 83.54639429682169
+计算点 id=0, coor=(142, 240) 到鼠标位置 (127, 320) 的距离为 81.39410298049853
+计算点 id=0, coor=(142, 240) 到鼠标位置 (131, 315) 的距离为 75.8023746329889
+计算点 id=0, coor=(142, 240) 到鼠标位置 (136, 310) 的距离为 70.25667228100119
+计算点 id=0, coor=(142, 240) 到鼠标位置 (137, 308) 的距离为 68.18357573492314
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 301) 的距离为 61.00819617067857
+吸附到网格线 (7, 15)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 298) 的距离为 58.077534382926416
+吸附到网格线 (7, 15)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (151, 289) 的距离为 49.8196748283246
+计算点 id=0, coor=(142, 240) 到鼠标位置 (157, 280) 的距离为 42.720018726587654
+吸附到网格线 (8, 14)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (159, 275) 的距离为 38.91015291668744
+吸附到网格线 (8, 14)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (162, 271) 的距离为 36.89173349139343
+计算点 id=0, coor=(142, 240) 到鼠标位置 (165, 264) 的距离为 33.24154027718932
+吸附到网格线 (8, 13)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (170, 256) 的距离为 32.2490309931942
+计算点 id=0, coor=(142, 240) 到鼠标位置 (171, 254) 的距离为 32.202484376209235
+计算点 id=0, coor=(142, 240) 到鼠标位置 (172, 251) 的距离为 31.953090617340916
+计算点 id=0, coor=(142, 240) 到鼠标位置 (174, 249) 的距离为 33.24154027718932
+计算点 id=0, coor=(142, 240) 到鼠标位置 (174, 247) 的距离为 32.7566787083184
+计算点 id=0, coor=(142, 240) 到鼠标位置 (174, 246) 的距离为 32.55764119219941
+计算点 id=0, coor=(142, 240) 到鼠标位置 (174, 246) 的距离为 32.55764119219941
+计算点 id=0, coor=(142, 240) 到鼠标位置 (174, 245) 的距离为 32.38826948140329
+计算点 id=0, coor=(142, 240) 到鼠标位置 (174, 245) 的距离为 32.38826948140329
+计算点 id=0, coor=(142, 240) 到鼠标位置 (174, 244) 的距离为 32.2490309931942
+计算点 id=0, coor=(142, 240) 到鼠标位置 (174, 244) 的距离为 32.2490309931942
+计算点 id=0, coor=(142, 240) 到鼠标位置 (174, 244) 的距离为 32.2490309931942
+计算点 id=0, coor=(142, 240) 到鼠标位置 (174, 243) 的距离为 32.14031735997639
+计算点 id=0, coor=(142, 240) 到鼠标位置 (174, 242) 的距离为 32.0624390837628
+计算点 id=0, coor=(142, 240) 到鼠标位置 (173, 242) 的距离为 31.064449134018133
+计算点 id=0, coor=(142, 240) 到鼠标位置 (172, 241) 的距离为 30.01666203960727
+计算点 id=0, coor=(142, 240) 到鼠标位置 (172, 241) 的距离为 30.01666203960727
+计算点 id=0, coor=(142, 240) 到鼠标位置 (171, 240) 的距离为 29.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (171, 239) 的距离为 29.017236257093817
+计算点 id=0, coor=(142, 240) 到鼠标位置 (170, 238) 的距离为 28.071337695236398
+计算点 id=0, coor=(142, 240) 到鼠标位置 (169, 237) 的距离为 27.16615541441225
+计算点 id=0, coor=(142, 240) 到鼠标位置 (169, 236) 的距离为 27.294688127912362
+计算点 id=0, coor=(142, 240) 到鼠标位置 (168, 236) 的距离为 26.30589287593181
+计算点 id=0, coor=(142, 240) 到鼠标位置 (168, 235) 的距离为 26.476404589747453
+计算点 id=0, coor=(142, 240) 到鼠标位置 (168, 234) 的距离为 26.68332812825267
+计算点 id=0, coor=(142, 240) 到鼠标位置 (167, 234) 的距离为 25.709920264364882
+计算点 id=0, coor=(142, 240) 到鼠标位置 (166, 233) 的距离为 25.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (165, 232) 的距离为 24.351591323771842
+计算点 id=0, coor=(142, 240) 到鼠标位置 (164, 231) 的距离为 23.769728648009426
+计算点 id=0, coor=(142, 240) 到鼠标位置 (163, 230) 的距离为 23.259406699226016
+计算点 id=0, coor=(142, 240) 到鼠标位置 (161, 229) 的距离为 21.95449840010015
+计算点 id=0, coor=(142, 240) 到鼠标位置 (160, 227) 的距离为 22.20360331117452
+计算点 id=0, coor=(142, 240) 到鼠标位置 (157, 225) 的距离为 21.213203435596427
+吸附到网格线 (8, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (155, 224) 的距离为 20.615528128088304
+吸附到网格线 (8, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (152, 222) 的距离为 20.591260281974
+计算点 id=0, coor=(142, 240) 到鼠标位置 (151, 221) 的距离为 21.02379604162864
+计算点 id=0, coor=(142, 240) 到鼠标位置 (149, 219) 的距离为 22.135943621178654
+计算点 id=0, coor=(142, 240) 到鼠标位置 (146, 217) 的距离为 23.345235059857504
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 216) 的距离为 24.186773244895647
+吸附到网格线 (7, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 214) 的距离为 26.019223662515376
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 212) 的距离为 28.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (140, 209) 的距离为 31.064449134018133
+计算点 id=0, coor=(142, 240) 到鼠标位置 (137, 203) 的距离为 37.33630940518894
+吸附到网格线 (7, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (136, 200) 的距离为 40.44749683231337
+吸附到网格线 (7, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (134, 195) 的距离为 45.70557952810576
+计算点 id=0, coor=(142, 240) 到鼠标位置 (133, 193) 的距离为 47.853944456021594
+计算点 id=0, coor=(142, 240) 到鼠标位置 (132, 187) 的距离为 53.9351462406472
+计算点 id=0, coor=(142, 240) 到鼠标位置 (131, 178) 的距离为 62.96824596572466
+计算点 id=0, coor=(142, 240) 到鼠标位置 (131, 169) 的距离为 71.84705978674423
+计算点 id=0, coor=(142, 240) 到鼠标位置 (131, 167) 的距离为 73.824115301167
+计算点 id=0, coor=(142, 240) 到鼠标位置 (131, 159) 的距离为 81.74350127074322
+计算点 id=0, coor=(142, 240) 到鼠标位置 (131, 156) 的距离为 84.71717653463199
+计算点 id=0, coor=(142, 240) 到鼠标位置 (130, 151) 的距离为 89.80534505250787
+计算点 id=0, coor=(142, 240) 到鼠标位置 (130, 147) 的距离为 93.7709976485267
+计算点 id=0, coor=(142, 240) 到鼠标位置 (130, 146) 的距离为 94.76286192385707
+计算点 id=0, coor=(142, 240) 到鼠标位置 (130, 145) 的距离为 95.75489543621255
+计算点 id=0, coor=(142, 240) 到鼠标位置 (129, 144) 的距离为 96.87620966986684
+计算点 id=0, coor=(142, 240) 到鼠标位置 (129, 144) 的距离为 96.87620966986684
+计算点 id=0, coor=(142, 240) 到鼠标位置 (129, 143) 的距离为 97.86725703727473
+计算点 id=0, coor=(142, 240) 到鼠标位置 (129, 143) 的距离为 97.86725703727473
+计算点 id=0, coor=(142, 240) 到鼠标位置 (129, 143) 的距离为 97.86725703727473
+计算点 id=0, coor=(142, 240) 到鼠标位置 (128, 143) 的距离为 98.00510190801293
+计算点 id=0, coor=(142, 240) 到鼠标位置 (128, 144) 的距离为 97.01546268507923
+计算点 id=0, coor=(142, 240) 到鼠标位置 (129, 144) 的距离为 96.87620966986684
+计算点 id=0, coor=(142, 240) 到鼠标位置 (129, 144) 的距离为 96.87620966986684
+计算点 id=0, coor=(142, 240) 到鼠标位置 (130, 145) 的距离为 95.75489543621255
+计算点 id=0, coor=(142, 240) 到鼠标位置 (130, 146) 的距离为 94.76286192385707
+计算点 id=0, coor=(142, 240) 到鼠标位置 (131, 146) 的距离为 94.64142856064674
+计算点 id=0, coor=(142, 240) 到鼠标位置 (132, 147) 的距离为 93.53608929178085
+计算点 id=0, coor=(142, 240) 到鼠标位置 (133, 148) 的距离为 92.43916918709297
+计算点 id=0, coor=(142, 240) 到鼠标位置 (133, 148) 的距离为 92.43916918709297
+计算点 id=0, coor=(142, 240) 到鼠标位置 (134, 149) 的距离为 91.35097153287424
+计算点 id=0, coor=(142, 240) 到鼠标位置 (134, 149) 的距离为 91.35097153287424
+计算点 id=0, coor=(142, 240) 到鼠标位置 (134, 149) 的距离为 91.35097153287424
+计算点 id=0, coor=(142, 240) 到鼠标位置 (135, 150) 的距离为 90.27181176868004
+计算点 id=0, coor=(142, 240) 到鼠标位置 (135, 151) 的距离为 89.27485648266257
+计算点 id=0, coor=(142, 240) 到鼠标位置 (135, 151) 的距离为 89.27485648266257
+计算点 id=0, coor=(142, 240) 到鼠标位置 (136, 151) 的距离为 89.20201791439474
+计算点 id=0, coor=(142, 240) 到鼠标位置 (136, 151) 的距离为 89.20201791439474
+计算点 id=0, coor=(142, 240) 到鼠标位置 (136, 152) 的距离为 88.20430828479978
+计算点 id=0, coor=(142, 240) 到鼠标位置 (137, 152) 的距离为 88.14193099768123
+计算点 id=0, coor=(142, 240) 到鼠标位置 (137, 152) 的距离为 88.14193099768123
+计算点 id=0, coor=(142, 240) 到鼠标位置 (138, 152) 的距离为 88.09086218218096
+计算点 id=0, coor=(142, 240) 到鼠标位置 (138, 152) 的距离为 88.09086218218096
+计算点 id=0, coor=(142, 240) 到鼠标位置 (139, 152) 的距离为 88.05112151472007
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 152) 的距离为 88.0056816347672
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 152) 的距离为 88.0056816347672
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 152) 的距离为 88.0056816347672
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 152) 的距离为 88.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 152) 的距离为 88.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 152) 的距离为 88.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 152) 的距离为 88.0056816347672
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 152) 的距离为 88.0056816347672
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 152) 的距离为 88.0056816347672
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 152) 的距离为 88.0056816347672
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 153) 的距离为 87.00574693662483
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 153) 的距离为 87.00574693662483
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 153) 的距离为 87.00574693662483
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 154) 的距离为 86.00581375697809
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 155) 的距离为 85.00588214941364
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 156) 的距离为 84.00595217006948
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 157) 的距离为 83.00602387778854
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 159) 的距离为 81.00617260431454
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 159) 的距离为 81.00617260431454
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 160) 的距离为 80.00624975587844
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 162) 的距离为 78.00640999302557
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 163) 的距离为 77.00649323271382
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 164) 的距离为 76.00657866263946
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 164) 的距离为 76.00657866263946
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 165) 的距离为 75.0066663703967
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 166) 的距离为 74.00675644831355
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 166) 的距离为 74.00675644831355
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 166) 的距离为 74.00675644831355
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 166) 的距离为 74.00675644831355
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 166) 的距离为 74.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 166) 的距离为 74.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 166) 的距离为 74.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 166) 的距离为 74.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 166) 的距离为 74.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 166) 的距离为 74.00675644831355
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 166) 的距离为 74.00675644831355
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 166) 的距离为 74.00675644831355
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 166) 的距离为 74.00675644831355
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 166) 的距离为 74.00675644831355
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 166) 的距离为 74.00675644831355
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 165) 的距离为 75.0066663703967
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 165) 的距离为 75.0066663703967
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 165) 的距离为 75.0066663703967
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 165) 的距离为 75.0066663703967
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 164) 的距离为 76.00657866263946
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 164) 的距离为 76.00657866263946
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 163) 的距离为 77.00649323271382
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 163) 的距离为 77.00649323271382
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 163) 的距离为 77.00649323271382
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (140, 162) 的距离为 78.02563681252464
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (140, 162) 的距离为 78.02563681252464
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (140, 162) 的距离为 78.02563681252464
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (140, 161) 的距离为 79.02531240052139
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (140, 161) 的距离为 79.02531240052139
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (139, 161) 的距离为 79.05694150420949
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (139, 160) 的距离为 80.05623023850174
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (139, 160) 的距离为 80.05623023850174
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (139, 160) 的距离为 80.05623023850174
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (139, 160) 的距离为 80.05623023850174
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (139, 160) 的距离为 80.05623023850174
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (139, 160) 的距离为 80.05623023850174
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (139, 160) 的距离为 80.05623023850174
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (139, 160) 的距离为 80.05623023850174
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (139, 160) 的距离为 80.05623023850174
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (140, 160) 的距离为 80.02499609497022
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 160) 的距离为 80.00624975587844
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 161) 的距离为 79.0
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 162) 的距离为 78.00640999302557
+吸附到网格线 (7, 8)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (146, 165) 的距离为 75.1065909225016
+计算点 id=0, coor=(142, 240) 到鼠标位置 (149, 167) 的距离为 73.33484846919642
+计算点 id=0, coor=(142, 240) 到鼠标位置 (151, 168) 的距离为 72.56031973468694
+计算点 id=0, coor=(142, 240) 到鼠标位置 (152, 170) 的距离为 70.71067811865476
+计算点 id=0, coor=(142, 240) 到鼠标位置 (153, 170) 的距离为 70.8590149522275
+计算点 id=0, coor=(142, 240) 到鼠标位置 (154, 171) 的距离为 70.03570517957252
+计算点 id=0, coor=(142, 240) 到鼠标位置 (155, 171) 的距离为 70.21395872616783
+计算点 id=0, coor=(142, 240) 到鼠标位置 (155, 172) 的距离为 69.2314957226839
+计算点 id=0, coor=(142, 240) 到鼠标位置 (156, 172) 的距离为 69.42621983083913
+计算点 id=0, coor=(142, 240) 到鼠标位置 (156, 172) 的距离为 69.42621983083913
+计算点 id=0, coor=(142, 240) 到鼠标位置 (156, 172) 的距离为 69.42621983083913
+计算点 id=0, coor=(142, 240) 到鼠标位置 (156, 173) 的距离为 68.4470598345904
+计算点 id=0, coor=(142, 240) 到鼠标位置 (156, 173) 的距离为 68.4470598345904
+计算点 id=0, coor=(142, 240) 到鼠标位置 (156, 173) 的距离为 68.4470598345904
+计算点 id=0, coor=(142, 240) 到鼠标位置 (156, 173) 的距离为 68.4470598345904
+计算点 id=0, coor=(142, 240) 到鼠标位置 (157, 174) 的距离为 67.68308503607086
+计算点 id=0, coor=(142, 240) 到鼠标位置 (157, 174) 的距离为 67.68308503607086
+计算点 id=0, coor=(142, 240) 到鼠标位置 (157, 174) 的距离为 67.68308503607086
+计算点 id=0, coor=(142, 240) 到鼠标位置 (157, 174) 的距离为 67.68308503607086
+计算点 id=0, coor=(142, 240) 到鼠标位置 (157, 175) 的距离为 66.70832032063167
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (157, 175) 的距离为 66.70832032063167
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (157, 175) 的距离为 66.70832032063167
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (158, 176) 的距离为 65.96969000988257
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (158, 176) 的距离为 65.96969000988257
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (158, 176) 的距离为 65.96969000988257
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (158, 176) 的距离为 65.96969000988257
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (158, 177) 的距离为 65.0
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (158, 177) 的距离为 65.0
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (159, 177) 的距离为 65.25335240430181
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (159, 178) 的距离为 64.28841264178172
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (159, 178) 的距离为 64.28841264178172
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (159, 179) 的距离为 63.324560795950255
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (159, 179) 的距离为 63.324560795950255
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (160, 180) 的距离为 62.6418390534633
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (160, 180) 的距离为 62.6418390534633
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (160, 180) 的距离为 62.6418390534633
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (160, 180) 的距离为 62.6418390534633
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (161, 181) 的距离为 61.98386886924694
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (161, 181) 的距离为 61.98386886924694
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (161, 182) 的距离为 61.032778078668514
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (161, 182) 的距离为 61.032778078668514
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (162, 183) 的距离为 60.40695324215582
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (162, 183) 的距离为 60.40695324215582
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (162, 184) 的距离为 59.464274989274024
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (163, 185) 的距离为 58.872744118140105
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (163, 185) 的距离为 58.872744118140105
+吸附到网格线 (8, 9)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (163, 186) 的距离为 57.9396237474839
+计算点 id=0, coor=(142, 240) 到鼠标位置 (164, 187) 的距离为 57.38466694161429
+计算点 id=0, coor=(142, 240) 到鼠标位置 (164, 188) 的距离为 56.462376853972415
+计算点 id=0, coor=(142, 240) 到鼠标位置 (165, 189) 的距离为 55.94640292279746
+计算点 id=0, coor=(142, 240) 到鼠标位置 (166, 190) 的距离为 55.46169849544819
+计算点 id=0, coor=(142, 240) 到鼠标位置 (166, 192) 的距离为 53.665631459994955
+计算点 id=0, coor=(142, 240) 到鼠标位置 (167, 192) 的距离为 54.120236510939236
+计算点 id=0, coor=(142, 240) 到鼠标位置 (167, 194) 的距离为 52.354560450833695
+计算点 id=0, coor=(142, 240) 到鼠标位置 (168, 195) 的距离为 51.97114584074513
+计算点 id=0, coor=(142, 240) 到鼠标位置 (168, 196) 的距离为 51.10772935672255
+计算点 id=0, coor=(142, 240) 到鼠标位置 (169, 199) 的距离为 49.09175083453431
+计算点 id=0, coor=(142, 240) 到鼠标位置 (170, 200) 的距离为 48.82622246293481
+计算点 id=0, coor=(142, 240) 到鼠标位置 (170, 202) 的距离为 47.20169488482379
+计算点 id=0, coor=(142, 240) 到鼠标位置 (171, 202) 的距离为 47.80167361086848
+计算点 id=0, coor=(142, 240) 到鼠标位置 (171, 203) 的距离为 47.01063709417264
+计算点 id=0, coor=(142, 240) 到鼠标位置 (171, 205) 的距离为 45.45327270945405
+计算点 id=0, coor=(142, 240) 到鼠标位置 (172, 206) 的距离为 45.34313619501854
+计算点 id=0, coor=(142, 240) 到鼠标位置 (172, 207) 的距离为 44.598206241955516
+计算点 id=0, coor=(142, 240) 到鼠标位置 (172, 207) 的距离为 44.598206241955516
+计算点 id=0, coor=(142, 240) 到鼠标位置 (172, 208) 的距离为 43.86342439892262
+计算点 id=0, coor=(142, 240) 到鼠标位置 (172, 209) 的距离为 43.139309220245984
+计算点 id=0, coor=(142, 240) 到鼠标位置 (173, 210) 的距离为 43.139309220245984
+计算点 id=0, coor=(142, 240) 到鼠标位置 (173, 211) 的距离为 42.44997055358225
+计算点 id=0, coor=(142, 240) 到鼠标位置 (173, 212) 的距离为 41.773197148410844
+计算点 id=0, coor=(142, 240) 到鼠标位置 (174, 213) 的距离为 41.86884283091664
+计算点 id=0, coor=(142, 240) 到鼠标位置 (174, 214) 的距离为 41.23105625617661
+计算点 id=0, coor=(142, 240) 到鼠标位置 (174, 215) 的距离为 40.607881008493905
+计算点 id=0, coor=(142, 240) 到鼠标位置 (175, 216) 的距离为 40.80441152620633
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (175, 217) 的距离为 40.22437072223753
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (175, 218) 的距离为 39.66106403010388
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (176, 218) 的距离为 40.496913462633174
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (176, 219) 的距离为 39.96248240537617
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (176, 220) 的距离为 39.44616584663204
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (176, 220) 的距离为 39.44616584663204
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (176, 221) 的距离为 38.948684188300895
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (176, 222) 的距离为 38.47076812334269
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (177, 222) 的距离为 39.35733730830886
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (177, 222) 的距离为 39.35733730830886
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (177, 223) 的距离为 38.91015291668744
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (178, 224) 的距离为 39.395431207184416
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (178, 224) 的距离为 39.395431207184416
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (178, 224) 的距离为 39.395431207184416
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (178, 225) 的距离为 39.0
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (178, 225) 的距离为 39.0
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (178, 225) 的距离为 39.0
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (179, 225) 的距离为 39.92492955535426
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (179, 226) 的距离为 39.56008088970496
+计算点 id=0, coor=(142, 240) 到鼠标位置 (179, 226) 的距离为 39.56008088970496
+计算点 id=0, coor=(142, 240) 到鼠标位置 (179, 226) 的距离为 39.56008088970496
+计算点 id=0, coor=(142, 240) 到鼠标位置 (179, 226) 的距离为 39.56008088970496
+计算点 id=0, coor=(142, 240) 到鼠标位置 (179, 227) 的距离为 39.21734310225516
+计算点 id=0, coor=(142, 240) 到鼠标位置 (179, 227) 的距离为 39.21734310225516
+计算点 id=0, coor=(142, 240) 到鼠标位置 (179, 228) 的距离为 38.897300677553446
+计算点 id=0, coor=(142, 240) 到鼠标位置 (178, 228) 的距离为 37.94733192202055
+计算点 id=0, coor=(142, 240) 到鼠标位置 (178, 228) 的距离为 37.94733192202055
+计算点 id=0, coor=(142, 240) 到鼠标位置 (178, 228) 的距离为 37.94733192202055
+计算点 id=0, coor=(142, 240) 到鼠标位置 (177, 229) 的距离为 36.68787265568828
+计算点 id=0, coor=(142, 240) 到鼠标位置 (176, 229) 的距离为 35.73513677041127
+计算点 id=0, coor=(142, 240) 到鼠标位置 (176, 229) 的距离为 35.73513677041127
+计算点 id=0, coor=(142, 240) 到鼠标位置 (174, 229) 的距离为 33.83784863137726
+计算点 id=0, coor=(142, 240) 到鼠标位置 (173, 229) 的距离为 32.89376840679705
+计算点 id=0, coor=(142, 240) 到鼠标位置 (172, 229) 的距离为 31.953090617340916
+计算点 id=0, coor=(142, 240) 到鼠标位置 (171, 229) 的距离为 31.016124838541646
+计算点 id=0, coor=(142, 240) 到鼠标位置 (169, 230) 的距离为 28.792360097775937
+计算点 id=0, coor=(142, 240) 到鼠标位置 (169, 230) 的距离为 28.792360097775937
+计算点 id=0, coor=(142, 240) 到鼠标位置 (167, 230) 的距离为 26.92582403567252
+计算点 id=0, coor=(142, 240) 到鼠标位置 (167, 230) 的距离为 26.92582403567252
+计算点 id=0, coor=(142, 240) 到鼠标位置 (166, 230) 的距离为 26.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (166, 230) 的距离为 26.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (165, 230) 的距离为 25.079872407968907
+计算点 id=0, coor=(142, 240) 到鼠标位置 (164, 230) 的距离为 24.166091947189145
+计算点 id=0, coor=(142, 240) 到鼠标位置 (164, 230) 的距离为 24.166091947189145
+计算点 id=0, coor=(142, 240) 到鼠标位置 (164, 231) 的距离为 23.769728648009426
+计算点 id=0, coor=(142, 240) 到鼠标位置 (163, 231) 的距离为 22.847319317591726
+计算点 id=0, coor=(142, 240) 到鼠标位置 (163, 231) 的距离为 22.847319317591726
+计算点 id=0, coor=(142, 240) 到鼠标位置 (163, 231) 的距离为 22.847319317591726
+计算点 id=0, coor=(142, 240) 到鼠标位置 (163, 231) 的距离为 22.847319317591726
+计算点 id=0, coor=(142, 240) 到鼠标位置 (163, 231) 的距离为 22.847319317591726
+计算点 id=0, coor=(142, 240) 到鼠标位置 (162, 231) 的距离为 21.93171219946131
+计算点 id=0, coor=(142, 240) 到鼠标位置 (162, 232) 的距离为 21.540659228538015
+计算点 id=0, coor=(142, 240) 到鼠标位置 (162, 232) 的距离为 21.540659228538015
+计算点 id=0, coor=(142, 240) 到鼠标位置 (162, 232) 的距离为 21.540659228538015
+计算点 id=0, coor=(142, 240) 到鼠标位置 (162, 232) 的距离为 21.540659228538015
+计算点 id=0, coor=(142, 240) 到鼠标位置 (162, 233) 的距离为 21.18962010041709
+计算点 id=0, coor=(142, 240) 到鼠标位置 (162, 233) 的距离为 21.18962010041709
+计算点 id=0, coor=(142, 240) 到鼠标位置 (161, 233) 的距离为 20.248456731316587
+计算点 id=0, coor=(142, 240) 到鼠标位置 (161, 233) 的距离为 20.248456731316587
+计算点 id=0, coor=(142, 240) 到鼠标位置 (161, 234) 的距离为 19.924858845171276
+计算点 id=0, coor=(142, 240) 到鼠标位置 (160, 234) 的距离为 18.973665961010276
+计算点 id=0, coor=(142, 240) 到鼠标位置 (160, 235) 的距离为 18.681541692269406
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (160, 235) 的距离为 18.681541692269406
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (159, 236) 的距离为 17.46424919657298
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (159, 237) 的距离为 17.26267650163207
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (158, 237) 的距离为 16.278820596099706
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (158, 237) 的距离为 16.278820596099706
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (157, 238) 的距离为 15.132745950421556
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (157, 238) 的距离为 15.132745950421556
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (157, 238) 的距离为 15.132745950421556
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (157, 238) 的距离为 15.132745950421556
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (156, 238) 的距离为 14.142135623730951
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (156, 239) 的距离为 14.035668847618199
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (156, 239) 的距离为 14.035668847618199
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (156, 239) 的距离为 14.035668847618199
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (155, 239) 的距离为 13.038404810405298
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (155, 239) 的距离为 13.038404810405298
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (155, 239) 的距离为 13.038404810405298
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (155, 239) 的距离为 13.038404810405298
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (154, 239) 的距离为 12.041594578792296
+计算点 id=0, coor=(142, 240) 到鼠标位置 (154, 239) 的距离为 12.041594578792296
+计算点 id=0, coor=(142, 240) 到鼠标位置 (153, 239) 的距离为 11.045361017187261
+计算点 id=0, coor=(142, 240) 到鼠标位置 (153, 240) 的距离为 11.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (152, 240) 的距离为 10.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (152, 240) 的距离为 10.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (151, 240) 的距离为 9.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (150, 240) 的距离为 8.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (150, 240) 的距离为 8.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (149, 240) 的距离为 7.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (148, 240) 的距离为 6.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (147, 240) 的距离为 5.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (146, 240) 的距离为 4.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (146, 240) 的距离为 4.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (146, 240) 的距离为 4.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 240) 的距离为 3.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (144, 240) 的距离为 2.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (144, 241) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 241) 的距离为 1.4142135623730951
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 241) 的距离为 1.4142135623730951
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 241) 的距离为 1.4142135623730951
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 241) 的距离为 1.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 241) 的距离为 1.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 241) 的距离为 1.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 241) 的距离为 1.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 241) 的距离为 1.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 241) 的距离为 1.4142135623730951
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 241) 的距离为 1.4142135623730951
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 241) 的距离为 1.4142135623730951
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 241) 的距离为 1.4142135623730951
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (144, 241) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (144, 241) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (144, 241) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (144, 241) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 241) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 241) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 241) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 241) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 241) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (146, 241) 的距离为 4.123105625617661
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (146, 241) 的距离为 4.123105625617661
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (146, 241) 的距离为 4.123105625617661
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (146, 240) 的距离为 4.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (146, 240) 的距离为 4.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (147, 239) 的距离为 5.0990195135927845
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (149, 238) 的距离为 7.280109889280518
+计算点 id=0, coor=(142, 240) 到鼠标位置 (150, 238) 的距离为 8.246211251235321
+计算点 id=0, coor=(142, 240) 到鼠标位置 (153, 236) 的距离为 11.704699910719626
+计算点 id=0, coor=(142, 240) 到鼠标位置 (154, 235) 的距离为 13.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (157, 233) 的距离为 16.55294535724685
+计算点 id=0, coor=(142, 240) 到鼠标位置 (159, 231) 的距离为 19.235384061671343
+计算点 id=0, coor=(142, 240) 到鼠标位置 (161, 230) 的距离为 21.470910553583888
+计算点 id=0, coor=(142, 240) 到鼠标位置 (162, 229) 的距离为 22.825424421026653
+计算点 id=0, coor=(142, 240) 到鼠标位置 (164, 227) 的距离为 25.553864678361276
+计算点 id=0, coor=(142, 240) 到鼠标位置 (165, 226) 的距离为 26.92582403567252
+计算点 id=0, coor=(142, 240) 到鼠标位置 (167, 224) 的距离为 29.68164415931166
+计算点 id=0, coor=(142, 240) 到鼠标位置 (168, 223) 的距离为 31.064449134018133
+计算点 id=0, coor=(142, 240) 到鼠标位置 (170, 221) 的距离为 33.83784863137726
+计算点 id=0, coor=(142, 240) 到鼠标位置 (173, 219) 的距离为 37.44329045369811
+计算点 id=0, coor=(142, 240) 到鼠标位置 (174, 218) 的距离为 38.8329756778952
+计算点 id=0, coor=(142, 240) 到鼠标位置 (175, 217) 的距离为 40.22437072223753
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (177, 215) 的距离为 43.01162633521314
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (178, 214) 的距离为 44.40720662234904
+计算点 id=0, coor=(142, 240) 到鼠标位置 (179, 213) 的距离为 45.803929962395145
+计算点 id=0, coor=(142, 240) 到鼠标位置 (180, 212) 的距离为 47.20169488482379
+计算点 id=0, coor=(142, 240) 到鼠标位置 (180, 212) 的距离为 47.20169488482379
+计算点 id=0, coor=(142, 240) 到鼠标位置 (181, 212) 的距离为 48.010415536631214
+计算点 id=0, coor=(142, 240) 到鼠标位置 (181, 211) 的距离为 48.60041152089147
+计算点 id=0, coor=(142, 240) 到鼠标位置 (182, 211) 的距离为 49.4064773081425
+计算点 id=0, coor=(142, 240) 到鼠标位置 (182, 211) 的距离为 49.4064773081425
+计算点 id=0, coor=(142, 240) 到鼠标位置 (182, 210) 的距离为 50.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (182, 210) 的距离为 50.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (183, 210) 的距离为 50.80354318352215
+计算点 id=0, coor=(142, 240) 到鼠标位置 (183, 209) 的距离为 51.40038910358559
+计算点 id=0, coor=(142, 240) 到鼠标位置 (184, 208) 的距离为 52.80151512977634
+计算点 id=0, coor=(142, 240) 到鼠标位置 (185, 207) 的距离为 54.20332093147061
+计算点 id=0, coor=(142, 240) 到鼠标位置 (186, 206) 的距离为 55.60575509783138
+计算点 id=0, coor=(142, 240) 到鼠标位置 (187, 205) 的距离为 57.0087712549569
+计算点 id=0, coor=(142, 240) 到鼠标位置 (189, 203) 的距离为 59.81638571495272
+计算点 id=0, coor=(142, 240) 到鼠标位置 (190, 202) 的距离为 61.220911460055866
+计算点 id=0, coor=(142, 240) 到鼠标位置 (191, 200) 的距离为 63.25345840347388
+计算点 id=0, coor=(142, 240) 到鼠标位置 (193, 199) 的距离为 65.43699259593154
+计算点 id=0, coor=(142, 240) 到鼠标位置 (193, 199) 的距离为 65.43699259593154
+计算点 id=0, coor=(142, 240) 到鼠标位置 (194, 198) 的距离为 66.84309986827361
+计算点 id=0, coor=(142, 240) 到鼠标位置 (195, 197) 的距离为 68.24954212300622
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (195, 197) 的距离为 68.24954212300622
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (195, 197) 的距离为 68.24954212300622
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (196, 197) 的距离为 69.02897942168927
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (196, 197) 的距离为 69.02897942168927
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (196, 196) 的距离为 69.65629906907199
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (197, 196) 的距离为 70.43436661176133
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (198, 196) 的距离为 71.21797525905943
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (198, 196) 的距离为 71.21797525905943
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (199, 196) 的距离为 72.00694410957877
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (199, 196) 的距离为 72.00694410957877
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (200, 196) 的距离为 72.80109889280519
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (200, 196) 的距离为 72.80109889280519
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (201, 196) 的距离为 73.60027173862879
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (201, 196) 的距离为 73.60027173862879
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (202, 196) 的距离为 74.4043009509531
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (202, 196) 的距离为 74.4043009509531
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (202, 196) 的距离为 74.4043009509531
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 196) 的距离为 75.21303078589507
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 196) 的距离为 75.21303078589507
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 196) 的距离为 75.21303078589507
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 196) 的距离为 75.21303078589507
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 196) 的距离为 75.21303078589507
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 197) 的距离为 74.63243262818116
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 197) 的距离为 74.63243262818116
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 197) 的距离为 74.63243262818116
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 197) 的距离为 74.63243262818116
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 198) 的距离为 74.06078584514209
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 198) 的距离为 74.06078584514209
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 198) 的距离为 74.06078584514209
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 198) 的距离为 74.06078584514209
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 199) 的距离为 73.49829930005184
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 199) 的距离为 73.49829930005184
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 199) 的距离为 73.49829930005184
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 200) 的距离为 72.94518489934754
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 200) 的距离为 72.94518489934754
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 200) 的距离为 72.94518489934754
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 200) 的距离为 72.94518489934754
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 201) 的距离为 72.40165743959182
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 201) 的距离为 72.40165743959182
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 201) 的距离为 72.40165743959182
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 201) 的距离为 72.40165743959182
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 202) 的距离为 71.8679344353238
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 202) 的距离为 71.8679344353238
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 202) 的距离为 71.8679344353238
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 202) 的距离为 71.8679344353238
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 203) 的距离为 71.34423592694787
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 203) 的距离为 71.34423592694787
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 203) 的距离为 71.34423592694787
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 203) 的距离为 71.34423592694787
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 204) 的距离为 70.83078426785913
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (204, 204) 的距离为 71.69379331573968
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (204, 204) 的距离为 71.69379331573968
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (204, 205) 的距离为 71.19691004531025
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (204, 205) 的距离为 71.19691004531025
+吸附到网格线 (10, 10)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (204, 206) 的距离为 70.71067811865476
+计算点 id=0, coor=(142, 240) 到鼠标位置 (204, 206) 的距离为 70.71067811865476
+计算点 id=0, coor=(142, 240) 到鼠标位置 (203, 208) 的距离为 68.8839603971781
+计算点 id=0, coor=(142, 240) 到鼠标位置 (201, 210) 的距离为 66.18912297349165
+计算点 id=0, coor=(142, 240) 到鼠标位置 (198, 212) 的距离为 62.609903369994115
+计算点 id=0, coor=(142, 240) 到鼠标位置 (197, 213) 的距离为 61.26989472816156
+计算点 id=0, coor=(142, 240) 到鼠标位置 (195, 214) 的距离为 59.033888572581766
+计算点 id=0, coor=(142, 240) 到鼠标位置 (193, 215) 的距离为 56.79788728465171
+计算点 id=0, coor=(142, 240) 到鼠标位置 (192, 216) 的距离为 55.46169849544819
+计算点 id=0, coor=(142, 240) 到鼠标位置 (189, 219) 的距离为 51.478150704935004
+计算点 id=0, coor=(142, 240) 到鼠标位置 (188, 220) 的距离为 50.15974481593781
+计算点 id=0, coor=(142, 240) 到鼠标位置 (186, 221) 的距离为 47.92702786528704
+计算点 id=0, coor=(142, 240) 到鼠标位置 (185, 222) 的距离为 46.61544808322666
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (184, 224) 的距离为 44.94441010848846
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (183, 225) 的距离为 43.657759905886145
+吸附到网格线 (9, 11)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (181, 227) 的距离为 41.10960958218893
+计算点 id=0, coor=(142, 240) 到鼠标位置 (180, 227) 的距离为 40.162171256046406
+计算点 id=0, coor=(142, 240) 到鼠标位置 (179, 228) 的距离为 38.897300677553446
+计算点 id=0, coor=(142, 240) 到鼠标位置 (178, 229) 的距离为 37.64306044943742
+计算点 id=0, coor=(142, 240) 到鼠标位置 (176, 231) 的距离为 35.17101079013795
+计算点 id=0, coor=(142, 240) 到鼠标位置 (175, 231) 的距离为 34.20526275297414
+计算点 id=0, coor=(142, 240) 到鼠标位置 (174, 232) 的距离为 32.984845004941285
+计算点 id=0, coor=(142, 240) 到鼠标位置 (173, 233) 的距离为 31.78049716414141
+计算点 id=0, coor=(142, 240) 到鼠标位置 (171, 234) 的距离为 29.614185789921695
+计算点 id=0, coor=(142, 240) 到鼠标位置 (170, 234) 的距离为 28.635642126552707
+计算点 id=0, coor=(142, 240) 到鼠标位置 (168, 235) 的距离为 26.476404589747453
+计算点 id=0, coor=(142, 240) 到鼠标位置 (166, 235) 的距离为 24.515301344262525
+计算点 id=0, coor=(142, 240) 到鼠标位置 (165, 235) 的距离为 23.53720459187964
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (164, 235) 的距离为 22.561028345356956
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (163, 236) 的距离为 21.37755832643195
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (162, 236) 的距离为 20.396078054371138
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (162, 236) 的距离为 20.396078054371138
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (162, 236) 的距离为 20.396078054371138
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (161, 236) 的距离为 19.4164878389476
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (161, 236) 的距离为 19.4164878389476
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (161, 236) 的距离为 19.4164878389476
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (161, 236) 的距离为 19.4164878389476
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (160, 236) 的距离为 18.439088914585774
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (160, 236) 的距离为 18.439088914585774
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (159, 236) 的距离为 17.46424919657298
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (159, 236) 的距离为 17.46424919657298
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (159, 236) 的距离为 17.46424919657298
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (158, 236) 的距离为 16.492422502470642
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (158, 236) 的距离为 16.492422502470642
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (157, 236) 的距离为 15.524174696260024
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (157, 236) 的距离为 15.524174696260024
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (157, 236) 的距离为 15.524174696260024
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (156, 236) 的距离为 14.560219778561036
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (156, 236) 的距离为 14.560219778561036
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (156, 236) 的距离为 14.560219778561036
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (155, 236) 的距离为 13.601470508735444
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (155, 237) 的距离为 13.341664064126334
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (155, 237) 的距离为 13.341664064126334
+吸附到网格线 (8, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (154, 237) 的距离为 12.36931687685298
+计算点 id=0, coor=(142, 240) 到鼠标位置 (153, 237) 的距离为 11.40175425099138
+计算点 id=0, coor=(142, 240) 到鼠标位置 (152, 238) 的距离为 10.198039027185569
+计算点 id=0, coor=(142, 240) 到鼠标位置 (152, 238) 的距离为 10.198039027185569
+计算点 id=0, coor=(142, 240) 到鼠标位置 (151, 239) 的距离为 9.055385138137417
+计算点 id=0, coor=(142, 240) 到鼠标位置 (150, 239) 的距离为 8.06225774829855
+计算点 id=0, coor=(142, 240) 到鼠标位置 (149, 240) 的距离为 7.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (149, 240) 的距离为 7.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (148, 240) 的距离为 6.0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (147, 241) 的距离为 5.0990195135927845
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (146, 242) 的距离为 4.47213595499958
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (146, 242) 的距离为 4.47213595499958
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 242) 的距离为 3.605551275463989
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 243) 的距离为 4.242640687119285
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 243) 的距离为 4.242640687119285
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (144, 243) 的距离为 3.605551275463989
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (144, 243) 的距离为 3.605551275463989
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (144, 243) 的距离为 3.605551275463989
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (144, 243) 的距离为 3.605551275463989
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 243) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 243) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 243) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 243) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 243) 的距离为 3.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 243) 的距离为 3.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 243) 的距离为 3.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 243) 的距离为 3.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 243) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 243) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 243) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 243) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (140, 243) 的距离为 3.605551275463989
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (140, 243) 的距离为 3.605551275463989
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (140, 243) 的距离为 3.605551275463989
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (140, 243) 的距离为 3.605551275463989
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (139, 243) 的距离为 4.242640687119285
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (139, 243) 的距离为 4.242640687119285
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (139, 243) 的距离为 4.242640687119285
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (139, 243) 的距离为 4.242640687119285
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (139, 243) 的距离为 4.242640687119285
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (138, 243) 的距离为 5.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (138, 243) 的距离为 5.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (138, 243) 的距离为 5.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (138, 243) 的距离为 5.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (137, 243) 的距离为 5.830951894845301
+吸附到网格线 (7, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (137, 243) 的距离为 5.830951894845301
+吸附到网格线 (7, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (137, 243) 的距离为 5.830951894845301
+吸附到网格线 (7, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (137, 243) 的距离为 5.830951894845301
+吸附到网格线 (7, 12)
+计算点 id=0, coor=(142, 240) 到鼠标位置 (138, 243) 的距离为 5.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (138, 243) 的距离为 5.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (138, 243) 的距离为 5.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (138, 243) 的距离为 5.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (139, 243) 的距离为 4.242640687119285
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (139, 243) 的距离为 4.242640687119285
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (139, 243) 的距离为 4.242640687119285
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (139, 243) 的距离为 4.242640687119285
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (140, 243) 的距离为 3.605551275463989
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (140, 243) 的距离为 3.605551275463989
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (140, 243) 的距离为 3.605551275463989
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (140, 243) 的距离为 3.605551275463989
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 243) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 242) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 242) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 242) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (141, 242) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 242) 的距离为 2.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 242) 的距离为 2.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 242) 的距离为 2.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 242) 的距离为 2.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 242) 的距离为 2.0
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 242) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 242) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 242) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 242) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 242) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 241) 的距离为 1.4142135623730951
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (144, 241) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (144, 241) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (144, 241) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (144, 241) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 241) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 241) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 241) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 241) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 241) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (146, 241) 的距离为 4.123105625617661
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (146, 241) 的距离为 4.123105625617661
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (146, 241) 的距离为 4.123105625617661
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (146, 241) 的距离为 4.123105625617661
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (146, 241) 的距离为 4.123105625617661
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (146, 241) 的距离为 4.123105625617661
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 241) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 241) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 241) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 241) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (145, 241) 的距离为 3.1622776601683795
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (144, 241) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (144, 241) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 241) 的距离为 1.4142135623730951
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 242) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 242) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 242) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 242) 的距离为 2.23606797749979
+吸附到点 0
+计算点 id=0, coor=(142, 240) 到鼠标位置 (143, 242) 的距离为 2.23606797749979
+吸附到点 0
+创建 Point 对象 id=1
+计算点 id=1, coor=(140, 160) 到鼠标位置 (140, 160) 的距离为 0.0
+吸附到点 1
+创建 Point 对象 id=2
+计算点 id=1, coor=(140, 160) 到鼠标位置 (142, 240) 的距离为 80.02499609497022
+计算点 id=0, coor=(142, 240) 到鼠标位置 (142, 240) 的距离为 0.0
+吸附到点 0
+创建 Line 对象 id=3
+Undo create 3
+Undo create 3
+析构 Point 对象 id=2
+析构 Line 对象 id=3
+析构 Point 对象 id=1
+析构 Point 对象 id=0
+吸附到网格线 (7, 14)
+吸附到网格线 (6, 10)
+吸附到网格线 (6, 9)
+吸附到网格线 (6, 8)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (6, 7)
+吸附到网格线 (7, 7)
+吸附到网格线 (7, 7)
+吸附到网格线 (7, 7)
+吸附到网格线 (7, 7)
+吸附到网格线 (7, 7)
+吸附到网格线 (7, 7)
+吸附到网格线 (7, 7)
+吸附到网格线 (7, 7)
+吸附到网格线 (7, 7)
+吸附到网格线 (7, 7)
+吸附到网格线 (7, 7)
+吸附到网格线 (7, 7)
+吸附到网格线 (7, 7)
+吸附到网格线 (7, 7)
+吸附到网格线 (9, 6)
+吸附到网格线 (9, 6)
+吸附到网格线 (9, 6)
+吸附到网格线 (9, 6)
+吸附到网格线 (9, 6)
+吸附到网格线 (9, 6)
+吸附到网格线 (9, 6)
+吸附到网格线 (9, 6)
+吸附到网格线 (9, 6)
+吸附到网格线 (9, 6)
+吸附到网格线 (9, 6)
+吸附到网格线 (9, 6)
+吸附到网格线 (9, 6)
+吸附到网格线 (9, 6)
+吸附到网格线 (9, 6)
+吸附到网格线 (9, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+吸附到网格线 (10, 6)
+创建 Point 对象 id=0
+计算点 id=0, coor=(120, 140) 到鼠标位置 (120, 140) 的距离为 0.0
+吸附到点 0
+创建 Point 对象 id=1
+计算点 id=1, coor=(200, 120) 到鼠标位置 (200, 120) 的距离为 0.0
+吸附到点 1
+创建 Line 对象 id=2
+析构 Line 对象 id=2
+析构 Point 对象 id=0
+析构 Point 对象 id=1
+尝试以命令 Point (coor=(350, 450), name=None, id=0, dependency=set()) 创建对象
+创建 Point 对象 id=0
+尝试以命令 Point (coor=(500, 0), name=None, id=28, dependency=set()) 创建对象
+创建 Point 对象 id=28
+尝试以命令 Line (startId=28, endId=None, direction=(0, 1), line_type=LineType.Infinite, name=None, id=29, dependency=set(28)) 创建对象
+创建 Line 对象 id=29
+尝试以命令 Point (coor=(750, 750), name=None, id=23, dependency=set()) 创建对象
+创建 Point 对象 id=23
+尝试以命令 Point (coor=(300, 600), name=None, id=26, dependency=set()) 创建对象
+创建 Point 对象 id=26
+尝试以命令 Line (startId=23, endId=26, direction=(-450, -150), line_type=LineType.Segment, name=None, id=27, dependency=set(23, 26)) 创建对象
+创建 Line 对象 id=27
+尝试以命令 Point (coor=(500.0, 666.6666666666666), name=None, id=30, dependency=set(29, 27)) 创建对象
+创建 Point 对象 id=30
+尝试以命令 Point (coor=(250, 750), name=None, id=17, dependency=set()) 创建对象
+创建 Point 对象 id=17
+尝试以命令 Line (startId=30, endId=17, direction=(-250.0, 83.33333333333337), line_type=LineType.Segment, name=None, id=32, dependency=set(30, 17)) 创建对象
+创建 Line 对象 id=32
+尝试以命令 Point (coor=(300, 600), name=None, id=34, dependency=set()) 创建对象
+创建 Point 对象 id=34
+尝试以命令 Point (coor=(550, 750), name=None, id=33, dependency=set()) 创建对象
+创建 Point 对象 id=33
+尝试以命令 Line (startId=33, endId=34, direction=(-250, -150), line_type=LineType.Segment, name=None, id=35, dependency=set(34, 33)) 创建对象
+创建 Line 对象 id=35
+尝试以命令 Point (coor=(442.85714285714283, 685.7142857142857), name=None, id=36, dependency=set(32, 35)) 创建对象
+创建 Point 对象 id=36
+尝试以命令 Line (startId=0, endId=36, direction=(92.85714285714283, 235.71428571428567), line_type=LineType.Ray, name=None, id=7, dependency=set(0, 36)) 创建对象
+创建 Line 对象 id=7
+尝试以命令 Point (coor=(0, 750), name=None, id=9, dependency=set()) 创建对象
+创建 Point 对象 id=9
+尝试以命令 Line (startId=9, endId=None, direction=(1, 0), line_type=LineType.Infinite, name=None, id=10, dependency=set(9)) 创建对象
+创建 Line 对象 id=10
+尝试以命令 Point (coor=(468.1818181818182, 750.0), name=None, id=11, dependency=set(7, 10)) 创建对象
+创建 Point 对象 id=11
+尝试以命令 Point (coor=(750, 750), name=None, id=15, dependency=set()) 创建对象
+创建 Point 对象 id=15
+尝试以命令 Point (coor=(750, 750), name=None, id=44, dependency=set()) 创建对象
+创建 Point 对象 id=44
+尝试以命令 Point (coor=(750, 750), name=None, id=25, dependency=set()) 创建对象
+创建 Point 对象 id=25
+尝试以命令 Point (coor=(550, 750), name=None, id=20, dependency=set()) 创建对象
+创建 Point 对象 id=20
+尝试以命令 Point (coor=(350, 450), name=None, id=19, dependency=set()) 创建对象
+创建 Point 对象 id=19
+尝试以命令 Point (coor=(250, 750), name=None, id=22, dependency=set()) 创建对象
+创建 Point 对象 id=22
+尝试以命令 Point (coor=(250, 750), name=None, id=31, dependency=set()) 创建对象
+创建 Point 对象 id=31
+尝试以命令 Line (startId=0, endId=11, direction=(118.18181818181819, 300.0), line_type=LineType.Segment, name=None, id=14, dependency=set(0, 11)) 创建对象
+创建 Line 对象 id=14
+尝试以命令 Point (coor=(0, 650), name=None, id=51, dependency=set()) 创建对象
+创建 Point 对象 id=51
+尝试以命令 Line (startId=51, endId=None, direction=(1, 0), line_type=LineType.Infinite, name=None, id=52, dependency=set(51)) 创建对象
+创建 Line 对象 id=52
+尝试以命令 Point (coor=(350, 450), name=None, id=16, dependency=set()) 创建对象
+创建 Point 对象 id=16
+尝试以命令 Line (startId=16, endId=17, direction=(-100, 300), line_type=LineType.Segment, name=None, id=18, dependency=set(16, 17)) 创建对象
+创建 Line 对象 id=18
+尝试以命令 Point (coor=(283.33333333333337, 650.0), name=None, id=53, dependency=set(52, 18)) 创建对象
+创建 Point 对象 id=53
+尝试以命令 Line (startId=25, endId=53, direction=(-466.66666666666663, -100.0), line_type=LineType.Segment, name=None, id=54, dependency=set(25, 53)) 创建对象
+创建 Line 对象 id=54
+尝试以命令 Line (startId=17, endId=23, direction=(500, 0), line_type=LineType.Segment, name=None, id=24, dependency=set(23, 17)) 创建对象
+创建 Line 对象 id=24
+尝试以命令 Line (startId=19, endId=20, direction=(200, 300), line_type=LineType.Segment, name=None, id=21, dependency=set(19, 20)) 创建对象
+创建 Line 对象 id=21
+尝试以命令 Point (coor=(350, 450), name=None, id=8, dependency=set()) 创建对象
+创建 Point 对象 id=8
+吸附到网格线 (8, 16)
+吸附到网格线 (8, 15)
+吸附到网格线 (8, 15)
+吸附到网格线 (8, 14)
+吸附到网格线 (8, 13)
+吸附到网格线 (8, 12)
+吸附到网格线 (8, 11)
+吸附到网格线 (8, 11)
+吸附到网格线 (8, 11)
+吸附到网格线 (8, 11)
+吸附到网格线 (7, 10)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (7, 9)
+吸附到网格线 (8, 9)
+吸附到网格线 (9, 9)
+吸附到网格线 (11, 8)
+吸附到网格线 (12, 8)
+吸附到网格线 (12, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+吸附到网格线 (13, 8)
+创建 Point 对象 id=0
+计算点 id=0, coor=(140, 180) 到鼠标位置 (140, 180) 的距离为 0.0
+吸附到点 0
+创建 Point 对象 id=1
+计算点 id=0, coor=(140, 180) 到鼠标位置 (260, 160) 的距离为 121.6552506059644
+计算点 id=1, coor=(260, 160) 到鼠标位置 (260, 160) 的距离为 0.0
+吸附到点 1
+创建 Line 对象 id=2

@@ -7,8 +7,8 @@ type Id = int
 MaxId: Final[Id] = 2**32 - 1
 class Settings:
     # 分别表示每个格子的长宽，以及格子的数量
-    WIDTH = 50
-    HEIGHT = 50
+    WIDTH = 20
+    HEIGHT = 20
     NUM_BLOCKS_X = 20
     NUM_BLOCKS_Y = 20
 

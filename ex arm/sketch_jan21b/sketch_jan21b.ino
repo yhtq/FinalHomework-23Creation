@@ -11,7 +11,7 @@ void setup() {
 
 bool BoardLED = LOW;
 //int num1,num2;
-
+bool pendown = false;
 
 void loop() {
   Timer_Loop();
@@ -40,6 +40,16 @@ void loop() {
       Serial.print(num2);
     }
 
+  }
+  if (Ir_Check() == true) {
+  Serial.println(Ir_Data);
+  switch(Ir_Data){
+    case 24: Stepper_Go(GO_FAR,300); break; //电机
+    case 74: Stepper_Go(GO_NEAR,300); break; 
+    case 56: if (pendown==false){Servo1_Turn(DOWN);}else{Servo1_Turn(UP);}pendown =! pendown;break;
+    case 16: Servo_Turn(CW,2); break; //舵机c
+    case 90: Servo_Turn(CCW,2); break; 
+    }
   }
 }
 
