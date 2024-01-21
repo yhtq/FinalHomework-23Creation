@@ -8,10 +8,10 @@ import math
 import serial
 from time import sleep
 def tran(startpoint,direction):
-    #startpoint = (400, 400)
-    #direction = (-40, -20)
+    startpoint = (int(startpoint[0]/2), int(startpoint[1]/2))
+    direction = (int(direction[0]/2), int(direction[1]/2))
     endpoint = (startpoint[0] + direction[0], startpoint[1] + direction[1])
-
+    huifucanshu = 1
     port = r'/dev/cu.usbserial-1410'
     ser = serial.Serial(port, 115200, timeout=0)
     gridwide = 10
@@ -88,7 +88,7 @@ def tran(startpoint,direction):
         else:
             del_points += [(points[i][0]-points[i-1][0],points[i][1]-points[i-1][1])]
 
-    del_points += [(int(-coor_to_polar(endpoint[0],endpoint[1])[0]*1.05),-coor_to_polar(endpoint[0],endpoint[1])[1])]
+    del_points += [(int(-coor_to_polar(endpoint[0],endpoint[1])[0]*huifucanshu),-coor_to_polar(endpoint[0],endpoint[1])[1])]
         #这是回到原位置用的
     #tran(grid_num + 2) # c传送数据总数
     # print(del_points)

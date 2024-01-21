@@ -9,6 +9,7 @@ from PyQt6 import QtWidgets, QtCore, QtGui
 from PyQt6.QtCore import QEvent, QPoint
 from PyQt6.QtGui import QKeyEvent, QMouseEvent, QPaintEvent
 import transport
+from time import sleep
 
 def find_closest_grid_x(x: float) -> (int, float):
     index = round(x / Settings.WIDTH)
@@ -216,6 +217,8 @@ class QS(QtWidgets.QWidget):
                     end: Coordinate = (start[0] + direction[0], start[1] + direction[1])
                     # 这里写画线段的代码就行，或者独立出一个函数
                     transport.tran(start,direction)
+                    sleep(5)
+
 
     def __mousePressEvent(self, event: QMouseEvent) -> None:
         (x, y) = event.pos().x(), event.pos().y()
